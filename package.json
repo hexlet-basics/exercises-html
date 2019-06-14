@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "jest --colors --noStackTrace 2>&1"
+  },
+  "type": "module",
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/setup.js"
+    ],
+    "transform": {}
+  },
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
