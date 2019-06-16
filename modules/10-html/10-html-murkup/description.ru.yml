@@ -14,17 +14,10 @@ theory: |
 
 
   ```html
-  <div class="row mt-3 mt-lg-5" id="codebasics">
-      <div class="col-12 col-lg-3 text-lg-right pr-lg-5 mt-4">
-          <h2 class="h4 mb-0">Code Basics</h2>
-      </div>
-      <div class="col-12 col-lg-9 mt-4">
-          <p>
-              Code Basics — бесплатные практические уроки по программированию для тех, кто начинает с нуля. Если вы совсем новичок и хотите научиться основам — переменным, строкам, циклам, функциям и т.д., то Code Basics вам подойдёт.
-              <a target="_blank" href="https://code-basics.ru/">Перейти на Code-Basics.ru</a>
-          </p>
-      </div>
-  </div>
+    <div>
+        <h2>Code Basics</h2>
+        <p>Code Basics — бесплатные практические уроки по программированию для тех, кто начинает с нуля. Если вы совсем новичок и хотите научиться основам — переменным, строкам, циклам, функциям и т.д., то Code Basics вам подойдёт.</p>
+    </div>
   ```
 
 
