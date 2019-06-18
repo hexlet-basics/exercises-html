@@ -21,4 +21,4 @@ RUN npm i -g  @testing-library/dom
 
 ENV NODE_PATH /usr/local/lib/node_modules
 
-COPY . /exercises-javascript
+COPY . /exercises-html
