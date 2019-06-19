@@ -2,11 +2,8 @@ compose-setup: compose-build compose-install
 compose:
 	docker-compose up
 
-gcloud-builds-submit:
-	gcloud builds submit --config cloudbuild.yaml .
-
 compose-test:
-	docker-compose run exercises make test
+	docker-compose -f docker-compose.test.yml up
 
 compose-lint:
 	docker-compose run exercises make lint

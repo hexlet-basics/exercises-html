@@ -6,5 +6,5 @@ services:
   exercises:
     build: .
     volumes:
-      - .:/exercises-javascript
+      - .:/exercises-html
     command: make lint test

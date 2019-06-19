@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -yqq git python3-pip
 
 RUN pip3 install yamllint
 
-WORKDIR /exercises-javascript
+WORKDIR /exercises-html
 
 # COPY package.json package.json
 # COPY package-lock.json package-lock.json
