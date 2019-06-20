@@ -17,6 +17,12 @@ compose-bash:
 compose-build:
 	docker-compose build
 
+docker-build:
+	docker build -t hexletbasics/exercises-html .
+
+docker-push:
+	docker push hexletbasics/exercises-html
+
 docker-release: docker-build docker-push
 
 SUBDIRS := $(wildcard modules/**/*/.)
