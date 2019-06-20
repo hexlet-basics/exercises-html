@@ -3,5 +3,5 @@
 language:
   docker_image: "hexletbasics/exercises-html"
   extension: html
-  exercise_filename: index.js
+  exercise_filename: index.html
   exercise_test_filename: test.js
