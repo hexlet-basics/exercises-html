@@ -5,5 +5,5 @@ test('check html', () => {
   const html = fs.readFileSync(`${__dirname}/index.html`).toString();
   const container = document.createElement('div');
   container.innerHTML = html;
-  expect(q.getByText(container, 'hello', { selector: 'div' })).toBeVisible()
-})
+  expect(q.getByText(container, 'hello', { selector: 'div' })).toBeVisible();
+});

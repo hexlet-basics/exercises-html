@@ -1,2 +1,2 @@
 test:
-	npm test -s
+	npm test -s -- --runTestsByPath $(PWD)/test.js
