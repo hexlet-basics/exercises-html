@@ -1,2 +1,2 @@
 test:
-	echo 1
+	npm test -s -- --runTestsByPath $(CURDIR)/test.js
