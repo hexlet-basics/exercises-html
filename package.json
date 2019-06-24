@@ -1,9 +1,8 @@
 {
-  "scripts": {
-    "test": "jest --colors --noStackTrace 2>&1"
-  },
+  "scripts": {},
   "type": "module",
   "jest": {
+    "testEnvironment": "node",
     "setupFilesAfterEnv": [
       "<rootDir>/setup.js"
     ],

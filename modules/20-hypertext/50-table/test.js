@@ -1,21 +1,10 @@
-const fs = require('fs');
-const q = require('@testing-library/dom');
+const { test } = require('tests');
 
-const html = fs.readFileSync(`${__dirname}/index.html`).toString();
-const container = document.createElement('div');
-container.innerHTML = html;
+test(({ querySelectorAll, query, expect }) => {
+  query(document, 'table > thead', HTMLTableHeaderCellElement);
+  const ths = querySelectorAll(document, 'table > thead > tr > th', HTMLElement);
+  expect(ths).to.have.length(3);
 
-
-test('head table', () => {
-  const thead = container.querySelector('table > thead');
-  const th = thead.querySelectorAll('th');
-
-  expect(th).toHaveLength(3);
-});
-
-test('body table', () => {
-  const tbody = container.querySelector('table > tbody');
-  const td = tbody.querySelectorAll('td');
-
-  expect(td).toHaveLength(3);
+  const tds = querySelectorAll(document, 'table > tbody > tr > td', HTMLElement);
+  expect(tds).to.have.length(3);
 });

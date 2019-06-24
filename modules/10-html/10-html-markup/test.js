@@ -1,9 +1,6 @@
-const fs = require('fs');
-const q = require('@testing-library/dom');
+const { test } = require('tests');
 
-test('check html', () => {
-  const html = fs.readFileSync(`${__dirname}/index.html`).toString();
-  const container = document.createElement('div');
-  container.innerHTML = html;
-  expect(q.getByText(container, /Hello/i, { selector: 'h1' })).toBeVisible();
+test(({ query, expect }) => {
+  const element = query(document, 'h1', HTMLHeadingElement);
+  expect(element).to.have.text('Hello, World!');
 });

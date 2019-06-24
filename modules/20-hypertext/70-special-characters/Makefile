@@ -1,2 +1,2 @@
 test:
-	npm test -s -- --runTestsByPath $(CURDIR)/test.js
+	node test.js 2>&1

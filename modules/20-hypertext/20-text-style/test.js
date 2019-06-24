@@ -1,19 +1,9 @@
-const fs = require('fs');
-const q = require('@testing-library/dom');
+const { test } = require('tests');
 
-const html = fs.readFileSync(`${__dirname}/index.html`).toString();
-const container = document.createElement('div');
-container.innerHTML = html;
+test(({ query, expect }) => {
+  const b = query(document, 'p > b', HTMLElement);
+  expect(b).to.have.text('курсы');
 
-test('paragraph', () => {
-  const p = container.querySelector('p');
-  expect(p).toBeVisible();
-});
-
-test('bold', () => {
-  expect(q.getByText(container, 'курсы', { selector: 'b' })).toBeVisible();
-});
-
-test('italics', () => {
-  expect(q.getByText(container, 'по программированию', { selector: 'em' })).toBeVisible();
+  const em = query(document, 'p > em', HTMLElement);
+  expect(em).to.have.text('по программированию');
 });
