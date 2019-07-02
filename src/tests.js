@@ -10,7 +10,7 @@ chai.use(chaiDom);
 module.exports = {
   test: (callback) => {
     const html = fs.readFileSync(`${process.cwd()}/index.html`).toString();
-    document.body.innerHTML = html;
+    document.write(html);
     callback({ query, querySelectorAll, expect: chai.expect })
   }
 }
