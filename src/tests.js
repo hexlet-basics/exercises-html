@@ -11,6 +11,6 @@ module.exports = {
   test: (callback) => {
     const html = fs.readFileSync(`${process.cwd()}/index.html`).toString();
     document.write(html);
-    callback({ query, querySelectorAll, expect: chai.expect })
+    callback({ query, html, querySelectorAll, expect: chai.expect })
   }
 }

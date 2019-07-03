@@ -1,5 +1,5 @@
 const { test } = require('tests');
 
-test(({ query, expect }) => {
-  // console.log(document.documentElement);
+test(({ expect, html }) => {
+  expect(html).to.contain('lang');
 });
