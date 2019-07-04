@@ -1,7 +1,6 @@
 const { test } = require('tests');
 
 test(({ query, expect }) => {
-  console.log(document.documentElement.innerHTML);
 
   const header = query(document, 'header');
   expect(header).to.be.visible;
