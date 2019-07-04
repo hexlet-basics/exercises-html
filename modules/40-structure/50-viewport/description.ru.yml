@@ -29,7 +29,7 @@ theory: |
   ```html
   <!-- viewport широной 980px с начальным масштабированием 1 и запретом пользователю масштабирования документа -->
   <head>
-      <meta name="viewport" content="width=960, initial-scale=1.0, user-scalable=no">
+      <meta name="viewport" content="width=980, initial-scale=1.0, user-scalable=no">
   </head>
   ```
 
