@@ -1,10 +1,8 @@
 const { test } = require('tests');
 
 test(({ query, expect }) => {
-  const main = query(document, 'main');
-  expect(main).to.be.visible;
 
-  const article = query(main, 'article');
+  const article = query(document, 'article');
   expect(article).to.be.visible;
 
   const header = query(article, 'header');
