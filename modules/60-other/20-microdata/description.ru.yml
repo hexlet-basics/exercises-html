@@ -32,7 +32,7 @@ theory: |
           <section itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
               <p itemprop="streetAddress">Puolikkotie 8</p>
               <p itemprop="postalCode">02230</p>
-              <p itemprop="addressLocality">Espoo, Finland</p>,
+              <p itemprop="addressLocality">Espoo, Finland</p>
           </section>
           <p>Электронная почта: <span itemprop="email">support@hexlet.io</span></p>
       </section>
