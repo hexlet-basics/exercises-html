@@ -1,13 +1,12 @@
 const { test } = require('tests');
 
 test(({ query, expect }) => {
-  const head = document.documentElement;
+  const title = query(document, 'title');
+  expect(title).to.be.visible;
 
-  const metaCharset = query(head, 'meta[charset="Windows-1251"]');
-  const description = query(head, 'meta[name="description"]');
-  const keywords = query(head, 'meta[name="keywords"]');
+  const description = query(document, '[name="description"]');
+  expect(description).to.be.visible;
 
-  expect(metaCharset).to.be.visible;
-  expect(description).to.have.attr('content');
-  expect(keywords).to.have.attr('content');
+  const ogImage = query(document, '[name="og:image"]');
+  expect(ogImage).to.be.visible;
 });
