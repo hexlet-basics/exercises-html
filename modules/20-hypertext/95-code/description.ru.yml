@@ -24,7 +24,7 @@ theory: |
 
   ```html
   <code>
-      <<span>p</span>>Вставляем тег p в виде простого текста </<span>p</span>>
+      <<span>p</span>>Вставляем тег p в виде простого текста <<span>/p</span>>
   </code>
   ```
 
