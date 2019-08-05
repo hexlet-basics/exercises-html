@@ -1,0 +1,68 @@
+---
+
+name: Выпадающий список
+theory: |
+  В различных формах пользователю часто приходится выбирать один из множества вариантов. Это могут быть категории, по которым мы хотим произвести поиск, выбор различных опций для поиска. Наиболее распространённым решением является использование выпадающих списков:
+
+  <div class="hexlet-basics-example">
+      <p style="font-size: 18px; font-weight: bold">В какой категории искать?</p>
+      <form>
+          <select>
+                <option>JS</option>
+                <option>PHP</option>
+                <option>Java</option>
+                <option>Racket</option>
+                <option>HTML</option>
+                <option>CSS</option>
+          </select>
+      </form>
+  </div>
+
+  Для создания такого выпадающего списка используется тег `select` с вложенными внутри него тегами `option`. Всё это похоже на создание обычных списков, где вместе `ul/ol` используется `select`, а вместо `li` используется `option`.
+
+  ```html
+  <form>
+      <select>
+            <option>JS</option>
+            <option>PHP</option>
+            <option>Java</option>
+            <option>Racket</option>
+            <option>HTML</option>
+            <option>CSS</option>
+      </select>
+  </form>
+  ```
+
+  Выпадающий список также может быть представлен в виде списка, в котором можно выбрать несколько элементов. Делается это с помощью зажатия кнопки `ctrl` и клика мышки по полям, которые мы хотим выбрать.
+
+  <div class="hexlet-basics-example">
+      <p style="font-size: 18px; font-weight: bold">В какой категории искать?</p>
+      <form>
+          <select multiple>
+                <option>JS</option>
+                <option>PHP</option>
+                <option>Java</option>
+                <option>Racket</option>
+                <option>HTML</option>
+                <option>CSS</option>
+          </select>
+      </form>
+  </div>
+
+  Для того, чтобы создать список с множественным выбор, у тега `select` добавляется атрибут `multiple`
+
+  ```html
+  <form>
+      <select multiple>
+            <option>JS</option>
+            <option>PHP</option>
+            <option>Java</option>
+            <option>Racket</option>
+            <option>HTML</option>
+            <option>CSS</option>
+      </select>
+  </form>
+  ```
+
+instructions: |
+  Создайте форму, у которой файл с обработчиком данных лежит по адресу `/people`. Внутри формы создайте выпадающий список из трёх элементов.
