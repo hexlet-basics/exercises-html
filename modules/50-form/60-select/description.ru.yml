@@ -18,20 +18,35 @@ theory: |
       </form>
   </div>
 
-  Для создания такого выпадающего списка используется тег `select` с вложенными внутри него тегами `option`. Всё это похоже на создание обычных списков, где вместе `ul/ol` используется `select`, а вместо `li` используется `option`.
+  Для создания такого выпадающего списка используется тег `select` с вложенными внутри него тегами `option`. Всё это похоже на создание обычных списков, где вместе `ul/ol` используется `select`, а вместо `li` используется `option`. Также, часто, первый пункт списка используется для заголовка всего выпадающего списка. В таком случае для него используют атрибут `disabled`, чтобы заблокировать его для выбора.
 
   ```html
   <form>
       <select>
-            <option>JS</option>
-            <option>PHP</option>
-            <option>Java</option>
-            <option>Racket</option>
-            <option>HTML</option>
-            <option>CSS</option>
+          <option disabled>Какой курс вы хотите пройти?</option>
+          <option>JS</option>
+          <option>PHP</option>
+          <option>Java</option>
+          <option>Racket</option>
+          <option>HTML</option>
+          <option>CSS</option>
       </select>
   </form>
   ```
+
+  <div class="hexlet-basics-example">
+      <form>
+          <select>
+              <option disabled>Какой курс вы хотите пройти?</option>
+              <option>JS</option>
+              <option>PHP</option>
+              <option>Java</option>
+              <option>Racket</option>
+              <option>HTML</option>
+              <option>CSS</option>
+          </select>
+      </form>
+  </div>
 
   Выпадающий список также может быть представлен в виде списка, в котором можно выбрать несколько элементов. Делается это с помощью зажатия кнопки `ctrl` и клика мышки по полям, которые мы хотим выбрать.
 
