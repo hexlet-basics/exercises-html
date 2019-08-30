@@ -4,6 +4,7 @@ test(({ query, expect }) => {
   const form = query(document, 'form');
   const select = form.querySelector('select');
   const inputs = form.querySelectorAll('input');
+  const button = query(form, 'button');
 
   expect(form).to.have.attr('action', '/people');
 
@@ -14,4 +15,6 @@ test(({ query, expect }) => {
   inputs.forEach((input) => {
     expect(input).to.have.attr('type', 'text');
   });
+
+  expect(button).to.be.visible;
 });
