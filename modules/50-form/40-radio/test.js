@@ -11,5 +11,6 @@ test(({ query, expect }) => {
     const input = label.querySelector('input');
     expect(input).to.have.attr('type', 'radio');
     expect(input).to.have.attr('name', 'gender');
+    expect(input).to.have.attr('value');
   });
 });
