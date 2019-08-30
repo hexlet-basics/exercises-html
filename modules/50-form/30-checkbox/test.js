@@ -10,5 +10,7 @@ test(({ query, expect }) => {
   labels.forEach((label) => {
     const input = label.querySelector('input');
     expect(input).to.have.attr('type', 'checkbox');
+    expect(input).to.have.attr('name');
+    expect(input).to.have.attr('value');
   });
 });
