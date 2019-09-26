@@ -8,16 +8,16 @@ theory: |
   Тег `video` парный, в котором, при отсутствии вложенных тегов `source` указывается путь к видео файлу в атрибуте `src`. Так же с помощью атрибута `controls` можно вывести элементы управления для проигрывателя. Стилистика элементов зависит от конкретного браузера.
 
   ```html
-  <video src="our-video.mp4" controls></video>
+  <video src="http://example.com/our-video.mp4" controls></video>
   ```
 
   С помощью специальных тегов `source` возможно добавлять несколько форматов видео. Это необходимо по причине того, что каждый браузер умеет воспроизводить только определённые форматы видео. Единственным форматом, который обрабатывают все браузеры — `mp4`
 
   ```html
   <video controls>
-      <source src="our-video.mp4" type="video/mp4">
-      <source src="our-video.webm" type="video/webm">
-      <source src="our-video.ogg" type="video/ogg">
+      <source src="http://example.com/our-video.mp4" type="video/mp4">
+      <source src="http://example.com/our-video.webm" type="video/webm">
+      <source src="http://example.com/our-video.ogg" type="video/ogg">
   </video>
   ```
 
