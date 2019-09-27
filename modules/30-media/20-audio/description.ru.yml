@@ -17,8 +17,8 @@ theory: |
 
   ```html
   <audio controls>
-      <source src="http://example.com/audio.mp3">
-      <source src="http://example.com/audio.ogg">
+      <source src="https://example.com/audio.mp3">
+      <source src="https://example.com/audio.ogg">
   </audio>
   ```
 
