@@ -9,6 +9,7 @@ RUN pip3 install yamllint
 RUN apt-get install -yqq jq
 RUN pip3 install yq
 RUN npm install -g ajv-cli
+RUN npm install -g htmlhint
 
 WORKDIR /exercises-html
 
