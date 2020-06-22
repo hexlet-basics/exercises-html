@@ -1,4 +1,4 @@
-FROM melodyn/base-image:latest
+FROM hexletbasics/base-image:latest
 
 WORKDIR /exercises-html
 
@@ -8,7 +8,7 @@ RUN npm i -g chai chai-dom
 RUN npm i -g @testing-library/dom
 RUN npm i -g @github/query-selector
 
-COPY --from=melodyn/base-image:latest /tmp/basics/common/* ./
+COPY --from=hexletbasics/base-image:latest /tmp/basics/common/* ./
 COPY . .
 
 ENV NODE_PATH /usr/local/lib/node_modules:/exercises-html/src
