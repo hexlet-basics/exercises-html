@@ -8,6 +8,9 @@ compose:
 compose-bash:
 	docker-compose run exercises bash
 
+compose-test:
+	docker-compose run exercises make test
+
 compose-install:
 	docker-compose run exercises npm ci
 
