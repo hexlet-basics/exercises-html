@@ -10,4 +10,4 @@ RUN npm i -g @github/query-selector
 
 COPY . .
 
-ENV NODE_PATH /usr/local/lib/node_modules:/exercises-html/src
+ENV NODE_PATH /usr/lib/node_modules:/exercises-html/src
