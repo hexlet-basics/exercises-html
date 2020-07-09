@@ -16,7 +16,15 @@ theory: |
   Разные устройства могут отображать иконки разных размеров и форматов, поэтому сейчас добавляется не одна, а сразу несколько иконок. У тега `link` возможно указать тип изображения и его размер. Делается это с помощью атрибутов `type` и `sizes`. Укажем, что иконка формата _png_ и размером _32x32_
 
   ```html
-  <link rel="icon" type="image/png" sizes="32x32">
+  <link rel="icon" href="/favicon32.png" type="image/png" sizes="32x32">
+  ```
+
+  После неё можно указать ещё несколько иконок с разными размерами:
+
+  ```html
+  <link rel="icon" href="/favicon64.png" type="image/png" sizes="64x64">
+  <link rel="icon" href="/favicon32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/favicon16.png" type="image/png" sizes="16x16">
   ```
 
   Теперь браузеры на разных устройствах смогут точнее работать с иконками и сразу загружать ту, которая им подходит.
