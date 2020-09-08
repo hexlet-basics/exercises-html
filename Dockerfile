@@ -1,4 +1,4 @@
-FROM hexletbasics/base-image:latest
+FROM hexletbasics/base-image
 
 WORKDIR /exercises-html
 
