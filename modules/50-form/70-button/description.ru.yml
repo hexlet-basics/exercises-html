@@ -39,7 +39,7 @@ theory: |
               <input type="text">
           </label>
           <select>
-              <option>В каком разделе искать?</option>
+              <option disabled>В каком разделе искать?</option>
               <option>JS</option>
               <option>HTML</option>
               <option>CSS</option>
