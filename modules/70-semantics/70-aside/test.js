@@ -23,7 +23,7 @@ test(({ query, querySelectorAll, expect }) => {
   const section = query(main, 'section');
   expect(section).to.be.visible;
 
-  const aside = query(main, 'aside');
+  const aside = query(document, 'aside');
   expect(aside).to.be.visible;
 
   const h2 = query(section, 'h2');
