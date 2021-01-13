@@ -21,6 +21,7 @@ theory: |
 
 instructions: |
   Скопируйте HTML и вставьте его в редактор на этой странице
+  
   ```html
   <h1>Hello, World!</h1>
   ```
