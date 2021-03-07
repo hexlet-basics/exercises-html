@@ -60,6 +60,7 @@ theory: |
 
 instructions: |
   Создайте вложенную разметку для списка:
+
   ```
   1. Профессия JavaScript
     • Frontend

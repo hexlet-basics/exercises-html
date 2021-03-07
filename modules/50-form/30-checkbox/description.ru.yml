@@ -65,10 +65,12 @@ theory: |
           <input type="checkbox" name="languages" value="HTML">
           Хочу изучать HTML
       </label>
+      <br>
       <label>
           <input type="checkbox" name="languages" value="CSS">
           Хочу изучать CSS
       </label>
+      <br>
       <label>
           <input type="checkbox" name="languages" value="JS">
           Хочу изучать JS
