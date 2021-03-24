@@ -39,33 +39,29 @@ theory: |
   Для создания связи `label` с `input` тоже существует два способа:
 
   1. Связь по `id`. Для этого необходимо задать уникальный `id` для `input`, и связать `label` с радиокнопкой с помощью атрибута `for`.
+        ```html
+        <form>
+            <input id="yes" type="radio" name="question">
+            <label for="yes">Да</label>
 
-    ```html
-    <form>
-        <input id="yes" type="radio" name="question">
-        <label for="yes">Да</label>
-
-        <input id="no" type="radio" name="question">
-        <label for="no">Нет</label>
-    </form>
-    ```
-
+            <input id="no" type="radio" name="question">
+            <label for="no">Нет</label>
+        </form>
+        ```
   2. Вложить `input` внутрь тега `label`. При этом указание уникального `id` не требуется.
-
-    ```html
-    <form>
-        <label>
-            <input type="radio" name="question">
-            Да
-        </label>
-        <br>
-        <label>
-            <input type="radio" name="question">
-            Нет
-        </label>
-    </form>
-    ```
-
+        ```html
+        <form>
+            <label>
+                <input type="radio" name="question">
+                Да
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="question">
+                Нет
+            </label>
+        </form>
+        ```
   Для того, чтобы после отправки формы на сервер возможно было узнать, какой именно пункт был выбран, используется атрибут `value`, внутри которого находится значение, позволяющее определить радиокнопку.
 
   ```html
