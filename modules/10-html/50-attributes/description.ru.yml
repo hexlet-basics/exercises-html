@@ -49,4 +49,4 @@ instructions: |
   Создайте тег `<p>` с атрибутом `title`. Расположите текст справа
 
 tips:
-  - Все глобальные атрибуты можно посмотреть в [документации](https://developer.mozilla.org/ru/docs/Web/HTML/Global_attributes)
+  - Все глобальные атрибуты можно посмотреть на [MDN Web Docs](https://developer.mozilla.org/ru/docs/Web/HTML/Global_attributes)
