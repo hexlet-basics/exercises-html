@@ -14,8 +14,8 @@ theory: |
   </ul>
   ```
 
-  <div class="hexlet-basics-example">
-    <ul>
+  <div class="hexlet-basics-example my-3">
+    <ul class="m-0">
       <li>Первый элемент списка</li>
       <li>Второй элемент списка</li>
     </ul>

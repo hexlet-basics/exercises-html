@@ -17,9 +17,9 @@ theory: |
 
   Вот как они выглядят в браузере:
 
-  <div class="hexlet-basics-example">
+  <div class="hexlet-basics-example my-3">
     <p>Первый параграф</p>
-    <p>Второй параграф</p>
+    <p class="m-0">Второй параграф</p>
   </div>
 
 instructions: |
