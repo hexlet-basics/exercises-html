@@ -6,7 +6,7 @@ theory: |
   Часто мы хотим дать пользователю возможность набрать не одну строчку текста, а сразу несколько. Например, если пользователь хочет оставить отзыв. Для этого используется элемент `<textarea>`, позволяющий вводить несколько строчек текста.
 
   <div class="hexlet-basics-example">
-    <p style="font-size: 18px; font-weight: bold">Оставьте свой отзыв</p>
+    <p class="lead">Оставьте свой отзыв</p>
     <form>
         <textarea></textarea>
     </form>
@@ -28,7 +28,7 @@ theory: |
   </form>
   ```
 
-  <div class="hexlet-basics-example">
+  <div class="hexlet-basics-example my-3">
     <form>
       <textarea rows="5" cols="30">textarea с 5 строками и 30 столбцами</textarea>
     </form>

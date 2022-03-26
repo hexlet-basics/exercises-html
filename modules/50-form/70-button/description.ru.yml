@@ -31,8 +31,8 @@ theory: |
   </form>
   ```
 
-  <div class="hexlet-basics-example">
-    <p style="font-size: 18px; font-weight: bold">Форма поиска</p>
+  <div class="hexlet-basics-example my-3">
+    <p class="lead">Форма поиска</p>
     <form>
       <label>
         Введите ваш запрос

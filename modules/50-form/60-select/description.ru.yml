@@ -5,9 +5,9 @@ theory: |
   В различных формах пользователю часто приходится выбирать один из множества вариантов. Это могут быть категории, по которым мы хотим произвести поиск, выбор различных опций для поиска. Наиболее распространённым решением является использование выпадающих списков:
 
   <div class="hexlet-basics-example my-3">
-    <p style="font-size: 18px; font-weight: bold">В какой категории искать?</p>
+    <p class="lead">В какой категории искать?</p>
     <form>
-      <select>
+      <select class="form-select">
         <option>JS</option>
         <option>PHP</option>
         <option>Java</option>
@@ -38,7 +38,7 @@ theory: |
 
   <div class="hexlet-basics-example my-3">
     <form>
-      <select>
+      <select class="form-select">
         <option disabled>Какой курс вы хотите пройти?</option>
         <option>JS</option>
         <option>PHP</option>
@@ -52,10 +52,10 @@ theory: |
 
   Список внутри формы также может быть представлен в виде списка, в котором можно выбрать несколько элементов. Делается это с помощью зажатия кнопки `ctrl` и клика мышки по полям, которые мы хотим выбрать.
 
-  <div class="hexlet-basics-example">
-    <p style="font-size: 18px; font-weight: bold">В какой категории искать?</p>
+  <div class="hexlet-basics-example my-3">
+    <p class="lead">В какой категории искать?</p>
     <form>
-      <select multiple>
+      <select multiple class="form-select">
         <option>JS</option>
         <option>PHP</option>
         <option>Java</option>
