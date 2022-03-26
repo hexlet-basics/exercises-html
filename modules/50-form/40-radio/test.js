@@ -10,7 +10,7 @@ test(({ query, expect }) => {
   labels.forEach((label) => {
     const input = label.querySelector('input');
     expect(input).to.have.attr('type', 'radio');
-    expect(input).to.have.attr('name', 'gender');
+    expect(input).to.have.attr('name', 'delivery');
     expect(input).to.have.attr('value');
   });
 });

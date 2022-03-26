@@ -2,18 +2,19 @@
 
 name: Textarea
 theory: |
-  Часто мы хотим дать пользователю возможность набрать не одну строчку текста, а сразу несколько. Например, если пользователь хочет оставить отзыв. Для этого используется элемент `<textarea>`, позволяющий пользователю вводить несколько строчек текста.
+
+  Часто мы хотим дать пользователю возможность набрать не одну строчку текста, а сразу несколько. Например, если пользователь хочет оставить отзыв. Для этого используется элемент `<textarea>`, позволяющий вводить несколько строчек текста.
 
   <div class="hexlet-basics-example">
-      <p style="font-size: 18px; font-weight: bold">Оставьте свой отзыв</p>
-      <form>
-          <textarea></textarea>
-      </form>
+    <p style="font-size: 18px; font-weight: bold">Оставьте свой отзыв</p>
+    <form>
+        <textarea></textarea>
+    </form>
   </div>
 
   ```html
   <form>
-      <textarea></textarea>
+    <textarea></textarea>
   </form>
   ```
 
@@ -23,14 +24,14 @@ theory: |
 
   ```html
   <form>
-      <textarea rows="5" cols="30">textarea с 5 строками и 30 столбцами</textarea>
+    <textarea rows="5" cols="30">textarea с 5 строками и 30 столбцами</textarea>
   </form>
   ```
 
   <div class="hexlet-basics-example">
-      <form>
-          <textarea rows="5" cols="30">textarea с 5 строками и 30 столбцами</textarea>
-      </form>
+    <form>
+      <textarea rows="5" cols="30">textarea с 5 строками и 30 столбцами</textarea>
+    </form>
   </div>
 
 instructions: |
