@@ -7,6 +7,6 @@ test(({ query, expect }) => {
   const description = query(document, '[name="description"]');
   expect(description).to.be.visible;
 
-  const ogImage = query(document, '[property="og:image"]');
-  expect(ogImage).to.be.visible;
+  const charset = query(document, '[charset="UTF-8"]');
+  expect(charset).to.be.visible;
 });
