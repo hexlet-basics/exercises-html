@@ -5,3 +5,6 @@ language:
   extension: html
   exercise_filename: index.html
   exercise_test_filename: test.js
+  learn_as: first_language
+  progress: completed
+  name: HTML
