@@ -7,6 +7,6 @@ test(({ query, expect }) => {
   const description = query(document, '[name="description"]');
   expect(description).to.be.visible;
 
-  const charset = query(document, '[charset="UTF-8"]');
+  const charset = query(document, '[charset="windows-1251"]');
   expect(charset).to.be.visible;
 });
