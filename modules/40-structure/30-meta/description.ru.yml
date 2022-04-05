@@ -65,6 +65,6 @@ instructions: |
 
   * title
   * description
-  * charset со значением Windows-1251
+  * charset со значением UTF-8
 
   Для `title` и `description` укажите произвольный текст
