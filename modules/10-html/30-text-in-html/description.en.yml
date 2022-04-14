@@ -1,4 +1,55 @@
 ---
 
 name: Text in HTML
-theory: Still in progress
+theory: |
+
+  Within a browser or other program that can process HTML, the text is rendered based on the specified tags. Without them, the browser will not understand how to properly display the text.
+
+  Let's look at an example of text and try to output it using tagging and without it.
+
+  Text:
+
+  <div class="hexlet-basics-example my-3 bg-light font-monospace">
+    <p>We believe that a true programmer must understand how a computer works and have a computational mindset. He should see the problem, not the assignment. Must be able to analyze and reason at the problem level and above, not just at the code level.</p>
+
+    <p>With today's abundance of study materials, courses, and books, the main question a beginner faces is not "where to study?" but "what and in what order to study?". There are many opinions on this subject. Some advise starting with mathematics, some advise specific languages and technologies.</p>
+
+    <p class="m-0">Hexlet is a ready path from absolute beginner to first job.</p>
+  </div>
+
+  If you insert the text into the page without using tags, you get this result:
+
+  <div class="hexlet-basics-example my-3">
+    We believe that a true programmer must understand how a computer works and have a computational mindset. He should see the problem, not the assignment. Must be able to analyze and reason at the problem level and above, not just at the code level. With today's abundance of study materials, courses, and books, the main question a beginner faces is not "where to study?" but "what and in what order to study?". There are many opinions on this subject. Some advise starting with mathematics, some advise specific languages and technologies. Hexlet is a ready path from absolute beginner to first job.
+  </div>
+
+  This is not the result that was expected - the lines stuck together and turned into one unreadable line. For the text to look as intended, it needs to be wrapped in `<p>` tags:
+
+  ```html
+  <p>We believe that a true programmer must understand how a computer works and have a computational mindset. He should see the problem, not the assignment. Must be able to analyze and reason at the problem level and above, not just at the code level.</p>
+
+  <p>With today's abundance of study materials, courses, and books, the main question a beginner faces is not "where to study?" but "what and in what order to study?". There are many opinions on this subject. Some advise starting with mathematics, some advise specific languages and technologies.</p>
+
+  <p>Hexlet is a ready path from absolute beginner to first job.</p>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <p>We believe that a true programmer must understand how a computer works and have a computational mindset. He should see the problem, not the assignment. Must be able to analyze and reason at the problem level and above, not just at the code level.</p>
+
+    <p>With today's abundance of study materials, courses, and books, the main question a beginner faces is not "where to study?" but "what and in what order to study?". There are many opinions on this subject. Some advise starting with mathematics, some advise specific languages and technologies.</p>
+
+    <p class="m-0">Hexlet is a ready path from absolute beginner to first job.</p>
+  </div>
+
+  The example illustrates that the designed text in the office editor when opened in a browser will be one continuous line, so the information is marked with special tags. In this course, we'll look at tags for creating tables, lists, links, and logical page sections. In this lesson, we took a closer look at paragraphs and the importance of markup for proper output on a page.
+
+instructions: |
+  Make up the text
+
+  <div class="hexlet-basics-example my-3 bg-light font-monospace">
+    <p>The career portal «My Circle» studied the IT-education market and found out which online schools effectively teach programming. In the final ranking, Hexlet came in second place.</p>
+
+    <p class="m-0">«My Circle» surveyed 3,500 IT professionals and compiled a rating of online schools for programmers. «My Circle» and «Habr» users who attended online universities took part in the survey. In the final table, «Hexlet» came in second place.</p>
+  </div>
+
+  Each paragraph must be inside a separate tag
