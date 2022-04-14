@@ -1,4 +1,40 @@
 ---
 
 name: Tags
-theory: Still in progress
+theory: |
+
+  For the browser to determine the type of element that should be displayed on the page, there are special constructions in HTML - tags. You can use tags to create a paragraph, a title, a text section, and quickly change them.
+
+  One of the main tags is the paragraph. It separates sections of text from each other, allowing users to read the information on the page more comfortably.
+
+  In HTML, paragraphs are specified with a special `<p></p>` construct inside which the desired text is inserted. This is done between `<p>` and `</p>`. These tags are called _paired_ tags because they have an opening and closing part. In addition to _paired_ tags there are _unpaired_,  they have no closing part, because nothing fits inside.
+
+  ```html
+  <p>
+    Hexlet - hands-on programming courses.
+    We help newcomers to become professional programmers,
+    and for experienced developers to gain new knowledge and grow professionally.
+  </p>
+  ```
+
+  There can be several such paragraphs on a page - this is not a unique element.
+
+  ```html
+  <p>Hexlet - hands-on programming courses.</p>
+  <p>
+    We help newcomers to become professional programmers,
+    and for experienced developers to gain new knowledge and grow professionally.
+  </p>
+  ```
+
+  Going a little ahead, I'd like to point out that browsers, by default, display many tags with predefined styles. For example, paragraphs are indented at the bottom to visually separate them from each other. The last example in the browser looks like this:
+
+  <div class="hexlet-basics-example my-3">
+    <p>Hexlet - hands-on programming courses.</p>
+    <p class="m-0">We help newcomers to become professional programmers, and for experienced developers to gain new knowledge and grow professionally.</p>
+  </div>
+
+  Using CSS you can change these styles and add new ones. There is a separate course on the site for learning this language.
+
+instructions: |
+  Wrap the phrase _Eat some more of these soft French buns and drink some tea_ `<p>` into the <p> tag paste it into the editor.
