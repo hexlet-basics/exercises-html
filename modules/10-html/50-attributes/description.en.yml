@@ -1,4 +1,44 @@
 ---
 
 name: Attributes
-theory: Still in progress
+theory: |
+
+  Markup information on the page includes many subtleties and nuances. For example, you can specify not only the type of element, but also transmit additional information that will be processed by the browser. Hover your cursor over the text below:
+
+  <div class="hexlet-basics-example my-3">
+    <p title="Tooltip. Here you can specify additional information." class="m-0">Hover your mouse over this line of text. Better to do it from a computer</p>
+  </div>
+
+  When hovering the mouse over an element, a small window appears with the text «Tooltip. Here you can specify additional information». This behavior is set by using _attributes_ — special structures that can affect the output of information on the page. Each tag in HTML has several standard attributes, which are written according to the template `attribute="value"`, where:
+
+  * **Attribute** — the name of the attribute. The `title` attribute was used to make the tooltip appear
+  * **Value** — the value of the attribute. It can be different, depending on the attribute itself. In the example, the text to be displayed when hovering over the item was used as the value.
+
+  Example markup with a tooltip:
+
+  ```html
+  <p title="Tooltip. Here you can specify additional information">Hover your mouse over this line of text. Better to do it from a computer</p>
+  ```
+
+  The `title` attribute can be used not only on paragraphs but on any page element. Such attributes are called _globa_, because they do not depend on the element. In contrast, there are attributes that are unique to one or more tags. For example, the attribute `colspan`, which indicates the union of cells in tables. Its use outside the tables makes no sense.
+
+  Attributes can implicitly affect the information output. For example, when using the _CSS_, style language, there is the `class` attribute, whose task is to separate similar elements from each other using the value of the attribute. You will learn how classes work in a _CSS_ course, but for now it is important to know that this attribute does not show up in any way when information is displayed on the page.
+
+  ```html
+  <p class="lead">Paragraph with the class lead</p>
+  <p class="mega-paragraph">Paragraph with the mega-paragraph class</p>
+  ```
+
+  One tag can have several attributes at once. Then they are written sequentially, and the order in which they are written does not matter:
+
+  ```html
+  <p class="text-center" title="This element has multiple attributes">Paragraph with multiple attributes</p>
+  ```
+
+  In this lesson we explored the concept of attributes and their notation. We studied how `title` and `class` attributes work, and learned that attributes are global and unique to HTML elements. Global attributes can be used for any tag, while unique attributes can only be used for certain.
+
+instructions: |
+  Create a paragraph with arbitrary text and a tooltip. Add the `hexlet` class to it.
+
+tips:
+  - All global attributes can be viewed on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
