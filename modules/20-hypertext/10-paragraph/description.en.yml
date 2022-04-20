@@ -1,32 +1,32 @@
 ---
 
-name: Параграфы
+name: Paragraphs
 theory: |
-  Параграфы – основной способ разделять большой текст на небольшие логические блоки. Эти блоки автоматически «отбиваются» друг от друга отступами. Такой текст намного проще читается и не пугает пользователей.
+  Paragraphs are the main way to divide a large text into small logical blocks. These blocks are automatically "indented" from each other. Such text is much easier to read and does not scare users.
 
-  Параграфы, в основном, встречаются внутри большого текста. Например, любой урок на Хекслете или Code Basics разбит на параграфы для удобства чтения, прямо как в этом уроке.
+  Paragraphs are mostly found within large text. For example, any lesson on Hexlet or Code Basics is broken up into paragraphs for easy reading, just like this one.
 
-  Разбитие идёт по небольшим смысловым блокам. Так не только комфортнее читать, но и можно быстрее найти нужную информацию в большом тексте.
-
-  Параграфы создаются с помощью парного тега `<p>`, в тело которого помещается небольшая часть текста. Например:
+  t is broken down into small blocks of meaning. Not only is it more comfortable to read, but you can quickly find the information you need in a large text.
+  
+  Paragraphs are created using the paired `<p>` tag with a small amount of text in the body. For example:
 
   ```html
-  <p>Первый параграф</p>
-  <p>Второй параграф</p>
+  <p>First paragraph</p>
+  <p>Second paragraph</p>
   ```
 
   Вот как они выглядят в браузере:
 
   <div class="hexlet-basics-example my-3">
-    <p>Первый параграф</p>
-    <p class="m-0">Второй параграф</p>
+    <p>First paragraph</p>
+    <p class="m-0">Second paragraph</p>
   </div>
 
 instructions: |
-  Оберните фразу _Hello, World_ в тег параграфа
+  Wrap the phrase _Hello, World_ in a paragraph tag
 
 definitions:
-  - name: Параграф
-    description: Небольшой блок текста, отделяемый от остального содержимого отступами снизу и сверху
+  - name: Paragraph
+    description: A small block of text separated from the rest of the content by indents at the bottom and top
 tips:
-  - Параграфы нельзя вкладывать друг в друга
+  - Paragraphs cannot be nested within each other
