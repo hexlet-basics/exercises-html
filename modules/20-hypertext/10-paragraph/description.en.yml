@@ -15,7 +15,7 @@ theory: |
   <p>Second paragraph</p>
   ```
 
-  Вот как они выглядят в браузере:
+  This is what they look like in the browser:
 
   <div class="hexlet-basics-example my-3">
     <p>First paragraph</p>
