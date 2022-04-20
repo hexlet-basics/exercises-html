@@ -1,174 +1,174 @@
 ---
 
-name: Таблицы
+name: Tables
 theory: |
 
-  Одна из самых привычных форм подачи информации — таблицы. Мы их встречаем везде: информация о товаре, таблица умножения, документы. Такая подача позволяет легко сравнивать между собой характеристики тех или иных товаров. При вёрстке страниц таблицы используются так же часто, хоть и имеют немного запутанную вёрстку.
+  One of the most familiar forms of presenting information is tables. We meet them everywhere: product information, multiplication table, documents. Such a filing makes it easy to compare the characteristics of certain products. In page layout, tables are used just as often, although they have a slightly confusing layout.
 
-  Таблица — составной элемент, который формируется сразу из нескольких вложенных друг в друга тегов. Это похоже на то, как верстаются списки — имеется контейнер и внутри него специальные теги-элементы
+  A table is a composite element made up of several nested tags. This is similar to how lists are made up - there is a container and special tag elements inside it
 
-  Разметка содержит в себе несколько основных элементов:
+  The marking contains several basic elements:
 
-  * `<table>` — область таблицы
-    * `<tr>` — строка
-    * `<thead>` — шапка таблицы
-      * `<th>` — ячейка шапки
-    * `<tbody>` — тело таблицы
-      * `<td>` — ячейка
+  * `<table>` — table area
+    * `<tr>` — line
+    * `<thead>` — table header
+      * `<th>` — header cell
+    * `<tbody>` — table body
+      * `<td>` — cell
 
-  Любая таблица начинается с парного тега `<table>`
+  Any table starts with a paired `<table>` tag
 
   ```html
   <table>
-    <!-- Здесь будут данные таблицы -->
+    <!-- Here will be the table data -->
   </table>
   ```
 
-  Именно внутри этого тега создаются строки и стобцы таблицы. Теперь можно создать строки и столбцы. Для этого используются теги `<tr>` и `<td>`. Создадим две строки и три ячейки в каждой строке:
+  It is within this tag creates rows and columns of the table. Now you can create rows and columns. The `<tr>` and `<td>` tags are used for this purpose. Create two rows and three cells in each row:
 
   ```html
   <table>
-    <tr> <!-- Строка -->
-      <td>Шоколад «Тота»</td> <!-- Ячейка -->
-      <td>100 грамм</td>
-      <td>200 рублей</td>
+    <tr> <!-- Line -->
+      <td>«Tota» Chocolate</td> <!-- Cell -->
+      <td>100 gram</td>
+      <td>20 dollars</td>
     </tr>
 
-    <tr> <!-- Строка -->
-      <td>Шоколад «Тота TeamLead»</td> <!-- Ячейка -->
-      <td>100 грамм</td>
-      <td>500 рублей</td>
+    <tr> <!-- Line -->
+      <td>«Tota TeamLead» Chocolate</td> <!-- Ячейка -->
+      <td>100 gram</td>
+      <td>50 dollars</td>
     </tr>
   </table>
   ```
 
   <div class="hexlet-basics-example my-3">
     <table class="table-bordered m-0 w-100">
-      <tr> <!-- Строка -->
-        <td>Шоколад «Тота»</td> <!-- Ячейка -->
-        <td>100 грамм</td>
-        <td>200 рублей</td>
+      <tr> <!-- Line -->
+        <td>«Tota» Chocolate</td> <!-- Cell -->
+        <td>100 gram</td>
+        <td>20 dollars</td>
       </tr>
 
-      <tr> <!-- Строка -->
-        <td>Шоколад «Тота TeamLead»</td> <!-- Ячейка -->
-        <td>100 грамм</td>
-        <td>500 рублей</td>
+      <tr> <!-- Line -->
+        <td>«Tota TeamLead» Chocolate</td> <!-- Cell -->
+        <td>100 gram</td>
+        <td>50 dollars</td>
       </tr>
     </table>
   </div>
 
   ---
 
-  **Важно:** Количество ячеек в каждой строке должно быть одинаковым
+  **Important:** The number of cells in each row must be the same
 
   ---
 
-  Данные выведены, но не хватает заголовков, с помощью которых можно описать каждый столбец. Для создания заголовка таблицы используется тег `<thead>`, а в качестве тега ячейки `<th>`. В остальном структура вёрстки не меняется. Дополним таблицу заголовками:
+  The data is displayed, but there are not enough headings to describe each column. The `<thead>` tag is used to create the table header and the `<th>` tag is used as the cell tag. Otherwise, the structure of the layout does not change. Let's add the headings to the table:
 
   ```html
   <table>
-    <thead> <!-- Шапка таблицы -->
+    <thead> <!-- Table header -->
       <tr>
-        <th>Вкусняшка</th> <!-- Ячейка-заголовок -->
-        <th>Вес</th>
-        <th>Цена</th>
+        <th>Yummy</th> <!-- Header cell -->
+        <th>Weight</th>
+        <th>Price</th>
       </tr>
     </thead>
 
     <tr>
-      <td>Шоколад «Тота»</td>
-      <td>100 грамм</td>
-      <td>200 рублей</td>
+      <td>«Tota» Chocolate</td>
+      <td>100 gram</td>
+      <td>20 dollars</td>
     </tr>
 
     <tr>
-      <td>Шоколад «Тота TeamLead»</td>
-      <td>150 грамм</td>
-      <td>500 рублей</td>
+      <td>«Tota TeamLead» Chocolate</td>
+      <td>150 gram</td>
+      <td>50 dollars</td>
     </tr>
   </table>
   ```
 
   <div class="hexlet-basics-example my-3">
     <table class="table-bordered m-0">
-      <thead> <!-- Шапка таблицы -->
+      <thead> <!-- Table header -->
         <tr>
-          <th>Вкусняшка</th> <!-- Ячейка-заголовок -->
-          <th>Вес</th>
-          <th>Цена</th>
+          <th>Yummy</th> <!-- Рeader cell -->
+          <th>Weight</th>
+          <th>Price</th>
         </tr>
       </thead>
 
       <tr>
-        <td>Шоколад «Тота»</td>
-        <td>100 грамм</td>
-        <td>200 рублей</td>
+        <td>«Tota» Chocolate</td>
+        <td>100 gram</td>
+        <td>20 dollars</td>
       </tr>
 
       <tr>
-        <td>Шоколад «Тота TeamLead»</td>
-        <td>150 грамм</td>
-        <td>500 рублей</td>
+        <td>«Tota TeamLead» Chocolate</td>
+        <td>150 gram</td>
+        <td>50 dollars</td>
       </tr>
     </table>
   </div>
 
-  Последним шагом станет добавление тега `<tbody>`, который размечает основую часть таблицы. Часто разработчики его упускают, потому что браузеры автоматически оборачивают им группу строк, которые не обёрнуты в другие теги. Обратите внимание — тег `<tbody>` чаще всего только один в таблице. В больших таблицах можно использовать несколько `<tbody>`, чтобы отделить разные секции в таблице, но в большинстве случаев в этом нет необходимости.
+  The last step is to add the `<tbody>` tag, which marks the main part of the table. Often developers miss it because browsers automatically wrap a group of lines that are not wrapped in other tags. Note that the `<tbody>` tag is often the only one in the table. In large tables, you can use several `<tbody>` to separate different sections in a table, but in most cases this is not necessary.
 
   ```html
   <table>
     <thead>
       <tr>
-        <th>Вкусняшка</th>
-        <th>Вес</th>
-        <th>Цена</th>
+        <th>Yummy</th>
+        <th>Weight</th>
+        <th>Price</th>
       </tr>
     </thead>
 
-    <tbody> <!-- Тело таблицы -->
+    <tbody> <!-- Table body -->
       <tr>
-        <td>Шоколад «Тота»</td>
-        <td>100 грамм</td>
-        <td>200 рублей</td>
+        <td>«Tota» Chocolate</td>
+        <td>100 gram</td>
+        <td>20 dollars</td>
       </tr>
 
       <tr>
-        <td>Шоколад «Тота TeamLead»</td>
-        <td>150 грамм</td>
-        <td>500 рублей</td>
+        <td>«Tota TeamLead» Chocolate</td>
+        <td>150 gram</td>
+        <td>50 dollars</td>
       </tr>
     </tbody>
   </table>
   ```
 
-  Дополнительно можно указать «подвал/footer» таблицы. В нём может находится суммарная информация, например, стоимость всех товаров.
+  Additionally, you can specify the "footer" of the table. It can contain summary information, such as the cost of all goods.
 
-  У таблиц можно настроить заголовок. Он нужен, если одновременно выводится несколько таблиц. Это помогает отделить их друг от друга и не запутаться в том, какая таблица что доносит. Для создания заголовка таблицы используется парный тег `<caption>`. Если заголовок есть, то он _обязательно_ должен располагаться сразу после тега `<table>`. Добавим заголовок в таблицу:
+  Tables can be configured with a header. It is needed when several tables are output at the same time. It helps to separate them from each other and not get confused about which table is delivering what. A paired `<caption>` tag is used to create the table title. If you have a header, it _must_ be placed immediately after the `<table>` tag. Let's add a header to the table:
 
 
   ```html
   <table>
-    <caption>Ассортимент шоколада «Hexlet»</caption>
+    <caption>«Hexlet» chocolate assortment</caption>
     <thead>
       <tr>
-        <th>Вкусняшка</th>
-        <th>Вес</th>
-        <th>Цена</th>
+        <th>Yummy</th>
+        <th>Weight</th>
+        <th>Price</th>
       </tr>
     </thead>
 
     <tbody>
       <tr>
-        <td>Шоколад «Тота»</td>
-        <td>100 грамм</td>
-        <td>200 рублей</td>
+        <td>«Tota» chocolate</td>
+        <td>100 gram</td>
+        <td>20 dollars</td>
       </tr>
 
       <tr>
-        <td>Шоколад «Тота TeamLead»</td>
-        <td>150 грамм</td>
-        <td>500 рублей</td>
+        <td>«Tota TeamLead» chocolate</td>
+        <td>150 gram</td>
+        <td>50 dollars</td>
       </tr>
     </tbody>
   </table>
@@ -176,26 +176,26 @@ theory: |
 
   <div class="hexlet-basics-example my-3">
     <table class="table-bordered m-0">
-      <caption>Ассортимент шоколада «Hexlet»</caption>
+      <caption>«Hexlet» chocolate assortment</caption>
       <thead>
         <tr>
-          <th>Вкусняшка</th>
-          <th>Вес</th>
-          <th>Цена</th>
+          <th>Yummy</th>
+          <th>Weight</th>
+          <th>Price</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td>Шоколад «Тота»</td>
+          <td>«Tota» chocolate</td>
           <td>100 грамм</td>
           <td>200 рублей</td>
         </tr>
 
         <tr>
-          <td>Шоколад «Тота TeamLead»</td>
-          <td>150 грамм</td>
-          <td>500 рублей</td>
+          <td>«Tota TeamLead» chocolate</td>
+          <td>150 gram</td>
+          <td>50 dollars</td>
         </tr>
       </tbody>
     </table>
@@ -203,9 +203,9 @@ theory: |
 
 
 instructions: |
-  Создайте таблицу из 3 строк с 2 ячейками в каждой. Первая строка содержит в себе шапку таблицы
+  Create a table of 3 rows with 2 cells in each. The first line contains the table headers
 
 tips:
-  - Количество ячеек в каждой строке таблицы должно быть одинаковым
-  - Заголовок таблицы `caption` _всегда_ располагается сразу после открытия таблицы
-  - Браузеры автоматически добавляют тег `<tbody>`, если он отсутствует. В небольших таблицах его можно не указывать
+  - The number of cells in each row of the table must be the same
+  - The `caption` of the table is _always_ placed immediately after opening the table 
+  - Browsers automatically add the `<tbody>` tag if it is missing. In small tables it can be omitted
