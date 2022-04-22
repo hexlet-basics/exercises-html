@@ -1,0 +1,211 @@
+---
+
+name: Tables
+theory: |
+
+  One of the most familiar forms of presenting information is tables. We meet them everywhere: product information, multiplication table, documents. Such a filing makes it easy to compare the characteristics of certain products. In page layout, tables are used just as often, although they have a slightly confusing layout.
+
+  A table is a composite element made up of several nested tags. This is similar to how lists are made up - there is a container and special tag elements inside it
+
+  The marking contains several basic elements:
+
+  * `<table>` — table area
+    * `<tr>` — line
+    * `<thead>` — table header
+      * `<th>` — header cell
+    * `<tbody>` — table body
+      * `<td>` — cell
+
+  Any table starts with a paired `<table>` tag
+
+  ```html
+  <table>
+    <!-- Here will be the table data -->
+  </table>
+  ```
+
+  It is within this tag creates rows and columns of the table. Now you can create rows and columns. The `<tr>` and `<td>` tags are used for this purpose. Create two rows and three cells in each row:
+
+  ```html
+  <table>
+    <tr> <!-- Line -->
+      <td>«Tota» Chocolate</td> <!-- Cell -->
+      <td>100 gram</td>
+      <td>20 dollars</td>
+    </tr>
+
+    <tr> <!-- Line -->
+      <td>«Tota TeamLead» Chocolate</td> <!-- Ячейка -->
+      <td>100 gram</td>
+      <td>50 dollars</td>
+    </tr>
+  </table>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <table class="table-bordered m-0 w-100">
+      <tr> <!-- Line -->
+        <td>«Tota» Chocolate</td> <!-- Cell -->
+        <td>100 gram</td>
+        <td>20 dollars</td>
+      </tr>
+
+      <tr> <!-- Line -->
+        <td>«Tota TeamLead» Chocolate</td> <!-- Cell -->
+        <td>100 gram</td>
+        <td>50 dollars</td>
+      </tr>
+    </table>
+  </div>
+
+  ---
+
+  **Important:** The number of cells in each row must be the same
+
+  ---
+
+  The data is displayed, but there are not enough headings to describe each column. The `<thead>` tag is used to create the table header and the `<th>` tag is used as the cell tag. Otherwise, the structure of the layout does not change. Let's add the headings to the table:
+
+  ```html
+  <table>
+    <thead> <!-- Table header -->
+      <tr>
+        <th>Yummy</th> <!-- Header cell -->
+        <th>Weight</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+
+    <tr>
+      <td>«Tota» Chocolate</td>
+      <td>100 gram</td>
+      <td>20 dollars</td>
+    </tr>
+
+    <tr>
+      <td>«Tota TeamLead» Chocolate</td>
+      <td>150 gram</td>
+      <td>50 dollars</td>
+    </tr>
+  </table>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <table class="table-bordered m-0">
+      <thead> <!-- Table header -->
+        <tr>
+          <th>Yummy</th> <!-- Рeader cell -->
+          <th>Weight</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+
+      <tr>
+        <td>«Tota» Chocolate</td>
+        <td>100 gram</td>
+        <td>20 dollars</td>
+      </tr>
+
+      <tr>
+        <td>«Tota TeamLead» Chocolate</td>
+        <td>150 gram</td>
+        <td>50 dollars</td>
+      </tr>
+    </table>
+  </div>
+
+  The last step is to add the `<tbody>` tag, which marks the main part of the table. Often developers miss it because browsers automatically wrap a group of lines that are not wrapped in other tags. Note that the `<tbody>` tag is often the only one in the table. In large tables, you can use several `<tbody>` to separate different sections in a table, but in most cases this is not necessary.
+
+  ```html
+  <table>
+    <thead>
+      <tr>
+        <th>Yummy</th>
+        <th>Weight</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+
+    <tbody> <!-- Table body -->
+      <tr>
+        <td>«Tota» Chocolate</td>
+        <td>100 gram</td>
+        <td>20 dollars</td>
+      </tr>
+
+      <tr>
+        <td>«Tota TeamLead» Chocolate</td>
+        <td>150 gram</td>
+        <td>50 dollars</td>
+      </tr>
+    </tbody>
+  </table>
+  ```
+
+  Additionally, you can specify the "footer" of the table. It can contain summary information, such as the cost of all goods.
+
+  Tables can be configured with a header. It is needed when several tables are output at the same time. It helps to separate them from each other and not get confused about which table is delivering what. A paired `<caption>` tag is used to create the table title. If you have a header, it _must_ be placed immediately after the `<table>` tag. Let's add a header to the table:
+
+
+  ```html
+  <table>
+    <caption>«Hexlet» chocolate assortment</caption>
+    <thead>
+      <tr>
+        <th>Yummy</th>
+        <th>Weight</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>«Tota» chocolate</td>
+        <td>100 gram</td>
+        <td>20 dollars</td>
+      </tr>
+
+      <tr>
+        <td>«Tota TeamLead» chocolate</td>
+        <td>150 gram</td>
+        <td>50 dollars</td>
+      </tr>
+    </tbody>
+  </table>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <table class="table-bordered m-0">
+      <caption>«Hexlet» chocolate assortment</caption>
+      <thead>
+        <tr>
+          <th>Yummy</th>
+          <th>Weight</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>«Tota» chocolate</td>
+          <td>100 gram</td>
+          <td>20 dollars</td>
+        </tr>
+
+        <tr>
+          <td>«Tota TeamLead» chocolate</td>
+          <td>150 gram</td>
+          <td>50 dollars</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+instructions: |
+  Create a table of 3 rows with 2 cells in each. The first line contains the table headers
+
+tips:
+  - The number of cells in each row of the table must be the same
+  - The `caption` of the table is _always_ placed immediately after opening the table 
+  - Browsers automatically add the `<tbody>` tag if it is missing. In small tables it can be omitted
