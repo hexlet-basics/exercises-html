@@ -12,7 +12,7 @@ theory: |
 
   ```html
   <!DOCTYPE html>
-  <html lang="ru">
+  <html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Basic HTML markup</title>
@@ -26,7 +26,7 @@ theory: |
 
   Notice the first line `<!DOCTYPE html>`. DOCTYPE (document type) is the service information for the browser that describes the HTML standard to be processed. The current HTML5 standard is supported by all browsers, so it's enough to specify `<!DOCTYPE html>` in the first line of the document, which says that our document is marked according to the HTML5 standard.
 
-  Then you open the paired tag `<html>` with the attribute `lang="ru"`. Specifying the language is also necessary for browsers, especially if the site is intended for a mass audience, including those abroad.
+  Then you open the paired tag `<html>` with the attribute `lang="en"`. Specifying the language is also necessary for browsers, especially if the site is intended for a mass audience, including those abroad.
 
   To avoid errors, both of the above constructs, if missing, will be added automatically by the browser. In some situations, browsers may not add the lines you would like, and instead of handling the page according to HTML5, the browser will render everything as HTML4, which will lead to a lot of problems because older standards may not know about the existence of many tags, such as `<main>`, `<nav>` and so on
 
