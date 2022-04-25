@@ -1,11 +1,11 @@
 ---
 
-name: Nested tags
+name: Tag nesting
 theory: |
 
-  An important concept in HTML is the nesting of tags. Inside the HTML-tag can be placed not only text, as it was before, and other tags. This allows you to create a complex layout in which areas are separated from each other: the menu from the header, an advertising block from the main content, and so on.
+  Tag nesting is an important concept in HTML. You can place more than just text between HTML tags as it was before, you can also place other tags. This allows you to create a complex layout in which areas are separated from each other, e.g., the menu is separated from the header, the advertising block is separated from the main content, etc.
 
-  Some elements in HTML require nesting some tags into others. Lists, for example:
+  Some elements in HTML require some tags to be nested into other. For example, lists:
 
   ```html
   <ul>
@@ -21,9 +21,9 @@ theory: |
     </ul>
   </div>
 
-  The `<ul>` tag is used to define the list, indicating that it is a _bulleted_ list. Inside are the `<li>`, tags that define the elements of our list.
+  The `<ul>` tag is used to define the list, and this one indicates that it's _a bulleted_ list. Inside are the `<li>` tags that define the elements of our list.
 
-  Such nesting is similar to trees, where there is a tree top (tag `<ul>`) and leaves (tags `<li>`)
+  This kind of nesting resembles a tree, there's a treetop (the `<ul>` tag) and leaves (the `<li>` tags)
 
   ```
   |──ul
@@ -33,22 +33,22 @@ theory: |
 
   ---
 
-  **Interesting:** a tag with other tags inside is also called a _wrapper_
+  Interestingly a tag with other tags inside is also called _a wrapper_
 
   ---
 
-  The tree can sprout even further. The lessons about lists will show that other lists can be placed inside list elements, and the process is almost endless.
+  The tree can grow even further. The lessons about lists will show you that other lists can be placed inside list elements, and then lists can be placed inside those lists, and so on and so forth.
 
-  But there are exceptions. In HTML, you can't put paragraphs within paragraphs. The example below would be incorrect:
+  But there are exceptions. You can't put paragraphs within paragraphs in HTML. The example below would be incorrect:
 
   ```html
   <p>Paragraph
     <p>And here's another paragraph within a paragraph</p>.
-    Paragraph is not happy with this neighborhood
+    This is not a happy home for the paragraph.
   </p>
   ```
 
-  In this lesson we've introduced the concept of nesting tags in HTML and discussed it using bulleted lists as an example. During the course, you will learn many situations where nesting is the best solution, as well as learn about the tags that should not be nested in each other
+  In this lesson, we introduced the concept of nesting tags in HTML and examined it with the aid of bullet lists as a reminder. During this course, you'll learn both about the many situations where nesting is the best solution, and also about the tags that must not be nested within each other.
 
 instructions: |
-  Create a bulleted list of three items. You learned about this type of list in the lesson
+  Create a bullet list of three items. You learned about this type of list in this lesson
