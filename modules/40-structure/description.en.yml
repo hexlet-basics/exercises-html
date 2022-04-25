@@ -1,0 +1,5 @@
+---
+
+name: HTML document structure
+description: |
+  Each HTML page consists of several common blocks that describe a lot of information: meta tags, page title, content. The HTML standard has its own blocks and constructions for each part.
