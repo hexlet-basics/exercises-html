@@ -64,6 +64,8 @@ theory: |
 
   ---
 
+  Try pasting this code into the editor. Notice that visually the output will be different from the table output in the theory of this lesson. The thing is that, by default, the browser doesn't put visible borders for the table cells. To do this, you need to use CSS, a special style language. You'll encounter this language and its capabilities in another course.
+
   The data is displayed, but there are not enough headings to describe each column. The `<thead>` tag is used to create the table header and the `<th>` tag is used as the cell tag. Otherwise, the structure of the layout does not change. Let's add the headings to the table:
 
   ```html
@@ -207,5 +209,5 @@ instructions: |
 
 tips:
   - The number of cells in each row of the table must be the same
-  - The `caption` of the table is _always_ placed immediately after opening the table 
+  - The `caption` of the table is _always_ placed immediately after opening the table
   - Browsers automatically add the `<tbody>` tag if it is missing. In small tables it can be omitted
