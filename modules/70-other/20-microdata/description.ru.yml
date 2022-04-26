@@ -30,14 +30,14 @@ theory: |
 
   Для примера возьмём контактные данные вымышленной компании «Прауд», и разметим контакты, используя _Schema.org_. Изначально блок с контактами выглядит следующим образом:
 
- ```html
- <section>
-  <h1>Компания «Прауд»</h1>
-  <p>Адрес: г.Мотино, улица Строителей, дом 6</p>
-  <p>Телефон: 8 (8765) 333-00-00</p>
-  <p>Email: info@proud-company.test</p>
- </section>
- ```
+  ```html
+  <section>
+    <h1>Компания «Прауд»</h1>
+    <p>Адрес: г.Мотино, улица Строителей, дом 6</p>
+    <p>Телефон: 8 (8765) 333-00-00</p>
+    <p>Email: info@proud-company.test</p>
+  </section>
+  ```
 
   Первое, нужно выбрать словарь. Поисковая система Яндекс для этого предлагает несколько вариантов. Возьмём словарь Organization. Полное описание этого словаря можно найти на сайте [https://schema.org/](https://schema.org/).
 
@@ -52,36 +52,36 @@ theory: |
   * `itemscope` — указатель на то, что блок — единая сущностью, в котором данные связаны. Указывается только у главного блока и не имеет своего значения
   * `itemtype` — указывает на то, какой словарь будет использоваться. Например, для описания контактов выбран словарь **Organization**. Полный вид атрибута: `itemtype="http://schema.org/Organization"`
 
- ```html
- <section itemscope itemtype="http://schema.org/Organization">
-  <h1>Компания «Прауд»</h1>
-  <p>Адрес: г.Мотино, улица Строителей, дом 6</p>
-  <p>Телефон: 8 (8765) 333-00-00</p>
-  <p>Email: info@proud-company.test</p>
- </section>
- ```
+  ```html
+  <section itemscope itemtype="http://schema.org/Organization">
+    <h1>Компания «Прауд»</h1>
+    <p>Адрес: г.Мотино, улица Строителей, дом 6</p>
+    <p>Телефон: 8 (8765) 333-00-00</p>
+    <p>Email: info@proud-company.test</p>
+  </section>
+  ```
 
   Теперь поисковая система будет знать, что внутри этого блока информация об организации. Приступим к разметке адреса. _Schema.org_ позволяет отдельно указывать улицу, дом, строение и так далее, но мы обобщим это и используем только одно значение `itemprop="address"`, чтобы обозначить адрес предприятия. Обратите внимание, что элементы разметки указываются с помощью атрибута **itemprop**.
 
- ```html
- <section itemscope itemtype="http://schema.org/Organization">
-  <h1>Компания «Прауд»</h1>
-  <p>Адрес: <span itemprop="address">г.Мотино, улица Строителей, дом 6</span></p>
-  <p>Телефон: 8 (8765) 333-00-00</p>
-  <p>Email: info@proud-company.test</p>
- </section>
- ```
+  ```html
+  <section itemscope itemtype="http://schema.org/Organization">
+    <h1>Компания «Прауд»</h1>
+    <p>Адрес: <span itemprop="address">г.Мотино, улица Строителей, дом 6</span></p>
+    <p>Телефон: 8 (8765) 333-00-00</p>
+    <p>Email: info@proud-company.test</p>
+  </section>
+  ```
 
   По аналогии с адресом разметим остальные данные: название, телефон, email. Для каждого из них есть своё значение атрибута **itemprop**. Обратите внимание, что размечаются только данные, оставляя за «бортом» название поля. Для этого нужные данные оборачивают в ``<span>`` и для него указывают атрибут.
 
- ```html
- <section itemscope itemtype="http://schema.org/Organization">
-  <h1 itemprop="name">Компания «Прауд»</h1>
-  <p>Адрес: <span itemprop="address">г.Мотино, улица Строителей, дом 6</span></p>
-  <p>Телефон: <span itemprop="telephone">8 (8765) 333-00-00</span></p>
-  <p>Email: <span itemprop="email">info@proud-company.test</span></p>
- </section>
- ```
+  ```html
+  <section itemscope itemtype="http://schema.org/Organization">
+    <h1 itemprop="name">Компания «Прауд»</h1>
+    <p>Адрес: <span itemprop="address">г.Мотино, улица Строителей, дом 6</span></p>
+    <p>Телефон: <span itemprop="telephone">8 (8765) 333-00-00</span></p>
+    <p>Email: <span itemprop="email">info@proud-company.test</span></p>
+  </section>
+  ```
 
   Для проверки корректности микроразметки можно пользоваться инструментами популярных поисковых систем:
 

@@ -31,14 +31,14 @@ theory: |
 
   For example, let's take the contact information from the fictional company Proud, and mark up the contacts using Schema.org. Initially, the contact block looks like this:
 
- ```html
- <section>
-  <h1>The Boring Company</h1>
-  <p>Address: Austin, Texas</p>
-  <p>Phone: 8 (8765) 333-00-00</p>
-  <p>Email: info@boring-company.test</p>
- </section>
- ```
+  ```html
+  <section>
+    <h1>The Boring Company</h1>
+    <p>Address: Austin, Texas</p>
+    <p>Phone: 8 (8765) 333-00-00</p>
+    <p>Email: info@boring-company.test</p>
+  </section>
+  ```
 
   First, you have to choose a vocabulary. The Google search engine offers several options for this. We'll take the Organization vocabulary. A full description of this vocabulary can be found at https://schema.org/.
 
@@ -54,36 +54,36 @@ theory: |
   * `itemtype` - specifies which vocabulary will be used. For example, for example, the Organization vocabulary is selected for describing contacts. Full attribute type: `itemtype="http://schema.org/Organization"`
 
 
- ```html
- <section itemscope itemtype="http://schema.org/Organization">
-  <h1>The Boring Company</h1>
-  <p>Address: Austin, Texas</p>
-  <p>Phone: 8 (8765) 333-00-00</p>
-  <p>Email: info@boring-company.test</p>
- </section>
- ```
+  ```html
+  <section itemscope itemtype="http://schema.org/Organization">
+    <h1>The Boring Company</h1>
+    <p>Address: Austin, Texas</p>
+    <p>Phone: 8 (8765) 333-00-00</p>
+    <p>Email: info@boring-company.test</p>
+  </section>
+  ```
 
   Now the search engine will know that inside this block is information about an organization. Let's start marking up the address. _Schema.org_ allows you to specify a street, house, building, and so on separately, but we'll generalize it and use only one value, `itemprop="address"`, to represent the address of the business. Note that markup elements are specified using the **itemprop** attribute.
 
- ```html
- <section itemscope itemtype="http://schema.org/Organization">
-  <h1>The Boring Company</h1>
-  <p>Address: <span itemprop="address">Austin, Texas</span></p>
-  <p>Phone: 8 (8765) 333-00-00</p>
-  <p>Email: info@boring-company.test</p>
- </section>
- ```
+  ```html
+  <section itemscope itemtype="http://schema.org/Organization">
+    <h1>The Boring Company</h1>
+    <p>Address: <span itemprop="address">Austin, Texas</span></p>
+    <p>Phone: 8 (8765) 333-00-00</p>
+    <p>Email: info@boring-company.test</p>
+  </section>
+  ```
 
   Mark out the rest of the data: name, phone number, and email, just like with the address. Each of them has its own **itemprop** attribute value. Note that only the data is marked, leaving the name of the field "overboard" as it were. To do this, the required data should be wrapped in `<span>` and you specify an attribute for it.
 
- ```html
- <section itemscope itemtype="http://schema.org/Organization">
-  <h1 itemprop="name">The Boring Company</h1>
-  <p>Address: <span itemprop="address">Austin, Texas</span></p>
-  <p>Phone: <span itemprop="telephone">8 (8765) 333-00-00</span></p>
-  <p>Email: <span itemprop="email">info@boring-company.test</span></p>
- </section>
- ```
+  ```html
+  <section itemscope itemtype="http://schema.org/Organization">
+    <h1 itemprop="name">The Boring Company</h1>
+    <p>Address: <span itemprop="address">Austin, Texas</span></p>
+    <p>Phone: <span itemprop="telephone">8 (8765) 333-00-00</span></p>
+    <p>Email: <span itemprop="email">info@boring-company.test</span></p>
+  </section>
+  ```
 
   You can use tools from popular search engines to check that the micromarking is correct:
 
