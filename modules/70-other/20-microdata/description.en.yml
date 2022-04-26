@@ -1,0 +1,101 @@
+---
+
+name: Micromarking
+
+theory: |
+ Speaking of semantics, we mentioned the micromarking markup format earlier, which is used by search engine crawlers to analyze information on the page. Proper page markup with micromarking helps to display not only the link to the site and its description in the search query results, but also additional information:
+
+  *	Name of organization
+  *	Opening hours
+  * Address
+  *	Phone number
+
+  Micromarking is a tool that is implemented using the additional attributes of HTML tags.
+
+## Schema.org
+
+  Developers have created several variants of micromarking, the most common of which is Schema.org with a wide range of vocabularies to describe the information on the page.
+
+  A vocabulary is a set of rules that describe the blocks on the page. Movie theater screenings, sales department information, product prices, and article reviews are all presented in small vocabularies.
+
+  To create a micromarking you should:
+
+  * Choose the vocabulary. You can check the documentation to find out if your search engine supports a given vocabulary
+  * Determine the block to be marked up. It can be more than a block; it can even be an entire page of a site
+  * Highlight information. For example, the markup for contact information is the name of the organization, phone number, email address, physical address
+  * Specify attributes depending on the type of information and vocabulary
+
+  It is impossible to give a complete explanation on micromarking in one lesson. This is a big topic, with many different nuances. As you gain experience, you'll learn to quickly identify the information you need and mark it up. Micromarking has a huge range of abilities, both in terms of visual presentation of information in a search engine, and for search engine promotion, and it's simple to use.
+
+## Contact details micromarking
+
+ For example, let's take the contact information from the fictional company Proud, and mark up the contacts using Schema.org. Initially, the contact block looks like this:
+
+ ```html
+ <section>
+  <h1>The Boring Company</h1>
+  <p>Address: Austin, Texas</p>
+  <p>Phone: 8 (8765) 333-00-00</p>
+  <p>Email: info@boring-company.test</p>
+ </section>
+ ```
+
+  First, you have to choose a vocabulary. The Google search engine offers several options for this. We'll take the Organization vocabulary. A full description of this vocabulary can be found at https://schema.org/.
+
+  ---
+
+  The goal of this lesson is not to teach you how to mark up data completely. The purpose is to show an example of micromarking.
+
+  ---
+
+  Two attributes are specified to tell the search engine that the data is marked up with a vocabulary:
+
+  * `itemscope` - a pointer to the fact that the block is a single entity in which the data is linked. It's specified only in the main block and has no value of its own
+  * `itemtype` - specifies which vocabulary will be used. For example, for example, the Organization vocabulary is selected for describing contacts. Full attribute type: `itemtype="http://schema.org/Organization"`
+
+
+ ```html
+ <section itemscope itemtype="http://schema.org/Organization">
+  <h1>The Boring Company</h1>
+  <p>Address: Austin, Texas</p>
+  <p>Phone: 8 (8765) 333-00-00</p>
+  <p>Email: info@boring-company.test</p>
+ </section>
+ ```
+
+  Now the search engine will know that inside this block is information about an organization. Let's start marking up the address. _Schema.org_ allows you to specify a street, house, building, and so on separately, but we'll generalize it and use only one value, `itemprop="address"`, to represent the address of the business. Note that markup elements are specified using the **itemprop** attribute.
+
+ ```html
+ <section itemscope itemtype="http://schema.org/Organization">
+  <h1>The Boring Company</h1>
+  <p>Address: <span itemprop="address">Austin, Texas</span></p>
+  <p>Phone: 8 (8765) 333-00-00</p>
+  <p>Email: info@boring-company.test</p>
+ </section>
+ ```
+
+  Mark out the rest of the data: name, phone number, and email, just like with the address. Each of them has its own **itemprop** attribute value. Note that only the data is marked, leaving the name of the field "overboard" as it were. To do this, the required data should be wrapped in `<span>` and you specify an attribute for it.
+
+ ```html
+ <section itemscope itemtype="http://schema.org/Organization">
+  <h1 itemprop="name">The Boring Company</h1>
+  <p>Address: <span itemprop="address">Austin, Texas</span></p>
+  <p>Phone: <span itemprop="telephone">8 (8765) 333-00-00</span></p>
+  <p>Email: <span itemprop="email">info@boring-company.test</span></p>
+ </section>
+ ```
+
+  You can use tools from popular search engines to check that the micromarking is correct:
+
+  * [Google](https://search.google.com/test/rich-results)
+  * [Yandex](https://webmaster.yandex.ru/tools/microtest/)
+
+  Try inserting a test case into these tools and take a look at the result. You can try to break the micromarking and look at the error output.
+
+instructions: |
+  Create an organization markup in which you specify:
+
+ * Organization name
+ * Organization email
+
+  You can use tags at your discretion. All semantics are built at the micro-marking level. Use `http://schema.org/Organizationas` the vocabulary

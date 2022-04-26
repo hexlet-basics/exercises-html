@@ -1,0 +1,111 @@
+---
+
+name: Text input field
+theory: |
+  The main element in HTML forms is the input box. It's implemented using the `<input>` tag and allows you to specify various fields for data entry: text, passwords, checkboxes, radio buttons, submit buttons, file upload, date input, and so on.
+
+  Since the HTML5 standard, the list of fields has been expanded with many new options. The basic types of inputs are:
+
+  * Text
+	* Password
+	* Checkbox
+	* Radio button
+
+  The easiest way to use `<input>` is to create a text input box. `<input>` is present in all search fields. To create a simple text field to enter data, you must add a tag `<input>` inside the form and specify its `type` attribute with a value of `text`:
+
+  ```html
+  <form>
+    <input type="text">
+  </form>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <form>
+      <input type="text">
+    </form>
+  </div>
+
+  ## label tag
+
+  The field has been created, but it doesn't say anything about what should be entered there: first name? or last name? the code to a safe? To specify the purpose of the field, you should use the `<label>` tag. This is a paired tag that resembles a paragraph but refers specifically to the description of a form field.
+
+  ```html
+  <form>
+    <label>Enter a name</label>
+    <input type="text">
+  </form>
+  ```
+
+  Actually, it's not enough just to specify a label, you need to link it with a form field. You need this to make sure that information is communicated unambiguously since there can be lots of fields.
+
+  You can use one of two options to show the label:
+
+  * Linking via attribute `id`. To do this, the `<input>` tag is specified with the `id` attribute with an arbitrary value, and the `for` attribute is added to the `<label>` tag with the same name as the value of the `input`'s `id`
+
+  ```html
+  <form>
+    <label for="name">Enter a name</label>
+    <input type="text" id="name">
+  </form>
+  ```
+
+  * Linking through nesting. Did you notice that `<label>` is a paired tag? You can insert an `input` inside the `label`, and then they will automatically link to each other
+
+  ```html
+  <form>
+    <label>Enter a name
+      <input type="text">
+    </label>
+  </form>
+  ```
+
+  ## placeholder attribute
+
+  There are situations where there is a description for the field, but it's unclear what data should be put in there. For example, should it be first name and then last name, or vice versa? The `<input>` tag's `placeholder` attribute can be used to help the user. The value of this attribute will be displayed inside the text field.
+
+  ```html
+  <form>
+    <label for="name">Enter name and surname</label>
+    <input type="text" id="name" placeholder="John Smith">
+  </form>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <form>
+      <label for="name">Enter name and surname</label>
+      <input type="text" id="name" placeholder="John Smith">
+    </form>
+  </div>
+
+  ## Other text inputs
+
+  Have you noticed that when you enter passwords, the browser automatically puts asterisks instead of displaying characters? This can be achieved by specifying a `password` value for the `type` attribute:
+
+  ```html
+  <form>
+    <label for="pin">Enter a pin code</label>
+    <input type="password" id="pin" placeholder="1234">
+  </form>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <form>
+      <label for="pin">Enter a pin code</label>
+      <input type="password" id="pin" placeholder="1234">
+    </form>
+  </div>
+
+  The HTML5 standard has some more interesting types for the `<input>` tag that implement the usual text box but do it in their own way. For example:
+
+  * `email`
+  * `number`
+  * `search`
+  * `tel`
+  * `url`
+
+  Their purpose is to ensure that the values are automatically checked for correctness by the browser. For example, if you assign an `email` value, the browser will expect the correct format for an email address. Otherwise, it will indicate that the value is invalid when you try to submit the form.
+
+  Mobile devices can't bypass these fields either. In modern versions of mobile operating systems, the keyboard adjusts to the type of field being filled in. If the `email` type is set, the `@` symbol will be added to the keyboard immediately, so you don't have to search for it amongst the additional characters
+
+instructions: |
+  Create a form with a data handler file at `/people`. Create two text fields inside the form.
