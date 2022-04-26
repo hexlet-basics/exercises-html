@@ -3,7 +3,7 @@
 name: Micromarking
 
 theory: |
- Speaking of semantics, we mentioned the micromarking markup format earlier, which is used by search engine crawlers to analyze information on the page. Proper page markup with micromarking helps to display not only the link to the site and its description in the search query results, but also additional information:
+  Speaking of semantics, we mentioned the micromarking markup format earlier, which is used by search engine crawlers to analyze information on the page. Proper page markup with micromarking helps to display not only the link to the site and its description in the search query results, but also additional information:
 
   *	Name of organization
   *	Opening hours
@@ -12,7 +12,7 @@ theory: |
 
   Micromarking is a tool that is implemented using the additional attributes of HTML tags.
 
-## Schema.org
+  ## Schema.org
 
   Developers have created several variants of micromarking, the most common of which is Schema.org with a wide range of vocabularies to describe the information on the page.
 
@@ -27,9 +27,9 @@ theory: |
 
   It is impossible to give a complete explanation on micromarking in one lesson. This is a big topic, with many different nuances. As you gain experience, you'll learn to quickly identify the information you need and mark it up. Micromarking has a huge range of abilities, both in terms of visual presentation of information in a search engine, and for search engine promotion, and it's simple to use.
 
-## Contact details micromarking
+  ## Contact details micromarking
 
- For example, let's take the contact information from the fictional company Proud, and mark up the contacts using Schema.org. Initially, the contact block looks like this:
+  For example, let's take the contact information from the fictional company Proud, and mark up the contacts using Schema.org. Initially, the contact block looks like this:
 
  ```html
  <section>
@@ -95,7 +95,7 @@ theory: |
 instructions: |
   Create an organization markup in which you specify:
 
- * Organization name
- * Organization email
+  * Organization name
+  * Organization email
 
   You can use tags at your discretion. All semantics are built at the micro-marking level. Use `http://schema.org/Organizationas` the vocabulary

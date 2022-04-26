@@ -7,9 +7,9 @@ theory: |
   Since the HTML5 standard, the list of fields has been expanded with many new options. The basic types of inputs are:
 
   * Text
-	* Password
-	* Checkbox
-	* Radio button
+  * Password
+  * Checkbox
+  * Radio button
 
   The easiest way to use `<input>` is to create a text input box. `<input>` is present in all search fields. To create a simple text field to enter data, you must add a tag `<input>` inside the form and specify its `type` attribute with a value of `text`:
 
