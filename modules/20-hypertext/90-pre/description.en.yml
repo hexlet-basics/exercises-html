@@ -1,0 +1,51 @@
+---
+
+name: Formatted text
+theory: |
+
+  Sometimes you need to insert text while retaining its original formatting. Let's take a look at Mayakovsky's famous "ladder" from the poem "To Sergei Yesenin.
+
+  <div class="hexlet-basics-example">
+      <pre>
+      As the saying says,
+                      you are
+                            now far.
+      Void and stars,
+              a stodgy kind
+                            passover.
+      Not a payday,
+                  not a whiskey bar.
+      Sober.
+      </pre>
+  </div>
+
+  Vladimir Mayakovsky believed that it was in this form that the rhythm of verse could best be framed.
+
+  It is very difficult to format such text using special characters in HTML. You have to "juggle" with space characters. These markings will be very difficult to maintain in the future as a result:
+
+  ```html
+  <p>As the saying says,</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you are</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;now far.</p>
+  ```
+
+  To solve this problem, there is a special tag called `<pre>`, whose task is to display the text within itself while saving all the space characters. By default, the `<pre>` tag outputs text in a monospaced font in which all characters have the same width, unlike regular fonts.
+
+  ```html
+  <pre>
+  As the saying says,
+                you are
+                      now far.
+  Void and stars,
+          a stodgy kind
+                      passover.
+  Not a payday,
+              not a whiskey bar.
+  Sober.
+  </pre>
+  ```
+
+  Inside the `pre` tag, you can use tags to format the text: `<i>`, `<em>`, `<b>`, `<strong>`.
+
+instructions: |
+  Add any text to the `<pre>` tag and paste it into the editor. Try different versions of the texts.

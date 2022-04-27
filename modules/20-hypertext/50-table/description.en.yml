@@ -29,13 +29,13 @@ theory: |
   ```html
   <table>
     <tr> <!-- Line -->
-      <td>«Tota» Chocolate</td> <!-- Cell -->
+      <td>"Tota" Chocolate</td> <!-- Cell -->
       <td>100 gram</td>
       <td>20 dollars</td>
     </tr>
 
     <tr> <!-- Line -->
-      <td>«Tota TeamLead» Chocolate</td> <!-- Ячейка -->
+      <td>"Tota TeamLead" Chocolate</td> <!-- Cell -->
       <td>100 gram</td>
       <td>50 dollars</td>
     </tr>
@@ -45,13 +45,13 @@ theory: |
   <div class="hexlet-basics-example my-3">
     <table class="table-bordered m-0 w-100">
       <tr> <!-- Line -->
-        <td>«Tota» Chocolate</td> <!-- Cell -->
+        <td>"Tota" Chocolate</td> <!-- Cell -->
         <td>100 gram</td>
         <td>20 dollars</td>
       </tr>
 
       <tr> <!-- Line -->
-        <td>«Tota TeamLead» Chocolate</td> <!-- Cell -->
+        <td>"Tota TeamLead" Chocolate</td> <!-- Cell -->
         <td>100 gram</td>
         <td>50 dollars</td>
       </tr>
@@ -79,13 +79,13 @@ theory: |
     </thead>
 
     <tr>
-      <td>«Tota» Chocolate</td>
+      <td>"Tota" Chocolate</td>
       <td>100 gram</td>
       <td>20 dollars</td>
     </tr>
 
     <tr>
-      <td>«Tota TeamLead» Chocolate</td>
+      <td>"Tota TeamLead" Chocolate</td>
       <td>150 gram</td>
       <td>50 dollars</td>
     </tr>
@@ -103,13 +103,13 @@ theory: |
       </thead>
 
       <tr>
-        <td>«Tota» Chocolate</td>
+        <td>"Tota" Chocolate</td>
         <td>100 gram</td>
         <td>20 dollars</td>
       </tr>
 
       <tr>
-        <td>«Tota TeamLead» Chocolate</td>
+        <td>"Tota TeamLead" Chocolate</td>
         <td>150 gram</td>
         <td>50 dollars</td>
       </tr>
@@ -130,13 +130,13 @@ theory: |
 
     <tbody> <!-- Table body -->
       <tr>
-        <td>«Tota» Chocolate</td>
+        <td>"Tota" Chocolate</td>
         <td>100 gram</td>
         <td>20 dollars</td>
       </tr>
 
       <tr>
-        <td>«Tota TeamLead» Chocolate</td>
+        <td>"Tota TeamLead" Chocolate</td>
         <td>150 gram</td>
         <td>50 dollars</td>
       </tr>
@@ -151,7 +151,7 @@ theory: |
 
   ```html
   <table>
-    <caption>«Hexlet» chocolate assortment</caption>
+    <caption>"Hexlet" chocolate assortment</caption>
     <thead>
       <tr>
         <th>Yummy</th>
@@ -162,13 +162,13 @@ theory: |
 
     <tbody>
       <tr>
-        <td>«Tota» chocolate</td>
+        <td>"Tota" chocolate</td>
         <td>100 gram</td>
         <td>20 dollars</td>
       </tr>
 
       <tr>
-        <td>«Tota TeamLead» chocolate</td>
+        <td>"Tota TeamLead" chocolate</td>
         <td>150 gram</td>
         <td>50 dollars</td>
       </tr>
@@ -178,7 +178,7 @@ theory: |
 
   <div class="hexlet-basics-example my-3">
     <table class="table-bordered m-0">
-      <caption>«Hexlet» chocolate assortment</caption>
+      <caption>"Hexlet" chocolate assortment</caption>
       <thead>
         <tr>
           <th>Yummy</th>
@@ -189,13 +189,13 @@ theory: |
 
       <tbody>
         <tr>
-          <td>«Tota» chocolate</td>
+          <td>"Tota" chocolate</td>
           <td>100 gram</td>
           <td>20 dollars</td>
         </tr>
 
         <tr>
-          <td>«Tota TeamLead» chocolate</td>
+          <td>"Tota TeamLead" chocolate</td>
           <td>150 gram</td>
           <td>50 dollars</td>
         </tr>

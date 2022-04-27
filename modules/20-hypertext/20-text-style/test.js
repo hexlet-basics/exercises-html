@@ -5,5 +5,5 @@ test(({ query, expect }) => {
   expect(b).to.have.text('курсы');
 
   const em = query(document, 'p > em', HTMLElement);
-  expect(em).to.have.text('по программированию');
+  expect(em).to.have.text('programming');
 });
