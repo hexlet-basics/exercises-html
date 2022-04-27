@@ -1,6 +1,6 @@
 ---
 
-name: Чекбокс
+name: Checkbox
 theory: |
   In online stores, purchases are often made by specifying the category that we want to search in. Checkboxes are used to implement multiple choices.
 

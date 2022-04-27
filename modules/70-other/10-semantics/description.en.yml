@@ -1,6 +1,6 @@
 ---
 
-name: Семантический WEB
+name: Semantic Web
 theory: |
 
   With the increase in the number of pages on the Internet, reading information has become a problem not just for humans, but also for bots. While a human can separate meaningful blocks from each other, see the arrangement, and quickly find the part of the page they need, a bot sees the entire page as text and can't break it down on its own to analyze the meaning of the information.
