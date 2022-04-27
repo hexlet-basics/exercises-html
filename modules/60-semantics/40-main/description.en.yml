@@ -44,5 +44,5 @@ instructions: |
   Add a `<main>` section. Insert any content you want inside it.
 
 tips:
-  - `main` is a unique section that is used once per page
+  - main is a unique section that is used once per page
   - In order to easily find an area that should be in `main` try to mentally remove the areas that are on every page. These are the ones that should not be located in the `main` element

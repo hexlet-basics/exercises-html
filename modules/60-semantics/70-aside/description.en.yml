@@ -6,7 +6,7 @@ theory: |
 
   In order to correctly mark up such an area, you can use the `<aside>` tag, within which the sidebar will be located. Let's add a sidebar with an additional menu to the example from the last lesson.
 
-```html
+  ```html
   <header>
     <img src="/logo.png" alt="Logo"> <!-- Site Logo -->
     <nav> <!-- Menu -->
