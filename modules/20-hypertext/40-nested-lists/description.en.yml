@@ -33,7 +33,7 @@ theory: |
   </ul>
   ```
 
-  It is important to note that the nested list is part of the list item and is inside the `<li>`tag:
+  It is important to note that the nested list is part of the list item and is inside the `<li>` tag:
 
   ```html
   <li>Go to the store
@@ -46,8 +46,7 @@ theory: |
 
   This nesting allows you to preserve semantics and indicate that the nested list refers specifically to "Go to the store" and not to any other item.
 
-  You can nest different kinds of lists into each other: bulleted into numbered and vice versa. The main thing is to monitor the opening and closing of tags. In the case of an error, the browser will try to correct the error itself, but it may not be correct
-
+  You can nest different kinds of lists into each other: bulleted into numbered and vice versa. The main thing is to monitor the opening and closing of tags. In the case of an error, the browser will try to correct the error itself, but it may not be correct.
 
 instructions: |
   Create the markup for the list:

@@ -1,0 +1,32 @@
+---
+
+name: Inserting computer code into HTML
+theory: |
+
+  If you have a programming tutorial blog or write articles, then you'll need to demonstrate your code. Every lesson on Code Basics has these blocks:
+
+  ```html
+  <p>You can see the markup here</p>
+  ```
+
+  To create a block of code, use the tag `<code>`, and you can write code in any language there.
+
+  ```javascript
+  // Example code in JavaScript
+  const square = (num) => {
+    return num * num;
+  };
+  ```
+
+  The `<code>` tag is often used with the `<pre>` tag to preserve formatting. If the `<pre>` tag is not used, you have to control line breaks yourself, for example by wrapping each line with a `<p>` tag.
+
+  It's important that all tags inside `<code>` are be processed by the browser, which is why special characters are used inside. Also, a common solution is to wrap the name of the tag in a separate tag, such as `<span>`:
+
+  ```html
+  <code>
+    &lt;<span>p</span>&gt;Insert the p tag as plain text &lt;<span>/p</span>&gt;
+  </code>
+  ```
+
+instructions: |
+  Add any text to the `<code>` tag and paste it into the editor. Try different versions of the texts
