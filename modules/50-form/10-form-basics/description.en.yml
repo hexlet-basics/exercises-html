@@ -8,11 +8,6 @@ theory: |
 
   * [JavaScript](https://code-basics.com/languages/javascript)
 
-#  These questions are covered in more detail at full-fledged professions on Hexlet:
-
-#  * [Backend JavaScript developer (node.js)](https://hexlet.io/professions/backend)
-#  * [PHP developer](https://hexlet.io/professions/php)
-
   Every form begins with the main `<form>` tag which will contain the fields to be filled and an action button.
 
   ```html
