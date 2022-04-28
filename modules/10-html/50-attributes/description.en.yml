@@ -38,7 +38,7 @@ theory: |
   In this lesson, we explored the concept of attributes and their notation. We learned how `title` and `class` attributes work, and that attributes can be either global or unique to HTML elements. Global attributes can be used for any tag, while unique attributes can only be used for specific ones.
 
 instructions: |
-  Create a paragraph with any text and a tooltip. Add the class`hexlet` to it.
+  Create a paragraph with any text and a tooltip. Add the class `hexlet` to it.
 
 tips:
   - All global attributes can be viewed on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)

@@ -37,7 +37,7 @@ theory: |
   The italic emphasis is very similar to the bold emphasis, but it emphasizes the key part, not the key part. For example:
 
   ```html
-  <p><i>Code Basics</i> — <em>бесплатные курсы</em> по программированию</p>
+  <p><i>Code Basics</i> — <em>programming</em> free courses</p>
   ```
 
   <div class="hexlet-basics-example my-3">
