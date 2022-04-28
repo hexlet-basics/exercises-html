@@ -10,11 +10,11 @@ theory: |
   <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Примеры ошибок</title>
+    <title>Examples of errors</title>
   </head>
   <body>
-    <p>Текст</span> <!-- Закрыли не тот тег -->
-    <img src="images.png"> <!-- Не указали обязательный атрибут alt -->
+    <p>Текст</span> <!-- Closed the wrong tag -->
+    <img src="images.png"> <!-- Required alt attribute not specified -->
   </body>
   </html>
   ```
