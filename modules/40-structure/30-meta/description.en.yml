@@ -7,7 +7,7 @@ theory: |
 
   When displaying the results of a search query (for example, in Google), this title and description are shown too.
 
-  ![Результат поискового запроса. Показывается заголовок и описание](https://i.imgur.com/EuyLx3m.png)
+  ![The result of the search query. The title and description are shown](https://raw.githubusercontent.com/hexlet-basics/exercises-html/main/modules/40-structure/30-meta/assets/search_en.png)
 
   When you add an article from a site to a social media page, a picture and a description will appear.
 

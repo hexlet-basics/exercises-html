@@ -11,7 +11,7 @@ theory: |
 
   The right semantics also allow devices to perceive parts of the website correctly. For example, reading mode on phones tries to discard unrelated blocks of content to leave only the meaningful part.
 
-  # ![Стандартное отображение урока на Code Basics и отображение в режиме чтения](https://i.imgur.com/ZmsmYGT.jpg)
+  ![Standard lesson view on Code Basics and reading mode](https://raw.githubusercontent.com/hexlet-basics/exercises-html/main/modules/70-other/10-semantics/assets/mode_en.jpg)
 
   There are two implementations of the semantic web:
 
