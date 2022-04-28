@@ -5,7 +5,7 @@ theory: |
 
   Almost all tabs in the browser have small icons called _favicons_. They, like the header, allow you to quickly navigate through the tabs and go to the right one. They are used by search engines, showing next to the name of the page in a search.
 
-  ![Фавиконка и название страницы на вкладке](https://i.imgur.com/PATzgdE.png)
+  ![Tab name in browser](https://raw.githubusercontent.com/hexlet-basics/exercises-html/main/modules/40-structure/40-link/assets/tabs_en.png)
 
   In order to set a favicon for your page, use the tag `<link>`, which specifies two attributes:
 
