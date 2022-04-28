@@ -5,7 +5,7 @@ theory: |
   In many forms, the user often has to choose from a variety of options. This can be the categories we want to search by, or a choice of different search options. The most common solution is to use drop-down lists:
 
   <div class="hexlet-basics-example my-3">
-    <p class="lead">В какой категории искать?</p>
+    <p class="lead">Choose a category to search</p>
     <form>
       <select class="form-select">
         <option>JS</option>

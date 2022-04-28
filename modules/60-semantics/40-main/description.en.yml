@@ -3,7 +3,7 @@
 name: Unique page content
 theory: |
 
-  Each HTML page contains unique content that is found only on that page. This area is marked with a paired ]`<main>` tag. This will help devices for people with disabilities and web crawlers understand where the main content on the page is located faster.
+  Each HTML page contains unique content that is found only on that page. This area is marked with a paired `<main>` tag. This will help devices for people with disabilities and web crawlers understand where the main content on the page is located faster.
 
   Let's take the header we created and add an area with unique content to it:
 
