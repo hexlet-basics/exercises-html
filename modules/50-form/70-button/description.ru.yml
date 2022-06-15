@@ -21,6 +21,7 @@ theory: |
       Введите ваш запрос
       <input type="search">
     </label>
+    <br>
     <select>
       <option disabled>В каком разделе искать?</option>
       <option>JS</option>
