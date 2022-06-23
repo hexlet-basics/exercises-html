@@ -65,14 +65,14 @@ theory: |
 
   ```html
   <form>
-    <label for="name">Введите имя и фамиилию</label>
+    <label for="name">Введите имя и фамилию</label>
     <input type="text" id="name" placeholder="Иван Иванов">
   </form>
   ```
 
   <div class="hexlet-basics-example my-3">
     <form>
-      <label for="name">Введите имя и фамиилию</label>
+      <label for="name">Введите имя и фамилию</label>
       <input type="text" id="name" placeholder="Иван Иванов">
     </form>
   </div>
