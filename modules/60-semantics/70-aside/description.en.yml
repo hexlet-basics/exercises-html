@@ -21,9 +21,9 @@ theory: |
   <aside> <!-- Sidebar -->
     <nav> <!-- Additional page menu -->
       <ul>
-        <li><a href="/service-1/">Услуга 1</a></li>
-        <li><a href="/service-2/">Услуга 2</a></li>
-        <li><a href="/service-3/">Услуга 3</a></li>
+        <li><a href="/service-1/">Service 1</a></li>
+        <li><a href="/service-2/">Service 2</a></li>
+        <li><a href="/service-3/">Service 3</a></li>
       </ul>
     </nav>
   </aside>
