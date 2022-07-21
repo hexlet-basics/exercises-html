@@ -11,10 +11,7 @@ test(({ query, expect }) => {
   expect(select).to.be.visible;
   expect(select).to.have.attr('multiple');
 
-  expect(inputs).to.have.length(2);
-  inputs.forEach((input) => {
-    expect(input).to.have.attr('type', 'text');
-  });
+  expect(options).to.have.length(3);
 
   expect(button).to.be.visible;
 });
