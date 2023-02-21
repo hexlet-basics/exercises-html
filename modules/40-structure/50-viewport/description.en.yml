@@ -63,4 +63,4 @@ theory: |
   ```
 
 instructions: |
-  Add a viewport meta tag with a screen width of 1024px and no user scalability
+  Add a viewport meta tag with a screen width of 1024 and no user scalability
