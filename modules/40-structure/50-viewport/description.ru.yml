@@ -56,7 +56,7 @@ theory: |
   <meta name="viewport" content="width=980, initial-scale=1.0, user-scalable=no">
   ```
 
-  ## Базовое использование метатега viewport
+  ### Базовое использование метатега viewport
 
   ```html
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
