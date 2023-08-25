@@ -1,66 +1,65 @@
 ---
 
-name: Text Formatting
+name: Estilo del Texto
 theory: |
+  Cualquier texto contiene partes clave que deseamos transmitir al lector. Estas pueden ser definiciones, sugerencias o ideas clave. Si el texto es muy extenso, estas partes pueden perderse o incluso no ser detectadas. ¿Cómo podemos ayudar al navegador y al usuario a encontrar rápidamente estas partes en la página? En la marcación HTML, se pueden usar _negritas_ y _cursivas_ con fines de resaltado.
 
-  Any text contains key parts that you want to convey to the reader. These can be definitions, tips, or key ideas. If there is a lot of text, such parts can be lost or not be discovered at all. How can you help the browser and the user quickly find such parts on the page? In HTML markup, you can use **bold** and _italic_ formatting for these purposes.
+  ## Resaltado en Negritas
 
-  ## Bold Formatting
-
-  To highlight text in bold, one of two paired tags is used: `<b>` or `<strong>`:
+  Para resaltar el texto en negritas, se utiliza uno de los dos pares de etiquetas: `<b>` o `<strong>`:
 
   ```html
-  <p>Code Basics — <b>programming</b> courses.</p>
+  <p>Code Basics — <b>cursos</b> de programación.</p>
   ```
 
   <div class="hexlet-basics-example my-3">
-    <p class="m-0">Code Basics — <b>programming</b> courses.</p>
+    <p class="m-0">Code Basics — <b>cursos</b> de programación.</p>
   </div>
 
   ```html
-  <p>HTML — <strong>hypertext markup language</strong></p>
+  <p>HTML — <strong>lenguaje de marcado de hipertexto</strong></p>
   ```
 
   <div class="hexlet-basics-example my-3">
-    <p class="m-0">HTML — <strong>hypertext markup language</strong></p>
+    <p class="m-0">HTML — <strong>lenguaje de marcado de hipertexto</strong></p>
   </div>
 
-  Both examples illustrate adding bold formatting to a section of text. But why were two different tags used for visually identical results? It's all about _semantics_, or the meaning. In this case, the meaning of the tag is:
+  Ambos ejemplos ilustran cómo agregar formato en negritas a un fragmento de texto. Pero, ¿por qué se utilizaron dos etiquetas diferentes para lograr resultados visualmente iguales? Esto se debe a la _semántica_, es decir, el significado. En este caso, el significado de la etiqueta es:
 
-  * `<b>` — simple text highlighting. It can be used anywhere to visually highlight text. This tag does not carry any semantic load.
-  * `<strong>` — logical emphasis on an important part of the text. This tag carries semantic meaning and marks the important part. It should not be applied to all parts indiscriminately.
+  * `<b>` — resaltar simplemente el texto. Puede usarse en cualquier lugar para resaltar visualmente el texto. Esta etiqueta no lleva consigo ningún significado semántico
+  * `<strong>` — resaltar lógicamente una parte importante del texto. Esta etiqueta tiene un significado semántico y resalta una parte importante. No debe usarse en todas las partes indiscriminadamente
 
-  At one time, developers wanted these tags to look different and behave differently for browsers, but history took a slightly different path. It is now considered redundant to use `<b>` for visual highlighting, and CSS should be used for visual highlighting, while `<strong>` should be used for important parts.
+  En el pasado, los desarrolladores querían que estas etiquetas tuvieran una apariencia diferente y se comportaran de manera diferente en el navegador, pero la historia tomó un rumbo diferente. Actualmente, se considera excesivo el uso de `<b>` para el resaltado visual y se debe utilizar CSS para eso, mientras que `<strong>` se usa para resaltar partes importantes.
 
-  ## Italic Formatting
+  ## Resaltado en Cursiva
 
-  In terms of meaning, italic formatting is very similar to bold formatting, but it emphasizes not a key part, but rather adds emphasis. For example:
+  En su significado, el resaltado en cursiva es muy similar al resaltado en negritas, pero en lugar de enfatizar partes clave, se pone énfasis. Por ejemplo:
 
   ```html
-  <p><i>Code Basics</i> — <em>free courses</em> on programming</p>
+  <p><i>Code Basics</i> — <em>cursos gratuitos</em> de programación</p>
   ```
 
   <div class="hexlet-basics-example my-3">
-    <p class="m-0"><i>Code Basics</i> — <em>free courses</em> on programming</p>
+    <p class="m-0"><i>Code Basics</i> — <em>cursos gratuitos</em> de programación</p>
   </div>
 
-  In this example, two parts of the text were marked up:
+  En este ejemplo, se marcaron dos partes del texto:
 
-  * The `<i>` tag was used to mark the name of the Code Basics portal. The tag is intended for visually highlighting text in italics and does not carry any semantic load.
-  * The `<em>` tag was used to highlight the phrase "free courses". This is a logical emphasis on the free nature of the courses, which was given to the sentence. There are many courses, but there are no free ones, so it is worth adding emphasis to this part of the sentence.
+  * Se utilizó la etiqueta `<i>` para marcar el nombre del portal "Code Basics". Esta etiqueta se usa para resaltar visualmente el texto en cursiva y no lleva consigo ningún significado semántico
+  * Se utilizó la etiqueta `<em>` para resaltar la frase "cursos gratuitos". Este énfasis lógico está en la gratuidad de los cursos, que se destaca en la oración. Hay muchos cursos, pero no todos son gratuitos, por lo que se enfatiza esta parte de la oración
 
 instructions: |
-  Add the phrase
+  Agrega al editor la siguiente frase
 
   <div class="hexlet-basics-example my-3">
-    <span>Hexlet — hands-on programming courses</span>
+    <span>Hexlet — cursos prácticos de programación</span>
   </div>
 
-  to the editor, where you should make the word "courses" bold (physical formatting) and emphasize the combination "programming" in italics (logical formatting). Don't forget to wrap the phrase in a paragraph.
+  donde la palabra "cursos" esté en negritas (formato físico) y el conjunto "programación" esté en cursiva (formato lógico). No olvides rodear la frase con una etiqueta de párrafo (`<p>`).
 
 definitions:
-  - name: Semantics
-    description: The meaning. In the context of HTML, it refers to the semantic choice of markup for a piece of information.
+  - name: Semántica
+    description: El significado. En el contexto de HTML, la elección semántica de la marca para un fragmento de información.
 tips:
-  - Tags for visual highlighting are shorter than those for semantic highlighting. This will help you remember when to use `<i>` and `<b>`, and when to use `<em>` and `<strong>`.
-  - In practice, CSS is used for styling instead of `<i>` and `<b>`.
+  - Las etiquetas para resaltar visualmente son más cortas que las de resaltado semántico. Esto puede ayudar a recordar cuándo usar `<i>` y `<b>` versus `<em>` y `<strong>`.
+  - En la práctica, se prefiere usar estilos CSS en lugar de `<i>` y `<b>`.

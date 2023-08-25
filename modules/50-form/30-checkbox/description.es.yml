@@ -1,65 +1,55 @@
 ---
 
-name: Checkbox
+name: Casillas de Verificación (Checkboxes)
 theory: |
-  In online stores, search is often implemented by specifying categories in which we want to search for products. Checkboxes (or, as they are also called, flags) are used to implement multiple selection.
+  En las tiendas en línea, a menudo se utiliza la selección por categorías para realizar búsquedas de productos. Para implementar la selección múltiple, existen las casillas de verificación (checkboxes).
 
-  Checkboxes allow selecting multiple items from the options presented:
+  Las casillas de verificación permiten seleccionar varios elementos de los presentados:
 
   <div class="hexlet-basics-example">
-    <form>
+    <form action="/people" method="post">
       <label>
-        <input type="checkbox">
+        <input type="checkbox" name="languages" value="HTML">
         Quiero aprender HTML
       </label>
       <br>
       <label>
-        <input type="checkbox">
+        <input type="checkbox" name="languages" value="CSS">
         Quiero aprender CSS
-      </label>
-      <br>
-      <label>
-        <input type="checkbox">
-        Quiero aprender JS
-      </label>
-      <br>
-      <label>
-        <input type="checkbox">
-        Quiero aprender otro lenguaje
       </label>
     </form>
   </div>
 
-  To create a checkbox, two tags are used:
+  Para crear una casilla de verificación se utilizan dos etiquetas:
 
-  * `<input>` with `type="checkbox"`
-  * `<label>` containing the text associated with the checkbox we need
+  * `<input>` con el atributo `type="checkbox"`
+  * `<label>`, que contendrá el texto relacionado con la casilla de verificación que queremos
 
-  There are two ways to associate `<label>` with `<input>`:
+  Hay dos formas de asociar `<label>` con `<input>`:
 
-  * Association by `id`. To do this, you need to assign a unique `id` to `<input>` and associate `<label>` with the checkbox using the `for` attribute.
+  * Asociación por `id`. Para ello, es necesario asignar un `id` único a `<input>` y vincular el `<label>` con la casilla de verificación utilizando el atributo `for`
 
   ```html
   <form>
-    <input id="html" type="checkbox">
+    <input id="html" type="checkbox" name="languages" value="HTML">
     <label for="html">Quiero aprender HTML</label>
   </form>
   ```
 
-  * Nest `<input>` inside the `<label>` tag. In this case, specifying a unique `id` is not required.
+  * Anidar `<input>` dentro de la etiqueta `<label>`. En este caso, no es necesario asignar un `id` único
 
   ```html
   <form>
     <label>
-      <input type="checkbox">
+      <input type="checkbox" name="languages" value="HTML">
       Quiero aprender HTML
     </label>
   </form>
   ```
 
-  To be able to determine which items were selected after submitting the form to the server, the `value` attribute is used, inside which there is a value that allows identifying the checkbox.
+  Para que después de enviar el formulario al servidor se pueda determinar qué elementos se seleccionaron, se utiliza el atributo `value`, que contiene el valor que permite identificar la casilla de verificación.
 
-  Since there can be many checkboxes on the page, and they can belong to different forms, the `name` attribute is used to determine a specific group of checkboxes. Each group of checkboxes is assigned its own name, which can be used to separate groups of checkboxes when processing on the server.
+  Dado que puede haber muchas casillas de verificación en la página y pueden pertenecer a diferentes formularios, se utiliza el atributo `name` para determinar grupos específicos de casillas de verificación. Cada grupo de casillas de verificación tiene su propio nombre, lo que permite separar los grupos de casillas de verificación al procesar los datos en el servidor.
 
   ```html
   <form>
@@ -72,13 +62,8 @@ theory: |
       <input type="checkbox" name="languages" value="CSS">
       Quiero aprender CSS
     </label>
-    <br>
-    <label>
-      <input type="checkbox" name="languages" value="JS">
-      Quiero aprender JS
-    </label>
   </form>
   ```
 
 instructions: |
-  Create a form with a data handler file located at `/people`. Inside the form, create 2 checkboxes. Associate them by nesting `<input>` inside `<label>`. Don't forget to add the `name` and `value` attributes.
+  Crea un formulario cuya acción apunte a `/people`. Dentro del formulario, crea 2 casillas de verificación. Asocia las casillas anidando `<input>` dentro de `<label>`. No olvides agregar los atributos `name` y `value`.

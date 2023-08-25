@@ -1,32 +1,31 @@
 ---
 
-name: Inserting computer code into HTML
+name: Inserción de Código de Computadora en HTML
 theory: |
-
-  When creating educational programming blogs or writing articles, there is a need to demonstrate code. Each lesson on Code Basics has such blocks:
+  Al escribir blogs educativos sobre programación o artículos, a menudo es necesario mostrar fragmentos de código. En cada lección de Code Basics, hay bloques de código similares a este:
 
   ```html
-  <p>Here you can see the markup</p>
+  <p>Este es un ejemplo de código</p>
   ```
 
-  To create a code block, the `<code>` tag is used, inside which code in any programming language is written.
+  Para crear un bloque de código se utiliza la etiqueta `<code>`, dentro de la cual se coloca el código en cualquier lenguaje de programación.
 
   ```javascript
-  // Example JavaScript code
-  const square = (num) => {
+  // Ejemplo de código en JavaScript
+  const cuadrado = (num) => {
     return num * num;
   };
   ```
 
-  The `<code>` tag is often used together with the `<pre>` tag, which allows preserving formatting. If the `<pre>` tag is not used, line breaks need to be controlled manually, for example, by wrapping each line in the `<p>` tag.
+  A menudo se utiliza la etiqueta `<code>` junto con la etiqueta `<pre>` para preservar el formato. Si no se utiliza la etiqueta `<pre>`, es necesario controlar los saltos de línea manualmente, por ejemplo, envolviendo cada línea con la etiqueta `<p>`.
 
-  It is important that all tags inside `<code>` will be processed by the browser, which is why special characters are used inside. Another common solution is to wrap the tag name in a separate tag, for example `<span>`:
+  Es importante tener en cuenta que todas las etiquetas dentro de `<code>` serán interpretadas por el navegador, por lo que se utilizan caracteres especiales dentro de él. Otra solución común es envolver el nombre de la etiqueta con una etiqueta adicional, como `<span>`:
 
   ```html
   <code>
-    &lt;<span>p</span>&gt;Inserting the p tag as plain text &lt;<span>/p</span>&gt;
+    &lt;<span>p</span>&gt;Insertamos la etiqueta p como texto plano &lt;<span>/p</span>&gt;
   </code>
   ```
 
 instructions: |
-  Add any text to the `<code>` tag and insert it into the editor. Try different variations of text.
+  Agrega cualquier texto dentro de la etiqueta `<code>` y colócalo en el editor. Prueba diferentes variantes de texto.
