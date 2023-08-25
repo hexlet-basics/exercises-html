@@ -1,0 +1,5 @@
+---
+
+name: Fundamentos de la estructura HTML
+description: |
+  Para estandarizar la presentación de texto en un navegador, se desarrolló el lenguaje de marcado HTML, que describe las reglas de formato de los datos de texto. A pesar de su largo desarrollo, los conceptos básicos no han cambiado incluso después de más de 20 años. En el primer módulo, analizaremos los conceptos fundamentales de HTML: etiqueta, atributo, anidamiento de etiquetas y aprenderemos las capacidades básicas para marcar texto utilizando párrafos.

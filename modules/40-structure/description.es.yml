@@ -1,0 +1,5 @@
+---
+
+name: Estructura del documento HTML
+description: |
+  Cada página HTML consta de varios bloques comunes que describen un conjunto de datos: metadatos, título de la página, contenido. Para cada parte, hay bloques y construcciones específicas en el estándar HTML.

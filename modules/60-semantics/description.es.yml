@@ -1,0 +1,5 @@
+---
+
+name: Elementos semánticos de HTML5
+description: |
+  HTML5 introduce una serie de nuevas etiquetas para la marcación semántica. Estas etiquetas ayudan a los navegadores a procesar correctamente el documento y a utilizar el "modo de lectura". Los motores de búsqueda también te lo agradecerán por ayudarles a ver claramente la estructura de tu sitio web. En este módulo, marcaremos una página web típica utilizando las nuevas etiquetas de HTML5.

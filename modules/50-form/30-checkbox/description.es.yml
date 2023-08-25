@@ -1,0 +1,84 @@
+---
+
+name: Checkbox
+theory: |
+  In online stores, search is often implemented by specifying categories in which we want to search for products. Checkboxes (or, as they are also called, flags) are used to implement multiple selection.
+
+  Checkboxes allow selecting multiple items from the options presented:
+
+  <div class="hexlet-basics-example">
+    <form>
+      <label>
+        <input type="checkbox">
+        Quiero aprender HTML
+      </label>
+      <br>
+      <label>
+        <input type="checkbox">
+        Quiero aprender CSS
+      </label>
+      <br>
+      <label>
+        <input type="checkbox">
+        Quiero aprender JS
+      </label>
+      <br>
+      <label>
+        <input type="checkbox">
+        Quiero aprender otro lenguaje
+      </label>
+    </form>
+  </div>
+
+  To create a checkbox, two tags are used:
+
+  * `<input>` with `type="checkbox"`
+  * `<label>` containing the text associated with the checkbox we need
+
+  There are two ways to associate `<label>` with `<input>`:
+
+  * Association by `id`. To do this, you need to assign a unique `id` to `<input>` and associate `<label>` with the checkbox using the `for` attribute.
+
+  ```html
+  <form>
+    <input id="html" type="checkbox">
+    <label for="html">Quiero aprender HTML</label>
+  </form>
+  ```
+
+  * Nest `<input>` inside the `<label>` tag. In this case, specifying a unique `id` is not required.
+
+  ```html
+  <form>
+    <label>
+      <input type="checkbox">
+      Quiero aprender HTML
+    </label>
+  </form>
+  ```
+
+  To be able to determine which items were selected after submitting the form to the server, the `value` attribute is used, inside which there is a value that allows identifying the checkbox.
+
+  Since there can be many checkboxes on the page, and they can belong to different forms, the `name` attribute is used to determine a specific group of checkboxes. Each group of checkboxes is assigned its own name, which can be used to separate groups of checkboxes when processing on the server.
+
+  ```html
+  <form>
+    <label>
+      <input type="checkbox" name="languages" value="HTML">
+      Quiero aprender HTML
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" name="languages" value="CSS">
+      Quiero aprender CSS
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" name="languages" value="JS">
+      Quiero aprender JS
+    </label>
+  </form>
+  ```
+
+instructions: |
+  Create a form with a data handler file located at `/people`. Inside the form, create 2 checkboxes. Associate them by nesting `<input>` inside `<label>`. Don't forget to add the `name` and `value` attributes.

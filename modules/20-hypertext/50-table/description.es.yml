@@ -1,0 +1,164 @@
+---
+
+name: Tablas
+theory: |
+
+  Una de las formas más comunes de presentar información son las tablas. Las encontramos en todas partes: información de productos, tablas de multiplicar, documentos. Esta presentación nos permite comparar fácilmente las características de diferentes productos. En la maquetación de páginas, las tablas se utilizan con frecuencia, aunque su maquetación puede ser un poco complicada.
+
+  Una tabla es un elemento compuesto que se forma a partir de varias etiquetas anidadas entre sí. Es similar a cómo se maquetan las listas: hay un contenedor y dentro de él hay etiquetas de elementos especiales.
+
+  La estructura contiene varios elementos principales:
+
+  * `<table>`: área de la tabla
+    * `<tr>`: fila
+    * `<thead>`: encabezado de la tabla
+      * `<th>`: celda de encabezado
+    * `<tbody>`: cuerpo de la tabla
+      * `<td>`: celda
+
+  Cada tabla comienza con la etiqueta de apertura `<table>`
+
+  ```html
+  <table>
+    <!-- Aquí irán los datos de la tabla -->
+  </table>
+  ```
+
+  Dentro de esta etiqueta se crean las filas y columnas de la tabla. Ahora podemos crear filas y columnas. Para ello, se utilizan las etiquetas `<tr>` y `<td>`. Creemos dos filas y tres celdas en cada fila:
+
+  ```html
+  <table>
+    <tr> <!-- Fila -->
+      <td>Chocolate "Tota"</td> <!-- Celda -->
+      <td>100 gramos</td>
+      <td>200 rublos</td>
+    </tr>
+
+    <tr> <!-- Fila -->
+      <td>Chocolate "Tota TeamLead"</td> <!-- Celda -->
+      <td>100 gramos</td>
+      <td>500 rublos</td>
+    </tr>
+  </table>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <table class="table-bordered m-0 w-100">
+      <tr> <!-- Fila -->
+        <td>Chocolate "Tota"</td> <!-- Celda -->
+        <td>100 gramos</td>
+        <td>200 rublos</td>
+      </tr>
+
+      <tr> <!-- Fila -->
+        <td>Chocolate "Tota TeamLead"</td> <!-- Celda -->
+        <td>100 gramos</td>
+        <td>500 rublos</td>
+      </tr>
+    </table>
+  </div>
+
+  ---
+
+  **Importante:** El número de celdas en cada fila debe ser el mismo.
+
+  ---
+
+  Intente insertar este código en el editor. Observe que la salida visual será diferente a la salida de la tabla en la teoría de esta lección. Esto se debe a que, de forma predeterminada, el navegador no muestra los bordes visibles de las celdas de la tabla. Para hacerlo, es necesario utilizar CSS, un lenguaje de estilos especial. Se encontrará con este lenguaje y sus capacidades en otro curso.
+
+  Los datos se muestran, pero faltan los encabezados que describen cada columna. Para crear el encabezado de la tabla, se utiliza la etiqueta `<thead>`, y como etiqueta de celda se utiliza `<th>`. Por lo demás, la estructura de la maquetación no cambia. Añadamos encabezados a la tabla:
+
+  ```html
+  <table>
+    <thead> <!-- Encabezado de la tabla -->
+      <tr>
+        <th>Delicia</th> <!-- Celda de encabezado -->
+        <th>Peso</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+
+    <tr>
+      <td>Chocolate "Tota"</td>
+      <td>100 gramos</td>
+      <td>200 rublos</td>
+    </tr>
+
+    <tr>
+      <td>Chocolate "Tota TeamLead"</td>
+      <td>150 gramos</td>
+      <td>500 rublos</td>
+    </tr>
+  </table>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <table class="table-bordered m-0">
+      <thead> <!-- Encabezado de la tabla -->
+        <tr>
+          <th>Delicia</th> <!-- Celda de encabezado -->
+          <th>Peso</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+
+      <tr>
+        <td>Chocolate "Tota"</td>
+        <td>100 gramos</td>
+        <td>200 rublos</td>
+      </tr>
+
+      <tr>
+        <td>Chocolate "Tota TeamLead"</td>
+        <td>150 gramos</td>
+        <td>500 rublos</td>
+      </tr>
+    </table>
+  </div>
+
+  El último paso es agregar la etiqueta `<tbody>`, que marca la parte principal de la tabla. A menudo, los desarrolladores se olvidan de ella porque los navegadores automáticamente envuelven en ella un grupo de filas que no están envueltas en otras etiquetas. Tenga en cuenta que la etiqueta `<tbody>` suele ser solo una en la tabla. En tablas grandes, se pueden utilizar varios `<tbody>` para separar diferentes secciones de la tabla, pero en la mayoría de los casos no es necesario.
+
+  ```html
+  <table>
+    <thead>
+      <tr>
+        <th>Delicia</th>
+        <th>Peso</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+
+    <tbody> <!-- Cuerpo de la tabla -->
+      <tr>
+        <td>Chocolate "Tota"</td>
+        <td>100 gramos</td>
+        <td>200 rublos</td>
+      </tr>
+
+      <tr>
+        <td>Chocolate "Tota TeamLead"</td>
+        <td>150 gramos</td>
+        <td>500 rublos</td>
+      </tr>
+    </tbody>
+  </table>
+  ```
+
+  También se puede agregar un "footer" a la tabla. Puede contener información resumida, como el costo total de todos los productos.
+
+  Las tablas también pueden tener un título. Esto es útil cuando se muestran varias tablas al mismo tiempo. Ayuda a distinguirlas y no confundirse sobre qué información proporciona cada tabla. Para crear un título para la tabla, se utiliza la etiqueta de apertura `<caption>`. Si hay un título, _siempre_ debe colocarse inmediatamente después de la etiqueta de apertura `<table>`. Agreguemos un título a la tabla:
+
+
+  ```html
+  <table>
+    <caption>Variedad de chocolate "Hexlet"</caption>
+    <thead>
+      <tr>
+        <th>Delicia</th>
+        <th>Peso</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
