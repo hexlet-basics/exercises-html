@@ -1,6 +1,6 @@
 ---
 
-name: Casillas de Verificación (Checkboxes)
+name: Casillas de Verificación
 theory: |
   En las tiendas en línea, a menudo se utiliza la selección por categorías para realizar búsquedas de productos. Para implementar la selección múltiple, existen las casillas de verificación (checkboxes).
 
