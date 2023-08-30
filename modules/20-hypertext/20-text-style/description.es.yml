@@ -27,7 +27,7 @@ theory: |
   Ambos ejemplos ilustran cómo agregar formato en negritas a un fragmento de texto. Pero, ¿por qué se utilizaron dos etiquetas diferentes para lograr resultados visualmente iguales? Esto se debe a la _semántica_, es decir, el significado. En este caso, el significado de la etiqueta es:
 
   * `<b>` — resaltar simplemente el texto. Puede usarse en cualquier lugar para resaltar visualmente el texto. Esta etiqueta no lleva consigo ningún significado semántico
-  * `<strong>` — resaltar lógicamente una parte importante del texto. Esta etiqueta tiene un significado semántico y resalta una parte importante. No debe usarse en todas las partes indiscriminadamente
+  * `<strong>` — resaltar lógicamente una parte importante del texto. Esta etiqueta tiene un significado semántico y resalta una parte importante. No debe aplicarse en todos los segmentos de manera consecutiva
 
   En el pasado, los desarrolladores querían que estas etiquetas tuvieran una apariencia diferente y se comportaran de manera diferente en el navegador, pero la historia tomó un rumbo diferente. Actualmente, se considera excesivo el uso de `<b>` para el resaltado visual y se debe utilizar CSS para eso, mientras que `<strong>` se usa para resaltar partes importantes.
 
