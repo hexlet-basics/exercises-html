@@ -19,11 +19,11 @@ theory: |
 
   ---
 
-  Puede parecer complicado en este momento, pero al estudiar CSS, comprenderá completamente el significado de especificar el `viewport`. En este momento, es importante conocer este metadato y sus principales formas de uso.
+  Puede parecer complicado en este momento, pero al estudiar CSS, comprenderás completamente el significado de especificar el `viewport`. En este momento, es importante conocer este metadato y sus principales formas de uso.
 
   ---
 
-  Tenga en cuenta que los parámetros se establecen dentro del atributo `content`, y las propiedades se separan por comas.
+  Ten en cuenta que los parámetros se establecen dentro del atributo `content`, y las propiedades se separan por comas.
 
   ### Parámetros principales del metadato viewport
 
