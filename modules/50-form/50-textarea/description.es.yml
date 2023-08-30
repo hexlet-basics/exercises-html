@@ -18,7 +18,7 @@ theory: |
   </form>
   ```
 
-  Ten en cuenta que `<textarea>` es una etiqueta de apertura y cierre. Esto significa que puedes incluir texto predeterminado dentro de ella para que el usuario comprenda más rápidamente qué debe ingresar.
+  Ten en cuenta que `<textarea>` es una etiqueta de apertura y cierre. Esto significa que puedes incluir texto predeterminado dentro de ella para que el usuario comprenda con mayor rapidez qué debe ingresar.
 
   Por defecto, la altura y el ancho de `<textarea>` dependen de la configuración del navegador. Esto significa que en diferentes navegadores la altura y el ancho pueden variar. Para establecer un valor consistente, se utilizan los atributos `rows` y `cols`, que indican la cantidad de filas y columnas, respectivamente.
 
