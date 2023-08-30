@@ -42,4 +42,4 @@ theory: |
   Es importante recordar que el uso de los atributos `width` y `height` no cambia el tamaño físico de la imagen, solo cambia el tamaño visual. Para optimizar la página, elija imágenes del tamaño adecuado o redúzcalas utilizando un editor de imágenes o servicios especiales. Hoy en día, muchas personas utilizan teléfonos móviles y conexión a internet móvil, por lo que el peso de la página es importante.
 
 instructions: |
-  Inserte la imagen en el editor desde la dirección https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png y el texto **W3C** para los casos en que la imagen no esté disponible.
+  Inserta la imagen en el editor desde la dirección https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png y el texto **W3C** para los casos en que la imagen no esté disponible.
