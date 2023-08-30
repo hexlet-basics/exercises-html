@@ -19,10 +19,10 @@ theory: |
 
   Pasos para crear un microformato:
 
-  * Seleccione un vocabulario. Puede consultar la documentación para conocer los vocabularios compatibles con un motor de búsqueda en particular. Para el motor de búsqueda Yandex, los vocabularios disponibles se indican [aquí](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.html).
-  * Defina el bloque que se va a marcar. Puede ser un bloque o incluso toda la página del sitio web.
-  * Identifique la información relevante. En el caso de marcar información de contacto, esto incluye el nombre de la organización, el teléfono, el correo electrónico y la dirección.
-  * Especifique los atributos según el tipo de información y el vocabulario seleccionado.
+  * Selecciona un vocabulario. Puedes consultar la documentación para conocer los vocabularios compatibles con un motor de búsqueda en particular. Para el motor de búsqueda Yandex, los vocabularios disponibles se indican [aquí](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.html).
+  * Define el bloque que se va a marcar. Puede ser un bloque o incluso toda la página del sitio web.
+  * Identifica la información relevante. En el caso de marcar información de contacto, esto incluye el nombre de la organización, el teléfono, el correo electrónico y la dirección.
+  * Especifica los atributos según el tipo de información y el vocabulario seleccionado.
 
   No es posible proporcionar instrucciones completas sobre el microformato en una sola lección. Es un tema amplio con muchos matices diferentes. A medida que adquiera experiencia, aprenderá a identificar rápidamente la información necesaria y marcarla correctamente. Con un enfoque sencillo, el microformato ofrece grandes oportunidades tanto en términos de presentación visual de la información en los resultados de búsqueda como para la promoción en motores de búsqueda.
 
