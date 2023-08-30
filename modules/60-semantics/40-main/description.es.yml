@@ -30,7 +30,7 @@ theory: |
   * Encabezado y pie de página general del sitio
   * Logo
 
-  Coloque en `main` solo contenido de texto o gráfico. Es fácil encontrar este contenido en las plantillas, ya que no se duplica en otras páginas.
+  Coloca en `main` solo contenido de texto o gráfico. Es fácil encontrar este contenido en las plantillas, ya que no se duplica en otras páginas.
 
   Dentro del elemento `main` pueden haber áreas de navegación, encabezados, secciones y otros elementos que se estudiarán en este módulo.
 
