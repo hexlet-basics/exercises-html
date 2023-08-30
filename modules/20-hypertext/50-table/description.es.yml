@@ -63,7 +63,7 @@ theory: |
 
   ---
 
-  Intenta copiar este código en el editor. Observa que la presentación visual será diferente a la de la teoría de esta lección. Esto se debe a que, por defecto, los navegadores no muestran bordes visibles para las celdas de la tabla. Para lograrlo, necesitas usar CSS, un lenguaje de estilos especial. Te encontrarás con este lenguaje y sus capacidades en otro curso.
+  Intenta copiar este código en el editor. Observa que la presentación visual será diferente a la de la teoría de esta lección. Esto se debe a que, por defecto, los navegadores no muestran bordes visibles para las celdas de la tabla. Para lograrlo, necesitas usar CSS, un lenguaje de estilos especial. Podrás encontrar este lenguaje y sus capacidades en otro curso.
 
   Los datos ya están presentados, pero faltan encabezados para describir cada columna. Para crear encabezados en la tabla, utiliza la etiqueta `<thead>` y, como celda, la etiqueta `<th>`. Por lo demás, la estructura de marcado no cambia. Complementemos la tabla con encabezados:
 
