@@ -41,10 +41,10 @@ theory: |
     <p class="m-0">Hexlet es un camino completo desde principiante absoluto hasta el primer empleo.</p>
   </div>
 
-  Este ejemplo ilustra que el texto con formato en un procesador de textos se convertirá en una sola línea cuando se abra en un navegador, por lo que la información se marca con etiquetas especiales. A lo largo del curso, veremos etiquetas para crear tablas, listas, enlaces y secciones lógicas de una página. En esta lección, hemos examinado con más detalle los párrafos y la importancia del marcado para mostrar correctamente la información en una página.
+  Este ejemplo ilustra que el texto formateado en un procesador de textos se convertirá en una sola línea cuando se abra en un navegador, por lo que la información se marca con etiquetas especiales. A lo largo del curso, veremos etiquetas para crear tablas, listas, enlaces y secciones lógicas de una página. En esta lección, hemos examinado con más detalle los párrafos y la importancia del marcado para mostrar correctamente la información en una página.
 
 instructions: |
-  Da formato a este texto
+  Formatea este texto
 
   <div class="hexlet-basics-example my-3 bg-light font-monospace">
     <p>El portal de carreras "Moi Krug" ha estudiado el mercado de la educación en TI y ha descubierto en qué escuelas en línea se enseña programación de manera efectiva. En la clasificación final, Hexlet ocupó el segundo lugar.</p>
