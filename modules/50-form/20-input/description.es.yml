@@ -11,7 +11,7 @@ theory: |
   * Casillas de verificación
   * Botones de radio
 
-  La forma más sencilla de utilizar `<input>` es crear un campo de texto para la entrada. Es precisamente `<input>` el que se encuentra en todos los campos de búsqueda. Para crear un campo de texto simple, simplemente agregue la etiqueta `<input>` sin pareja dentro del formulario y especifique el atributo `type` con el valor `text`:
+  La forma más sencilla de utilizar `<input>` es crear un campo de texto para la entrada. Es precisamente `<input>` el que se encuentra en todos los campos de búsqueda. Para crear un campo de texto simple, simplemente agrega la etiqueta `<input>` sin pareja dentro del formulario y especifica el atributo `type` con el valor `text`:
 
   ```html
   <form>
