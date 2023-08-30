@@ -24,7 +24,7 @@ theory: |
   * Identifica la información relevante. En el caso de marcar información de contacto, esto incluye el nombre de la organización, el teléfono, el correo electrónico y la dirección.
   * Especifica los atributos según el tipo de información y el vocabulario seleccionado.
 
-  No es posible proporcionar instrucciones completas sobre el microformato en una sola lección. Es un tema amplio con muchos matices diferentes. A medida que adquiera experiencia, aprenderá a identificar rápidamente la información necesaria y marcarla correctamente. Con un enfoque sencillo, el microformato ofrece grandes oportunidades tanto en términos de presentación visual de la información en los resultados de búsqueda como para la promoción en motores de búsqueda.
+  No es posible proporcionar instrucciones completas sobre el microformato en una sola lección. Es un tema amplio con muchos matices diferentes. A medida que adquieras experiencia, aprenderás a identificar rápidamente la información necesaria y marcarla correctamente. Con un enfoque sencillo, el microformato ofrece grandes oportunidades tanto en términos de presentación visual de la información en los resultados de búsqueda como para la promoción en motores de búsqueda.
 
   ## Microformato de contacto
 
@@ -39,7 +39,7 @@ theory: |
   </section>
   ```
 
-  Primero, debemos seleccionar un vocabulario. Yandex ofrece varias opciones para esto. Utilizaremos el vocabulario "Organization". Puede encontrar una descripción completa de este vocabulario en el sitio web [https://schema.org/](https://schema.org/).
+  Primero, debemos seleccionar un vocabulario. Yandex ofrece varias opciones para esto. Utilizaremos el vocabulario "Organization". Puedes encontrar una descripción completa de este vocabulario en el sitio web [https://schema.org/](https://schema.org/).
 
   ---
 
@@ -61,7 +61,7 @@ theory: |
   </section>
   ```
 
-  Ahora el motor de búsqueda sabrá que la información dentro de este bloque se refiere a una organización. Pasemos a marcar la dirección. _Schema.org_ permite especificar la calle, el número, el edificio, etc., por separado, pero en este caso generalizaremos y utilizaremos solo un valor `itemprop="address"` para indicar la dirección de la empresa. Tenga en cuenta que los elementos de marcado se especifican utilizando el atributo **itemprop**.
+  Ahora el motor de búsqueda sabrá que la información dentro de este bloque se refiere a una organización. Pasemos a marcar la dirección. _Schema.org_ permite especificar la calle, el número, el edificio, etc., por separado, pero en este caso generalizaremos y utilizaremos solo un valor `itemprop="address"` para indicar la dirección de la empresa. Ten en cuenta que los elementos de marcado se especifican utilizando el atributo **itemprop**.
 
   ```html
   <section itemscope itemtype="http://schema.org/Organization">
@@ -72,7 +72,7 @@ theory: |
   </section>
   ```
 
-  Siguiendo el mismo patrón, marquemos el resto de los datos: nombre, teléfono, correo electrónico. Cada uno de ellos tiene su propio valor para el atributo **itemprop**. Tenga en cuenta que solo se marcan los datos, dejando fuera el nombre del campo. Para esto, los datos relevantes se envuelven en ``<span>`` y se les asigna el atributo correspondiente.
+  Siguiendo el mismo patrón, marquemos el resto de los datos: nombre, teléfono, correo electrónico. Cada uno de ellos tiene su propio valor para el atributo **itemprop**. Ten en cuenta que solo se marcan los datos, dejando fuera el nombre del campo. Para esto, los datos relevantes se envuelven en ``<span>`` y se les asigna el atributo correspondiente.
 
   ```html
   <section itemscope itemtype="http://schema.org/Organization">
@@ -91,9 +91,9 @@ theory: |
   Intente insertar el ejemplo de prueba en estas herramientas y observe los resultados. También puede intentar "romper" el microformato y ver los errores que se muestran.
 
 instructions: |
-  Cree un marcado para una organización en la que especifique:
+  Crea un marcado para una organización en la que se especifique:
 
   * El nombre de la organización
   * El correo electrónico de la organización
 
-  Puede utilizar las etiquetas según su criterio. Toda la semántica se basa en el microformato. Utilice el vocabulario `http://schema.org/Organization`.
+  Puedes utilizar las etiquetas según su criterio. Toda la semántica se basa en el microformato. Utiliza el vocabulario `http://schema.org/Organization`.
