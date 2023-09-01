@@ -85,13 +85,13 @@ theory: |
 
     <tbody>
       <tr>
-        <td>Alexey Primadonin</td>
+        <td>Alex Hernández</td>
         <td>750$</td>
         <td>63$</td>
-        <td rowspan="2">Kodoyonok Heksletovich</td>
+        <td rowspan="2">Código Hexly</td>
       </tr>
       <tr>
-        <td>Veniamin Editorovich</td>
+        <td>Víctor López</td>
         <td>1200$</td>
         <td>0</td>
       </tr>
@@ -114,13 +114,13 @@ theory: |
 
       <tbody>
         <tr>
-          <td>Alexey Primadonin</td>
+          <td>Alex Hernández</td>
           <td>750$</td>
           <td>63$</td>
-          <td rowspan="2">Kodoyonok Heksletovich</td>
+          <td rowspan="2">Código Hexly</td>
         </tr>
         <tr>
-          <td>Veniamin Editorovich</td>
+          <td>Víctor López</td>
           <td>1200$</td>
           <td>0</td>
         </tr>
