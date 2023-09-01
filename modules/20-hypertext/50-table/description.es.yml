@@ -30,13 +30,13 @@ theory: |
     <tr> <!-- Fila -->
       <td>Chocolate "Totá"</td> <!-- Celda -->
       <td>100 gramos</td>
-      <td>200 rublos</td>
+      <td>2 dólares</td>
     </tr>
 
     <tr> <!-- Fila -->
       <td>Chocolate "Totá TeamLead"</td> <!-- Celda -->
       <td>100 gramos</td>
-      <td>500 rublos</td>
+      <td>5 dólares</td>
     </tr>
   </table>
   ```
@@ -46,13 +46,13 @@ theory: |
       <tr> <!-- Fila -->
         <td>Chocolate "Totá"</td> <!-- Celda -->
         <td>100 gramos</td>
-        <td>200 rublos</td>
+        <td>2 dólares</td>
       </tr>
 
       <tr> <!-- Fila -->
         <td>Chocolate "Totá TeamLead"</td> <!-- Celda -->
         <td>100 gramos</td>
-        <td>500 rublos</td>
+        <td>5 dólares</td>
       </tr>
     </table>
   </div>
@@ -80,13 +80,13 @@ theory: |
     <tr>
       <td>Chocolate "Totá"</td>
       <td>100 gramos</td>
-      <td>200 rublos</td>
+      <td>2 dólares</td>
     </tr>
 
     <tr>
       <td>Chocolate "Totá TeamLead"</td>
       <td>150 gramos</td>
-      <td>500 rublos</td>
+      <td>5 dólares</td>
     </tr>
   </table>
   ```
@@ -104,13 +104,13 @@ theory: |
       <tr>
         <td>Chocolate "Totá"</td>
         <td>100 gramos</td>
-        <td>200 rublos</td>
+        <td>2 dólares</td>
       </tr>
 
       <tr>
         <td>Chocolate "Totá TeamLead"</td>
         <td>150 gramos</td>
-        <td>500 rublos</td>
+        <td>5 dólares</td>
       </tr>
     </table>
   </div>
@@ -131,13 +131,13 @@ theory: |
       <tr>
         <td>Chocolate "Totá"</td>
         <td>100 gramos</td>
-        <td>200 rublos</td>
+        <td>2 dólares</td>
       </tr>
 
       <tr>
         <td>Chocolate "Totá TeamLead"</td>
         <td>150 gramos</td>
-        <td>500 rublos</td>
+        <td>2 dólares</td>
       </tr>
     </tbody>
   </table>
@@ -163,13 +163,13 @@ theory: |
       <tr>
         <td>Chocolate "Totá"</td>
         <td>100 gramos</td>
-        <td>200 rublos</td>
+        <td>2 dólares</td>
       </tr>
 
       <tr>
         <td>Chocolate "Totá TeamLead"</td>
         <td>150 gramos</td>
-        <td>500 rublos</td>
+        <td>2 dólares</td>
       </tr>
     </tbody>
   </table>
@@ -190,13 +190,13 @@ theory: |
         <tr>
           <td>Chocolate "Totá"</td>
           <td>100 gramos</td>
-          <td>200 rublos</td>
+          <td>2 dólares</td>
         </tr>
 
         <tr>
           <td>Chocolate "Totá TeamLead"</td>
           <td>150 gramos</td>
-          <td>500 rublos</td>
+          <td>5 dólares</td>
         </tr>
       </tbody>
     </table>
