@@ -12,7 +12,7 @@ theory: |
 
   ```javascript
   // Ejemplo de código en JavaScript
-  const cuadrado = (num) => {
+  const square = (num) => {
     return num * num;
   };
   ```

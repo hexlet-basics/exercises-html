@@ -1,6 +1,6 @@
 ---
 
-name: Texto Formateado
+name: Texto con formato
 theory: |
   A veces surge la necesidad de insertar texto manteniendo su formato original. Observemos la famosa "escalera de Mayakovsky" del poema "A Sergey Yesenin".
 
@@ -21,7 +21,7 @@ theory: |
 
   Vladimir Mayakovsky creía que este formato era el mejor para resaltar el ritmo del poema.
 
-  Formatear este texto utilizando caracteres especiales en HTML es muy complicado. Tendrías que "jugar" con caracteres de espacio en blanco. Esto haría que el mantenimiento de este tipo de marcado sea muy difícil en el futuro:
+  Dar formato a este texto utilizando caracteres especiales en HTML es muy complicado. Tendrías que "jugar" con caracteres de espacio en blanco. Esto haría que el mantenimiento de este tipo de marcado sea muy difícil en el futuro:
 
   ```html
   <p>Ustedes se han ido,</p>

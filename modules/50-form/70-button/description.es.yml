@@ -49,10 +49,10 @@ theory: |
     </form>
   </div>
 
-  Si hace clic en el botón "Buscar", la página se recargará y los datos se enviarán al controlador en la misma página. Como no hay un controlador, no habrá resultados visibles aparte de la recarga de la página.
+  Si haces clic en el botón "Buscar", la página se recargará y los datos se enviarán al controlador en la misma página. Como no hay un controlador, no habrá resultados visibles aparte de la recarga de la página.
 
 instructions: |
-  Crea un formulario cuyo controlador de datos se encuentra en la dirección `/people`. Dentro del formulario, coloca los siguientes elementos:
+  Crea un formulario cuyo archivo de procesamiento de datos se encuentre en la dirección `/people`. Dentro del formulario, coloca los siguientes elementos:
 
   * 2 campos de texto `<input>`
   * Una lista con opción de selección múltiple

@@ -40,7 +40,7 @@ theory: |
 
   1. No es necesario envolver cada menú en un elemento `nav`. Por lo general, solo se especifican los menús principales en esta área. Los menús adicionales, como el menú del pie de página, no se envuelven en la etiqueta `<nav>`, aunque esto no está prohibido.
   2. Un buen ejemplo de uso adicional de `nav` es la navegación dentro de la página actual.
-  3. `nav` puede contener no solo enlaces, sino también texto que contiene enlaces. Use el sentido común. Si la navegación es principal para la página o para todo el sitio, envuélvala en la etiqueta `<nav>`.
+  3. `nav` puede contener no solo enlaces, sino también texto que contiene enlaces. Use el sentido común. Si la navegación es principal para la página o para todo el sitio, envuélvela en la etiqueta `<nav>`.
 
 instructions: |
   Crea la estructura de la "cabecera" del sitio. Coloca una imagen y un menú dentro de ella. Utiliza la etiqueta `<nav>` y una lista con viñetas.

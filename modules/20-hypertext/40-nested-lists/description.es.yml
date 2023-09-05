@@ -46,7 +46,7 @@ theory: |
 
   Esta anidación permite mantener la semántica y especificar que la lista anidada se refiere específicamente al elemento "Ir al supermercado" y no a cualquier otro.
 
-  Puede anidar listas de diferentes tipos entre sí: con viñetas y numeradas. Lo más importante es asegurarse de abrir y cerrar las etiquetas correctamente. En caso de error, el navegador intentará corregir el error automáticamente, pero esto puede no ser correcto.
+  Puedes anidar listas de diferentes tipos entre sí: con viñetas y numeradas. Lo más importante es asegurarse de abrir y cerrar las etiquetas correctamente. En caso de error, el navegador intentará corregir el error automáticamente, pero esto puede no ser correcto.
 
 instructions: |
   Crea la estructura para la siguiente lista:
