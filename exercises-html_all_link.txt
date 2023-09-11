@@ -1,0 +1,120 @@
+File modules\10-html\50-attributes\description.es.yml:
+Line 43: https://developer.mozilla.org/es/docs/Web/HTML/Atributos_globales)
+
+File modules\20-hypertext\70-special-characters\description.es.yml:
+Line 20: https://ru.wikipedia.org/wiki/Мнемоники_в_HTML).
+
+File modules\20-hypertext\70-special-characters\description.es.yml:
+Line 35: https://ru.wikipedia.org/wiki/Мнемоники_в_HTML).
+
+File modules\20-hypertext\80-links\description.es.yml:
+Line 34: https://code-basics.com/">Ir
+
+File modules\20-hypertext\80-links\description.es.yml:
+Line 55: https://code-basics.com/
+
+File modules\30-media\10-img\description.es.yml:
+Line 27: https://example.com/images.png"
+
+File modules\30-media\10-img\description.es.yml:
+Line 37: https://example.com/images.png"
+
+File modules\30-media\10-img\description.es.yml:
+Line 45: https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png
+
+File modules\30-media\20-audio\description.es.yml:
+Line 22: https://example.com/audio.mp3">
+
+File modules\30-media\20-audio\description.es.yml:
+Line 23: https://example.com/audio.ogg">
+
+File modules\30-media\20-audio\description.es.yml:
+Line 30: https://www.w3schools.com/html/horse.ogg
+
+File modules\30-media\20-audio\description.es.yml:
+Line 31: https://www.w3schools.com/html/horse.mp3
+
+File modules\30-media\30-video\description.es.yml:
+Line 11: https://example.com/our-video.mp4"
+
+File modules\30-media\30-video\description.es.yml:
+Line 18: https://example.com/our-video.mp4"
+
+File modules\30-media\30-video\description.es.yml:
+Line 19: https://example.com/our-video.webm"
+
+File modules\30-media\30-video\description.es.yml:
+Line 20: https://example.com/our-video.ogg"
+
+File modules\30-media\30-video\description.es.yml:
+Line 37: https://example.com/our-video.mp4"
+
+File modules\30-media\30-video\description.es.yml:
+Line 38: https://example.com/our-video.webm"
+
+File modules\30-media\30-video\description.es.yml:
+Line 39: https://example.com/our-video.ogg"
+
+File modules\30-media\30-video\description.es.yml:
+Line 46: https://www.w3schools.com/html/movie.mp4
+
+File modules\40-structure\30-meta\description.es.yml:
+Line 10: https://i.imgur.com/EuyLx3m.png)
+
+File modules\40-structure\40-link\description.es.yml:
+Line 8: https://i.imgur.com/PATzgdE.png)
+
+File modules\40-structure\40-link\description.es.yml:
+Line 46: https://www.w3schools.com/favicon.ico
+
+File modules\40-structure\40-link\description.es.yml:
+Line 49: https://developer.mozilla.org/es/docs/Web/HTML/Element/link)
+
+File modules\50-form\10-form-basics\description.es.yml:
+Line 9: https://ru.code-basics.com/languages/javascript)
+
+File modules\50-form\10-form-basics\description.es.yml:
+Line 10: https://ru.code-basics.com/languages/php)
+
+File modules\50-form\10-form-basics\description.es.yml:
+Line 14: https://ru.hexlet.io/professions/backend)
+
+File modules\50-form\10-form-basics\description.es.yml:
+Line 15: https://ru.hexlet.io/professions/php)
+
+File modules\70-other\10-semantics\description.es.yml:
+Line 14: https://i.imgur.com/ZmsmYGT.jpg)
+
+File modules\70-other\20-microdata\description.es.yml:
+Line 22: https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.html).
+
+File modules\70-other\20-microdata\description.es.yml:
+Line 42: https://schema.org/](https://schema.org/).
+
+File modules\70-other\20-microdata\description.es.yml:
+Line 53: http://schema.org/Organization"`
+
+File modules\70-other\20-microdata\description.es.yml:
+Line 56: http://schema.org/Organization">
+
+File modules\70-other\20-microdata\description.es.yml:
+Line 67: http://schema.org/Organization">
+
+File modules\70-other\20-microdata\description.es.yml:
+Line 78: http://schema.org/Organization">
+
+File modules\70-other\20-microdata\description.es.yml:
+Line 88: https://search.google.com/test/rich-results)
+
+File modules\70-other\20-microdata\description.es.yml:
+Line 89: https://webmaster.yandex.ru/tools/microtest/)
+
+File modules\70-other\20-microdata\description.es.yml:
+Line 99: http://schema.org/Organization`.
+
+File modules\70-other\30-validation\description.es.yml:
+Line 26: https://i.imgur.com/HxXGxQS.png)
+
+File modules\70-other\30-validation\description.es.yml:
+Line 31: https://validator.w3.org/](https://validator.w3.org/).
+

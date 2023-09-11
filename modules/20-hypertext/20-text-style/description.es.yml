@@ -1,0 +1,65 @@
+---
+
+name: Estilo del Texto
+theory: |
+  Cualquier texto contiene partes clave que deseamos transmitir al lector. Estas pueden ser definiciones, sugerencias o ideas clave. Si el texto es muy extenso, estas partes pueden perderse o incluso no ser detectadas. ¿Cómo podemos ayudar al navegador y al usuario a encontrar rápidamente estas partes en la página? En la marcación HTML, se pueden usar _negritas_ y _cursivas_ con fines de resaltado.
+
+  ## Resaltado en Negritas
+
+  Para resaltar el texto en negritas, se utiliza uno de los dos pares de etiquetas: `<b>` o `<strong>`:
+
+  ```html
+  <p>Code Basics — <b>cursos</b> de programación.</p>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <p class="m-0">Code Basics — <b>cursos</b> de programación.</p>
+  </div>
+
+  ```html
+  <p>HTML — <strong>lenguaje de marcado de hipertexto</strong></p>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <p class="m-0">HTML — <strong>lenguaje de marcado de hipertexto</strong></p>
+  </div>
+
+  Ambos ejemplos ilustran cómo agregar formato en negritas a un fragmento de texto. Pero, ¿por qué se utilizaron dos etiquetas diferentes para lograr resultados visualmente iguales? Esto se debe a la _semántica_, es decir, el significado. En este caso, el significado de la etiqueta es:
+
+  * `<b>` — resaltar simplemente el texto. Puede usarse en cualquier lugar para resaltar visualmente el texto. Esta etiqueta no lleva consigo ningún significado semántico
+  * `<strong>` — resaltar lógicamente una parte importante del texto. Esta etiqueta tiene un significado semántico y resalta una parte importante. No debe aplicarse en todos los segmentos de manera consecutiva
+
+  En el pasado, los desarrolladores querían que estas etiquetas tuvieran una apariencia diferente y se comportaran de manera diferente en el navegador, pero la historia tomó un rumbo diferente. Actualmente, se considera excesivo el uso de `<b>` para el resaltado visual y se debe utilizar CSS para eso, mientras que `<strong>` se usa para resaltar partes importantes.
+
+  ## Resaltado en Cursiva
+
+  En su significado, el resaltado en cursiva es muy similar al resaltado en negritas, pero en lugar de enfatizar partes clave, se pone énfasis. Por ejemplo:
+
+  ```html
+  <p><i>Code Basics</i> — <em>cursos gratuitos</em> de programación</p>
+  ```
+
+  <div class="hexlet-basics-example my-3">
+    <p class="m-0"><i>Code Basics</i> — <em>cursos gratuitos</em> de programación</p>
+  </div>
+
+  En este ejemplo, se marcaron dos partes del texto:
+
+  * Se utilizó la etiqueta `<i>` para marcar el nombre del portal "Code Basics". Esta etiqueta se usa para resaltar visualmente el texto en cursiva y no lleva consigo ningún significado semántico
+  * Se utilizó la etiqueta `<em>` para resaltar la frase "cursos gratuitos". Este énfasis lógico está en la gratuidad de los cursos, que se destaca en la oración. Hay muchos cursos, pero no todos son gratuitos, por lo que se enfatiza esta parte de la oración
+
+instructions: |
+  Agrega al editor la siguiente frase
+
+  <div class="hexlet-basics-example my-3">
+    <span>Hexlet — cursos prácticos de programación</span>
+  </div>
+
+  donde la palabra "cursos" esté en negritas (formato físico) y el conjunto "programación" esté en cursiva (formato lógico). No olvides envolver la frase con una etiqueta de párrafo (`<p>`).
+
+definitions:
+  - name: Semántica
+    description: Significado. En el contexto de HTML, la elección semántica de la marca para un fragmento de información.
+tips:
+  - Las etiquetas para resaltar visualmente son más cortas que las de resaltado semántico. Esto puede ayudar a recordar cuándo usar `<i>` y `<b>` versus `<em>` y `<strong>`.
+  - En la práctica, se prefiere usar estilos CSS en lugar de `<i>` y `<b>`.
