@@ -11,8 +11,8 @@ theory: |
 
   Estos temas se tratan en detalle en las profesiones de Hexlet:
 
-  * [Profesión de JavaScript en el backend (node.js)](https://ru.hexlet.io/professions/backend)
-  * [Profesión de programador PHP](https://ru.hexlet.io/professions/php)
+  * [Profesión de JavaScript en el backend (node.js)](https://codica.la/profesiones/backend)
+  * [Profesión de programador PHP](https://codica.la/profesiones/php)
 
   Cada formulario comienza con la etiqueta principal `<form>`, dentro de la cual se encuentran los campos de entrada y el botón de acción.
 
