@@ -1,0 +1,8 @@
+name: Video
+tips:
+  - >-
+    If only one file is used, it's enough to add the `src` attribute for the
+    `<video>` tag. Otherwise use `<source>` tags
+  - >-
+    The `mp4` format is correctly handled by most browsers. If possible, it's
+    best to use it.

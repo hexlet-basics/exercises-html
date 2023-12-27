@@ -1,0 +1,1 @@
+Crea un formulario cuyo archivo de procesamiento de datos se encuentre en la dirección `/people`. Dentro del formulario, crea 2 casillas de verificación. Asocia las casillas anidando `<input>` dentro de `<label>`. No olvides agregar los atributos `name` y `value`.

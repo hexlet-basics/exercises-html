@@ -1,0 +1,8 @@
+name: Párrafos
+definitions:
+  - name: Párrafo
+    description: >-
+      Un bloque de texto pequeño, separado del resto del contenido por sangrías
+      superior e inferior.
+tips:
+  - No se pueden anidar párrafos uno dentro del otro.

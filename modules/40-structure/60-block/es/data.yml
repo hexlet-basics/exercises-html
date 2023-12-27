@@ -1,0 +1,12 @@
+name: Elementos de bloque y en línea
+tips:
+  - >-
+    Los elementos en línea se utilizan a menudo para la estilización. Por
+    ejemplo, la etiqueta `<span>` se utiliza para envolver una parte del texto.
+    Luego, esa parte se estiliza con CSS.
+  - >-
+    En la mayoría de los casos, los elementos en línea se pueden colocar dentro
+    de elementos de bloque, pero no se puede colocar elementos de bloque dentro
+    de elementos en línea. La excepción son los enlaces. Se pueden colocar
+    elementos de bloque dentro de un enlace. Este uso está permitido en el
+    estándar HTML5.

@@ -1,0 +1,11 @@
+name: Text layout
+definitions:
+  - name: Semantics
+    description: >-
+      Meaning. In the context of HTML - the semantic choice of markup for a
+      piece of information
+tips:
+  - >-
+    Tags for visual emphasis are shorter than for semantic emphasis. It helps to
+    remember when to use `<i>` and `<b>`, and when to use `<em>` and `<strong>`
+  - In practice, instead of `<i>` and `<b>` they use CSS styling

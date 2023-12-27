@@ -1,0 +1,6 @@
+name: Menu
+tips:
+  - >-
+    Only wrap the main menus of the site or an individual page in the navigation
+    element. Additional menus do not need to be wrapped in the `<nav>` tag
+  - Navigation can be in any area of the page, not just in the site header

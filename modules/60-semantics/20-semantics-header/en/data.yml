@@ -1,0 +1,5 @@
+name: Header
+tips:
+  - >-
+    The `header` element is not unique to the page. It can be used not only as a
+    page header but also as a section header

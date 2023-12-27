@@ -1,0 +1,8 @@
+name: link
+tips:
+  - >-
+    Puedes ver todas las posibilidades de la etiqueta `<link>` en [MDN Web
+    Docs](https://developer.mozilla.org/es/docs/Web/HTML/Element/link)
+  - >-
+    Al igual que otros metadatos, la etiqueta `<link>` se coloca en la sección
+    `head`

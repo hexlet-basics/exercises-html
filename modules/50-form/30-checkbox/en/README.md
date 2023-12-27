@@ -1,0 +1,78 @@
+In online stores, purchases are often made by specifying the category that we want to search in. Checkboxes are used to implement multiple choices.
+
+Checkboxes allow you to select multiple items from the ones presented:
+
+<div class="hexlet-basics-example">
+  <form>
+    <label>
+      <input type="checkbox">
+      I want to learn HTML
+    </label>
+    <br>
+    <label>
+      <input type="checkbox">
+      I want to learn CSS
+    </label>
+    <br>
+    <label>
+      <input type="checkbox">
+      I want to learn JS
+    </label>
+    <br>
+    <label>
+      <input type="checkbox">
+      I want to learn another language
+    </label>
+  </form>
+</div>
+
+Two tags are used to create a checkbox:
+
+* An `<input>` with `type="checkbox"`
+* A `<label>` tag which will contain the text associated with the checkbox we want
+
+There are two ways to link  `<label>` to `<input>`:
+
+* Link by `id`. To do this you must set a unique id for `<input>` and link the `<label>` tag with a checkbox using the for attribute.
+
+
+```html
+<form>
+  <input id="html" type="checkbox">
+  <label for="html">I want to learn HTML</label>
+</form>
+```
+
+* Put `<input>` inside the `<label>` tag. This does not require a unique `id`
+
+```html
+<form>
+  <label>
+    <input type="checkbox">
+    I want to learn HTML
+  </label>
+</form>
+```
+
+In order to be able to find out which items have been selected after sending the form to the server, the value attribute is used, containing the `value` that allows you to determine a selected checkbox.
+
+Since there can be many checkboxes on a page and they can belong to different forms, the `name` attribute is used to define a specific group of checkboxes. Each group of checkboxes has its own name, which you can use to separate groups of checkboxes when processing data on the server.
+
+```html
+<form>
+  <label>
+    <input type="checkbox" name="languages" value="HTML">
+    I want to learn HTML
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="languages" value="CSS">
+    I want to learn CSS
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="languages" value="JS">
+    I want to learn JS
+  </label>
+</form>
+```

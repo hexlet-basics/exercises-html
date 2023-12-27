@@ -1,0 +1,41 @@
+
+Con el aumento de la cantidad de páginas en Internet, surgió el problema de leer la información no solo por humanos, sino también por robots. Mientras que los humanos separan los bloques de significado entre sí, ven la disposición y pueden encontrar rápidamente la sección de la página que les interesa, los robots ven toda la página como texto y no pueden dividirla por sí mismos para analizar el significado de la información.
+
+Este problema se hizo evidente a principios del nuevo milenio, cuando la cantidad de páginas en Internet comenzó a crecer constantemente y los motores de búsqueda (Google, Bing, Yandex, Yahoo) tenían capacidades limitadas para analizar correctamente cada página en Internet. Por esta razón, los webmasters especificaban intencionalmente palabras clave populares en ese momento en sus sitios para mejorar su posición en los resultados de búsqueda.
+
+Ahora existen formas de mostrar el significado (semántica) de una página HTML a los robots. Gracias a esto, al realizar una búsqueda en un motor de búsqueda, se puede ver no solo una lista de enlaces a sitios web, sino también información específica, como una receta de pastel, una ruta a una calle específica o los contactos de una organización.
+
+La semántica correcta también permite que los dispositivos interpreten correctamente las partes de un sitio web. Por ejemplo, el modo de lectura en los teléfonos móviles intenta eliminar los bloques no relacionados con el contenido para dejar solo la parte significativa.
+
+![Vista estándar de una lección en Code Basics y vista en modo de lectura](https://i.imgur.com/ZmsmYGT.jpg)
+
+Hay dos implementaciones del web semántico:
+
+* Basado en microdatos. Estos son atributos especiales que se agregan a la estructura HTML y ayudan a los robots a encontrar la información relevante. Los microdatos se utilizan con mayor frecuencia debido a sus numerosas posibilidades y campos para la marcación.
+
+* Utilizando el estándar HTML5. El estándar ha introducido una serie de etiquetas que ayudan a los robots a analizar la información, encontrar relaciones lógicas entre los bloques (o comprender que no existen) y buscar las partes necesarias para una visualización correcta en dispositivos de lectura.
+
+Aunque el estándar HTML5 no ha reemplazado por completo los microdatos debido a sus capacidades más limitadas, su uso junto con los microdatos permite que los robots procesen el sitio de manera más precisa y encuentren bloques lógicos en él.
+
+## Ejemplo de marcado semántico en HTML5
+
+```html
+<main> <!-- Definición de la parte principal de la página -->
+  <article> <!-- Definición de un artículo -->
+    <header> <!-- Información de encabezado del artículo -->
+      <h1>Título del artículo</h1>
+      <img src="article.png" alt="Título del artículo">
+    </header>
+
+    <p>Texto de nuestro artículo</p>
+
+    <footer> <!-- "Pie de página del artículo" con información del autor y fecha -->
+      <address> <!-- Información del autor del artículo -->
+        <p>Autor: Dmitry</p>
+        <p>Email: dmitry@test.test</p>
+      </address>
+      <time datetime="2019-07-27">27 de julio</time> <!-- Fecha de escritura del artículo -->
+    </footer>
+  </article>
+</main>
+```

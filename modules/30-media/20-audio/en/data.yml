@@ -1,0 +1,5 @@
+name: Audio
+tips:
+  - >-
+    If only one file is used, it's enough to just specify it in the `src`
+    attribute. If you have more than one file, use the `<source>` tags

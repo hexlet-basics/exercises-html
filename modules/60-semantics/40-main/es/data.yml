@@ -1,0 +1,7 @@
+name: Contenido único de la página
+tips:
+  - main es una sección única que se utiliza solo una vez en toda la página
+  - >-
+    Para encontrar fácilmente el área que debe estar en `main`, intenta eliminar
+    mentalmente todas las áreas que están en todas las páginas. Estas son las
+    áreas que no deben estar dentro de `main`

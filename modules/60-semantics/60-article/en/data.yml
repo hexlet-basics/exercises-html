@@ -1,0 +1,6 @@
+name: Independent Section
+tips:
+  - >-
+    If the area does not lose its meaning outside the page, it can be wrapped in
+    `<article>`
+  - All areas in `article` must have a header

@@ -1,0 +1,6 @@
+name: Sección
+tips:
+  - >-
+    La sección `section` complementa el contenido principal y no debe existir
+    por sí sola
+  - Asegúrate de que cada sección tenga su propio título
