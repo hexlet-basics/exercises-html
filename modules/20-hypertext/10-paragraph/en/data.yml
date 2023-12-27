@@ -1,0 +1,8 @@
+name: Paragraphs
+definitions:
+  - name: Paragraph
+    description: >-
+      A small block of text separated from the rest of the content by indents at
+      the bottom and top
+tips:
+  - Paragraphs cannot be nested within each other

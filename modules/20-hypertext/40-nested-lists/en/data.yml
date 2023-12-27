@@ -1,0 +1,5 @@
+name: Nested lists
+tips:
+  - >-
+    At each nesting level the labeled list changes its marker. This is done to
+    visually distinguish nested lists

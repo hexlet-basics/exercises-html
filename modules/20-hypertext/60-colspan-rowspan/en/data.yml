@@ -1,0 +1,12 @@
+name: Combining cells inside rows and columns
+tips:
+  - >-
+    The number of cells in each row of the table must be the same after merging.
+    It's important to distinguish between the number of `<td>` tags and the
+    total number of cells. For example, using the `colspan="2"` attribute on a
+    cell you will get two cells but visually combined in one. For this reason,
+    it's necessary to remove one physical cell from the markup to compensate
+  - >-
+    If the `colspan` attribute is used, then the cells in the same line will be
+    removed from the HTML code. If the `rowspan` attribute is used, the cells in
+    the rows below are deleted

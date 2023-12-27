@@ -1,0 +1,12 @@
+name: Unir celdas dentro de filas y columnas
+tips:
+  - >-
+    El número de celdas en cada fila de la tabla debe ser el mismo después de la
+    unión. Es importante distinguir entre el número de etiquetas `<td>` y el
+    número total de celdas. Por ejemplo, al usar el atributo `colspan="2"`,
+    obtendrás dos celdas lógicas, pero estarán unidas. Por esta razón, es
+    necesario eliminar una celda física de la marcación para compensar.
+  - >-
+    Si se utiliza el atributo `colspan`, se deben eliminar las celdas en la
+    misma fila del HTML. Si se utiliza el atributo `rowspan`, se deben eliminar
+    las celdas en las filas inferiores.

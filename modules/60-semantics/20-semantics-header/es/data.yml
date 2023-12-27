@@ -1,0 +1,6 @@
+name: Encabezado
+tips:
+  - >-
+    El elemento `header` no es único para la página. Puede utilizarse no solo
+    como el encabezado de toda la página, sino también como el encabezado de una
+    sección.

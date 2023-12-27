@@ -1,0 +1,5 @@
+name: Audio
+tips:
+  - >-
+    Si solo se utiliza un archivo, basta con especificarlo en el atributo `src`.
+    Si hay varios archivos, utiliza las etiquetas `<source>`.

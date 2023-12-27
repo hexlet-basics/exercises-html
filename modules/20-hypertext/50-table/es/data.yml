@@ -1,0 +1,9 @@
+name: Tablas
+tips:
+  - El número de celdas en cada fila debe ser el mismo.
+  - >-
+    El título de la tabla (`caption`) _siempre_ debe ir después de la etiqueta
+    de apertura de la tabla (`<table>`).
+  - >-
+    Los navegadores automáticamente agregan la etiqueta `<tbody>` si está
+    ausente. En tablas pequeñas, puedes omitir su uso.

@@ -1,0 +1,6 @@
+name: Sección independiente
+tips:
+  - >-
+    Si una sección no pierde su significado fuera de la página, se puede
+    envolver en `<article>`
+  - Todas las secciones `article` deben tener un encabezado

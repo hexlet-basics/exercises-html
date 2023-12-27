@@ -1,0 +1,9 @@
+name: Tables
+tips:
+  - The number of cells in each row of the table must be the same
+  - >-
+    The `caption` of the table is _always_ placed immediately after opening the
+    table
+  - >-
+    Browsers automatically add the `<tbody>` tag if it is missing. In small
+    tables it can be omitted

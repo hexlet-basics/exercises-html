@@ -1,0 +1,10 @@
+name: Block and line elements
+tips:
+  - >-
+    Inline elements are often used for style purposes. For example, the `<span>`
+    tag is used to wrap a section of text. Then this section is styled using CSS
+  - >-
+    In most cases, inline elements can be placed inside of block elements, and
+    block elements cannot be placed inside of lowercase elements. The exception
+    is references. Block elements can be placed inside a link. This is allowed
+    in the HTML5 standard

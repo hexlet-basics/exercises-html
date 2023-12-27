@@ -1,0 +1,6 @@
+name: Link
+tips:
+  - >-
+    All the features of the `<link>` tag can be seen on [MDN Web
+    Docs](https://developer.mozilla.org/en-US/docs/web/html/element/link)
+  - Like other meta tags, the `<link>`  tag is specified in the `head` section

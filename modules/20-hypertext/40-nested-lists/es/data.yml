@@ -1,0 +1,5 @@
+name: Listas anidadas
+tips:
+  - >-
+    En cada nivel de anidamiento, la lista con viñetas cambia su marcador. Esto
+    se hace para distinguir visualmente las listas anidadas.

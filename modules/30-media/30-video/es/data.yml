@@ -1,0 +1,8 @@
+name: Video
+tips:
+  - >-
+    Si se utiliza un solo archivo, basta con agregar el atributo `src` a la
+    etiqueta `<video>`. En otros casos, utiliza las etiquetas `<source>`
+  - >-
+    El formato `mp4` es compatible con la mayoría de los navegadores. Utilízalo
+    siempre que sea posible

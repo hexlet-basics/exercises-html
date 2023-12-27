@@ -1,0 +1,6 @@
+name: Section
+tips:
+  - >-
+    The `section` area complements the main content and should not exist on its
+    own
+  - Make sure that each section has its own header

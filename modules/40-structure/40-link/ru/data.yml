@@ -1,0 +1,6 @@
+name: link
+tips:
+  - >-
+    Все возможности тега `<link>` можно посмотреть на [MDN Web
+    Docs](https://developer.mozilla.org/ru/docs/Web/HTML/Element/ссылка)
+  - Как и другие метатеги, тег `<link>` указывается в разделе `head`

@@ -1,0 +1,9 @@
+name: Menú
+tips:
+  - >-
+    Envuelve en una etiqueta de navegación solo los menús principales del sitio
+    o de una página específica. Los menús adicionales no necesitan estar
+    envueltos en la etiqueta `<nav>`.
+  - >-
+    La navegación puede estar en cualquier área de la página, no solo en la
+    cabecera del sitio.
