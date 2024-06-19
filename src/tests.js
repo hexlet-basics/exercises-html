@@ -8,9 +8,13 @@ const { query, querySelectorAll } = require('@github/query-selector');
 chai.use(chaiDom);
 
 module.exports = {
-  test: (callback) => {
+  test: async (callback) => {
     const html = fs.readFileSync(`${process.cwd()}/index.html`).toString();
     document.write(html);
-    callback({ query, html, querySelectorAll, expect: chai.expect })
+    // callback({ query, html, querySelectorAll, expect: chai.expect })
+    const { expect, use } = await import('chai'); 
+    use(chaiDom);
+
+    callback({ query, html, querySelectorAll, expect });
   }
 }
