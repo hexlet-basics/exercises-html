@@ -1,11 +1,11 @@
 require('jsdom-global')()
 
 const fs = require('fs');
-const chai = require('chai');
+// const chai = require('chai');
 const chaiDom = require('chai-dom');
 const { query, querySelectorAll } = require('@github/query-selector');
 
-chai.use(chaiDom);
+// chai.use(chaiDom);
 
 module.exports = {
   test: async (callback) => {
