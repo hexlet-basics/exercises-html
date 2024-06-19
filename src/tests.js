@@ -12,7 +12,7 @@ module.exports = {
     const html = fs.readFileSync(`${process.cwd()}/index.html`).toString();
     document.write(html);
     // callback({ query, html, querySelectorAll, expect: chai.expect })
-    const { expect, use } = await import('chai'); 
+    const { expect, use } = await import('chai/chai.js'); 
     use(chaiDom);
 
     callback({ query, html, querySelectorAll, expect });
