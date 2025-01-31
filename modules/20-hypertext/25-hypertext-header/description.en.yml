@@ -8,7 +8,7 @@ theory: |
   1. Introduction
   2. Main part
   3. Conclusion
-  
+
   Such logical divisions into headings allow you to navigate faster in the document and find the part you need.
 
   To create titles used 6 paired tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, where `<h1>` — title of the first level, the most important and describes the main subject of the text, and `<h6>` — the title of the lowest level.

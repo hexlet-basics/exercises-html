@@ -1,7 +1,4 @@
 ---
-
-version: '3'
-
 services:
   exercises:
     build: .

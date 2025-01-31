@@ -15,7 +15,7 @@ theory: |
   ```
 
   Links can be divided into 3 types:
-  
+
   * **Relative**. If you click on this type of link on a given website, it'll lead to the same site
   * **Absolute**. These allow you to navigate to third-party resources on the Internet
   * **Anchors**. These are used to move within a page or document you're currently looking at
