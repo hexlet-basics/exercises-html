@@ -10,7 +10,7 @@ When marking up content on the page, there can often be problems, e.g., forgetti
 </head>
 <body>
   <p>Текст</span> <!-- Closed the wrong tag -->
-  <img src="images.png"> <!-- Required alt attribute not specified -->
+  <img src="https://i.imgur.com/g64f8to.png"> <!-- Required alt attribute not specified -->
 </body>
 </html>
 ```

@@ -14,7 +14,7 @@ theory: |
   </head>
   <body>
     <p>Текст</span> <!-- Closed the wrong tag -->
-    <img src="images.png"> <!-- Required alt attribute not specified -->
+    <img src="https://i.imgur.com/g64f8to.png"> <!-- Required alt attribute not specified -->
   </body>
   </html>
   ```

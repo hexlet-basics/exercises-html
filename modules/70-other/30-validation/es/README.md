@@ -10,7 +10,7 @@ Al marcar el contenido en una página, a menudo surgen problemas: olvidamos cerr
 </head>
 <body>
   <p>Texto</p> <!-- Cerramos la etiqueta incorrecta -->
-  <img src="images.png" alt="Descripción de la imagen"> <!-- No especificamos el atributo alt obligatorio -->
+  <img src="https://i.imgur.com/g64f8to.png" alt="Descripción de la imagen"> <!-- No especificamos el atributo alt obligatorio -->
 </body>
 </html>
 ```

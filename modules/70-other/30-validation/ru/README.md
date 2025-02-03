@@ -10,7 +10,7 @@
 </head>
 <body>
   <p>Текст</span> <!-- Закрыли не тот тег -->
-  <img src="images.png"> <!-- Не указали обязательный атрибут alt -->
+  <img src="https://i.imgur.com/g64f8to.png"> <!-- Не указали обязательный атрибут alt -->
 </body>
 </html>
 ```
