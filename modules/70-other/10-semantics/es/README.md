@@ -24,7 +24,7 @@ Aunque el estándar HTML5 no ha reemplazado por completo los microdatos debido a
   <article> <!-- Definición de un artículo -->
     <header> <!-- Información de encabezado del artículo -->
       <h1>Título del artículo</h1>
-      <img src="article.png" alt="Título del artículo">
+      <img src="https://i.imgur.com/g64f8to.png" alt="Título del artículo">
     </header>
 
     <p>Texto de nuestro artículo</p>

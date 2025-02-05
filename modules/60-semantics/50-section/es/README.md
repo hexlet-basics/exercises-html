@@ -32,7 +32,7 @@ Agreguemos un ejemplo educativo de un formulario de solicitud de servicio. Este 
 
 ```html
 <header>
-  <img src="/logo.png" alt="Logo"> <!-- Logo del sitio -->
+  <img src="https://i.imgur.com/g64f8to.png" alt="Logo"> <!-- Logo del sitio -->
   <nav> <!-- Menú -->
     <ul>
       <li><a href="/">Inicio</a></li>

@@ -4,7 +4,7 @@ En HTML5, se utiliza la etiqueta de apertura y cierre `<header>` para marcar el 
 
 ```html
 <header>
-  <img src="/logo.png" alt="Logotipo"> <!-- Logotipo del sitio -->
+  <img src="https://i.imgur.com/g64f8to.png" alt="Logotipo"> <!-- Logotipo del sitio -->
   <div id="menu"> <!-- Menú -->
     <ul>
       <li><a href="/">Inicio</a></li>

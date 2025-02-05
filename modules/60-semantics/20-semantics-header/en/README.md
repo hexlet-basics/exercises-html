@@ -4,7 +4,7 @@ HTML5 uses a paired `<header>` tag to mark up the header, with elements inside i
 
 ```html
 <header>
-  <img src="/logo.png" alt="Logo"> <!-- Site Logo -->
+  <img src="https://i.imgur.com/g64f8to.png" alt="Logo"> <!-- Site Logo -->
   <div id="menu"> <!-- Menu -->
     <ul>
       <li><a href="/">Home</a></li>

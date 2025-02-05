@@ -4,7 +4,7 @@ Para marcar correctamente esta área, se utiliza la etiqueta `<aside>`, dentro d
 
 ```html
 <header>
-  <img src="/logo.png" alt="Logo"> <!-- Logo del sitio -->
+  <img src="https://i.imgur.com/g64f8to.png" alt="Logo"> <!-- Logo del sitio -->
   <nav> <!-- Menú -->
     <ul>
       <li><a href="/">Inicio</a></li>

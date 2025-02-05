@@ -2,7 +2,7 @@ Volvamos al ejemplo de las lecciones anteriores:
 
 ```html
 <header>
-  <img src="/logo.png" alt="Logo"> <!-- Logo del sitio -->
+  <img src="https://i.imgur.com/g64f8to.png" alt="Logo"> <!-- Logo del sitio -->
   <div id="menu"> <!-- Menú -->
     <ul>
       <li><a href="/">Inicio</a></li>
@@ -21,7 +21,7 @@ Reemplacemos `<div id="menu"></div>` con la etiqueta `<nav>` aprendida:
 
 ```html
 <header>
-  <img src="/logo.png" alt="Logo"> <!-- Logo del sitio -->
+  <img src="https://i.imgur.com/g64f8to.png" alt="Logo"> <!-- Logo del sitio -->
   <nav> <!-- Menú -->
     <ul>
       <li><a href="/">Inicio</a></li>

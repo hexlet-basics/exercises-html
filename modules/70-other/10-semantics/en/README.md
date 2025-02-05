@@ -24,7 +24,7 @@ Although HTML5 has not superseded micromarking because since it's less capable, 
   <article> <!-- Determining the article -->
     <header> <!-- Title information for the article -->
       <h1>Article title</h1>
-      <img src="article.png" alt="article name">
+      <img src="https://i.imgur.com/g64f8to.png" alt="article name">
     </header>
 
     <p>Our text</p>

@@ -5,7 +5,7 @@ Due to the fact that `<article>` can be used by itself, it always contains withi
 
 ```html
 <header>
-  <img src="/logo.png" alt="Logo"> <!-- Site Logo -->
+  <img src="https://i.imgur.com/g64f8to.png" alt="Logo"> <!-- Site Logo -->
   <nav> <!-- Menu -->
     <ul>
       <li><a href="/">Home</a></li>

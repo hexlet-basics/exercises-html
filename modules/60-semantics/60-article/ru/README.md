@@ -4,7 +4,7 @@
 
 ```html
 <header>
-  <img src="/logo.png" alt="Логотип"> <!-- Логотип сайта -->
+  <img src="https://i.imgur.com/g64f8to.png" alt="Логотип"> <!-- Логотип сайта -->
   <nav> <!-- Меню -->
     <ul>
       <li><a href="/">Главная</a></li>
