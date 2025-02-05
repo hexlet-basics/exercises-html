@@ -1,5 +1,0 @@
----
-
-name: HTML Basics
-description: |
-  To normalize text rendering in a browser was developed HTML markup language that describes the rules for the layout of text data. Despite the long evolution of the language, its basic concepts haven't changed even after more than 20 years. In first module, we will review the fundamental concepts of HTML: tag, attribute, and nesting of tags, and will learn the core features of marking up text with paragraphs.

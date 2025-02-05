@@ -1,5 +1,0 @@
----
-
-name: Semantic elements HTML5
-description: |
-  HTML5 introduced plenty of new tags for semantic markup. They are designed to help browsers process your document more accurately, using "reader mode". Search engines will also appreciate you helping them clearly see the structure of your website. In this module, we'll mark up a generic web page using the new HTML5 tags
