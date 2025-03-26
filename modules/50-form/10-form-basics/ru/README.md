@@ -7,8 +7,8 @@
 
 Детальнее эти вопросы рассмотрены в профессиях на Hexlet:
 
-* [Профессия Бэкенд JavaScript (node.js)](https://ru.hexlet.io/professions/backend)
-* [Профессия PHP-программист](https://ru.hexlet.io/professions/php)
+* [Профессия Бэкенд JavaScript (node.js)](https://ru.hexlet.io/programs/backend?utm_source=code-basics&utm_medium=referral&utm_campaign=programs&utm_content=lesson)
+* [Профессия PHP-программист](https://ru.hexlet.io/programs/php?utm_source=code-basics&utm_medium=referral&utm_campaign=programs&utm_content=lesson)
 
 Любая форма начинается с главного тега `<form>`, внутри которого и будут располагаться поля для заполнения и кнопка действия.
 
