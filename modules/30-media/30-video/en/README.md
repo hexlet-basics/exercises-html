@@ -23,7 +23,7 @@ The `<video>` tag has several important attributes:
 
 * `controls` — Adds controls for the video player
 * `autoplay` — Automatic playback after loading the video
-* `width` — Width of the video playe
+* `width` — Width of the video player
 * `height` — Height of the video player
 
 The `width` and `height` attributes are pixel values, and you don't need to specify the unit of measure.
