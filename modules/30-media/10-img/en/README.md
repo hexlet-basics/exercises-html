@@ -23,7 +23,7 @@ To do this, use the `alt` attribute, its value is text. It will be shown if the 
 
 ```html
 
-<img src="https://i.imgur.com/g64f8to.png" alt="Logo">
+<img src="https://cdn6.hexlet.io/1P6tmafZTIy5.png" alt="Logo">
 
 ```
 
@@ -35,7 +35,7 @@ An important component when working with images is its size. When you download a
 
 ```html
 
-<img src="https://i.imgur.com/g64f8to.png" alt="Logo" width="320" height="240">
+<img src="https://cdn6.hexlet.io/1P6tmafZTIy5.png" alt="Logo" width="320" height="240">
 
 ```
 

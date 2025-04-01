@@ -32,7 +32,7 @@ Let's add a service order form to the example we used before. This form is for o
 
 ```html
 <header>
-  <img src="https://i.imgur.com/g64f8to.png" alt="Logo"> <!-- Site Logo -->
+  <img src="https://cdn6.hexlet.io/1P6tmafZTIy5.png" alt="Logo"> <!-- Site Logo -->
   <nav> <!-- Menu -->
     <ul>
       <li><a href="/">Home</a></li>

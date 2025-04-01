@@ -3,5 +3,5 @@
 Для картинки используйте следующий код:
 
 ```html
-<img src="https://i.imgur.com/g64f8to.png" alt="Code Basics">
+<img src="https://cdn6.hexlet.io/1P6tmafZTIy5.png" alt="Code Basics">
 ```

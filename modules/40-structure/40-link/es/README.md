@@ -1,7 +1,7 @@
 
 Casi todas las pestañas en el navegador tienen pequeños iconos llamados _favicons_. Al igual que el título, permiten orientarse rápidamente en las pestañas y acceder a la deseada. Los motores de búsqueda los utilizan para mostrar junto al nombre de la página en los resultados de búsqueda.
 
-![Favicon y título de la página en la pestaña](https://i.imgur.com/PATzgdE.png)
+![Favicon y título de la página en la pestaña](../assets/favicon.png)
 
 Para establecer este tipo de icono en una página, se utiliza la etiqueta `<link>`, que tiene dos atributos:
 

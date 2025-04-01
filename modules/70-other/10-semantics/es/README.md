@@ -7,7 +7,7 @@ Ahora existen formas de mostrar el significado (semántica) de una página HTML 
 
 La semántica correcta también permite que los dispositivos interpreten correctamente las partes de un sitio web. Por ejemplo, el modo de lectura en los teléfonos móviles intenta eliminar los bloques no relacionados con el contenido para dejar solo la parte significativa.
 
-![Vista estándar de una lección en Code Basics y vista en modo de lectura](https://i.imgur.com/ZmsmYGT.jpg)
+![Vista estándar de una lección en Code Basics y vista en modo de lectura](../assets/read-view.png)
 
 Hay dos implementaciones del web semántico:
 
@@ -24,7 +24,7 @@ Aunque el estándar HTML5 no ha reemplazado por completo los microdatos debido a
   <article> <!-- Definición de un artículo -->
     <header> <!-- Información de encabezado del artículo -->
       <h1>Título del artículo</h1>
-      <img src="https://i.imgur.com/g64f8to.png" alt="Título del artículo">
+      <img src="https://cdn6.hexlet.io/1P6tmafZTIy5.png" alt="Título del artículo">
     </header>
 
     <p>Texto de nuestro artículo</p>

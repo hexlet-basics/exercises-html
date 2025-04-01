@@ -10,7 +10,7 @@ When marking up content on the page, there can often be problems, e.g., forgetti
 </head>
 <body>
   <p>Текст</span> <!-- Closed the wrong tag -->
-  <img src="https://i.imgur.com/g64f8to.png"> <!-- Required alt attribute not specified -->
+  <img src="https://cdn6.hexlet.io/1P6tmafZTIy5.png"> <!-- Required alt attribute not specified -->
 </body>
 </html>
 ```
@@ -19,7 +19,7 @@ In most cases, this isn't too bad. Browser developers implement automatic code c
 
 To solve these problems, there are special validators for HTML markup that automatically check for errors. You can provide a link to a page or a fragment of HTML markup, and then the validator will display a list of warnings and errors. In the example above, the validator will show the following errors:
 
-![Validator showing markup errors](https://i.imgur.com/HxXGxQS.png)
+![Validator showing markup errors](../assets/errorhtml.png)
 
 1.	No opening `<span>` tag, but there is a closing `</span>` tag. This usually means that we either accidentally closed the wrong tag, as in this case, or opened the wrong one. Modern code editors help avoid this error because they automatically close tags when they are created
 2. The necessary `alt` attribute in the `<img>` tag is missing

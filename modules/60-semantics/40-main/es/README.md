@@ -4,7 +4,7 @@ Tomemos el encabezado del sitio que creamos y agreguemos un área con contenido 
 
 ```html
 <header>
-  <img src="https://i.imgur.com/g64f8to.png" alt="Logo"> <!-- Logo del sitio -->
+  <img src="https://cdn6.hexlet.io/1P6tmafZTIy5.png" alt="Logo"> <!-- Logo del sitio -->
   <nav> <!-- Menú -->
     <ul>
       <li><a href="/">Inicio</a></li>

@@ -10,7 +10,7 @@ Al marcar el contenido en una página, a menudo surgen problemas: olvidamos cerr
 </head>
 <body>
   <p>Texto</p> <!-- Cerramos la etiqueta incorrecta -->
-  <img src="https://i.imgur.com/g64f8to.png" alt="Descripción de la imagen"> <!-- No especificamos el atributo alt obligatorio -->
+  <img src="https://cdn6.hexlet.io/1P6tmafZTIy5.png" alt="Descripción de la imagen"> <!-- No especificamos el atributo alt obligatorio -->
 </body>
 </html>
 ```
@@ -19,7 +19,7 @@ En la mayoría de los casos, estas situaciones no son graves. Los desarrolladore
 
 Para solucionar estos problemas, se han creado validadores especiales de estructura HTML que verifican automáticamente el código en busca de errores. Puede proporcionarle un enlace a una página o un fragmento de estructura HTML y el validador le mostrará una lista de advertencias y errores. En el ejemplo anterior, el validador mostrará los siguientes errores:
 
-![El validador muestra errores de estructura](https://i.imgur.com/HxXGxQS.png)
+![El validador muestra errores de estructura](../assets/errorhtml.png)
 
 1. Falta la etiqueta de apertura `<span>`, que ahora está cerrada. Por lo general, esto significa que hemos cerrado accidentalmente la etiqueta incorrecta, como en este caso, o hemos abierto la incorrecta. Los editores de código modernos ayudan a evitar este error, ya que cierran automáticamente las etiquetas al crearlas.
 2. Falta el atributo obligatorio `alt` en la etiqueta `<img>`.

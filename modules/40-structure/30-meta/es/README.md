@@ -3,7 +3,7 @@ Las metaetiquetas son etiquetas de servicio en la estructura HTML. Están destin
 
 Cuando se muestran los resultados de una búsqueda (por ejemplo, en Google o Yandex), también se muestra este título y descripción.
 
-![Resultado de una búsqueda. Se muestra el título y la descripción](https://i.imgur.com/EuyLx3m.png)
+![Resultado de una búsqueda. Se muestra el título y la descripción](../assets/search_en.png)
 
 Al agregar un artículo del sitio web a una página en redes sociales, aparece una imagen y una descripción.
 
