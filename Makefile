@@ -17,6 +17,9 @@ compose-install:
 compose-build:
 	docker compose build
 
+compose-down:
+	docker compose down -v --remove-orphans
+
 code-lint:
 	htmlhint modules/**/*.{htm,html}
 
