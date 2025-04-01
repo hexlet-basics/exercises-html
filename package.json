@@ -7,6 +7,13 @@
     ],
     "transform": {}
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@github/query-selector": "^1.0.4",
+    "@testing-library/dom": "^10.4.0",
+    "chai": "^5.2.0",
+    "chai-dom": "^1.12.1",
+    "htmlhint": "^1.1.4",
+    "jsdom": "^26.0.0",
+    "jsdom-global": "^3.0.2"
+  }
 }

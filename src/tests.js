@@ -1,4 +1,5 @@
 require('jsdom-global')()
+// TODO: replace with vitest, update deps
 
 const fs = require('fs');
 const chai = require('chai');
