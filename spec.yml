@@ -1,7 +1,7 @@
 ---
 
 language:
-  docker_image: "hexletbasics/exercises-html"
+  docker_image: "ghcr.io/hexlet-basics/exercises-html"
   extension: html
   exercise_filename: index.html
   exercise_test_filename: test.js
