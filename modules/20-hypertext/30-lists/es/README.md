@@ -1,7 +1,7 @@
 
 Las listas son una forma de representar contenido en una página. Con ellas, es fácil agrupar fragmentos pequeños relacionados, como una lista de compras:
 
-```
+```text
 - Leche
 - Pan
 - Agua
@@ -22,7 +22,7 @@ Para vincular esta información correctamente, se utilizan las listas. Para crea
 
 El esquema general de marcado se ve así:
 
-```
+```text
 <tipo_de_lista>
   <elemento_de_lista>Texto</elemento_de_lista>
 </tipo_de_lista>

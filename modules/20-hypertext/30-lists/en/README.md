@@ -1,7 +1,7 @@
 
 Lists are one way of presenting content on a page. With their help it is easy to group small related fragments, such as a shopping list:
 
-```
+```text
 — Milk
 — Bread
 — Water
@@ -22,7 +22,7 @@ Lists are used to properly relate this information. To create them in HTML, seve
 
 The general layout is as follows:
 
-```
+```text
 <List_type>
   <list_item>Text</list_item>
 </list_item>

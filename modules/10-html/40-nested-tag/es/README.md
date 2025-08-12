@@ -21,7 +21,7 @@ Para definir una lista se utiliza la etiqueta `<ul>`, que indica que es una list
 
 Estas anidaciones son similares a los árboles, donde hay un nodo raíz (la etiqueta `<ul>`) y hojas (las etiquetas `<li>`)
 
-```
+```text
 |──ul
 | |──li
 | |──li

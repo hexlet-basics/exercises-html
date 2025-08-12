@@ -21,7 +21,7 @@ The `<ul>` tag is used to define the list, and this one indicates that it's _a b
 
 This kind of nesting resembles a tree, there's a treetop (the `<ul>` tag) and leaves (the `<li>` tags)
 
-```
+```text
 |──ul
 | |──li
 | |──li
