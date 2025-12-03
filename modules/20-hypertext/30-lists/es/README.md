@@ -2,18 +2,14 @@
 Las listas son una forma de representar contenido en una página. Con ellas, es fácil agrupar fragmentos pequeños relacionados, como una lista de compras:
 
 ```text
-- Leche
-- Pan
-- Agua
+- Milk
+- Bread
+- Water
 ```
 
 Se puede hacer esta lista con tres párrafos, pero a primera vista parecerá que son tres frases diferentes sin un sentido común.
 
-<div class="hexlet-basics-example my-3">
-  <p>Leche</p>
-  <p>Pan</p>
-  <p class="m-0">Agua</p>
-</div>
+![](../assets/paragraphs.png)
 
 Para vincular esta información correctamente, se utilizan las listas. Para crearlas en HTML, se utilizan varios tags anidados:
 
@@ -36,19 +32,13 @@ Las listas con viñetas se utilizan cuando la información no requiere un orden 
 
 ```html
 <ul>
-  <li>Leche</li>
-  <li>Pan</li>
-  <li>Agua</li>
+  <li>Milk</li>
+  <li>Bread</li>
+  <li>Water</li>
 </ul>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <ul class="m-0">
-    <li>Leche</li>
-    <li>Pan</li>
-    <li>Agua</li>
-  </ul>
-</div>
+![](../assets/ul.png)
 
 ## Lista numerada
 
@@ -58,20 +48,14 @@ Estas listas son útiles cuando se indica una secuencia de acciones que se deben
 
 Lista de tareas para el día
 
-<div class="hexlet-basics-example my-3">
-  <ol class="m-0">
-    <li>Comprar comida para mascotas</li>
-    <li>Ir a la casa de Alex</li>
-    <li>Preparar la cena</li>
-  </ol>
-</div>
+![](../assets/ol.png)
 
 en el marcado HTML se ve así:
 
 ```html
 <ol>
-  <li>Comprar comida para mascotas</li>
-  <li>Ir a la casa de Alex</li>
-  <li>Preparar la cena</li>
+  <li>Buy food</li>
+  <li>Go to Alex</li>
+  <li>Cook dinner</li>
 </ol>
 ```
