@@ -1,8 +1,6 @@
 La estructura de la información en una página web incluye muchos detalles y matices. Por ejemplo, no solo se puede especificar el tipo de elemento, sino también proporcionar información adicional que será procesada por el navegador. Pase el cursor sobre el siguiente texto:
 
-<div class="hexlet-basics-example my-3">
-  <p title="Tooltip. Aquí se puede proporcionar información adicional" class="m-0">Pase el cursor sobre esta línea de texto. Es mejor hacerlo desde una computadora</p>
-</div>
+![](../assets/tooltip.png)
 
 Al pasar el cursor sobre el elemento, aparece una pequeña ventana con el texto "Tooltip. Aquí se puede proporcionar información adicional". Este comportamiento se establece mediante _atributos_, que son construcciones especiales que pueden afectar la visualización de la información en la página. Cada etiqueta en HTML tiene varios atributos estándar que se escriben según el patrón `atributo="valor"`, donde:
 
