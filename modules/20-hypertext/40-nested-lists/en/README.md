@@ -3,17 +3,7 @@ When making a to-do list, it may be necessary to break items down into several a
 
 _Nested lists_ are used to create this structure. This allows you to insert a new list as a list item, rather than just text, creating a complex structure:
 
-<div class="hexlet-basics-example my-3">
-  <ul class="m-0">
-    <li>Go to the store
-      <ul>
-        <li>Buy milk</li>
-        <li>Buy bread</li>
-      </ul>
-    </li>
-    <li>Take a class on Code Basics </li>
-  </ul>
-</div>
+![](../assets/nested-list.png)
 
 In HTML it looks like this:
 

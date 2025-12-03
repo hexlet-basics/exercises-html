@@ -3,29 +3,19 @@ Al crear una lista de tareas, puede ser necesario dividir los elementos en vario
 
 Para crear esta estructura se utilizan _listas anidadas_. Esto permite incluir como elemento de la lista no solo texto, sino también una nueva lista, creando una estructura compleja:
 
-<div class="hexlet-basics-example my-3">
-  <ul class="m-0">
-    <li>Ir al supermercado
-      <ul>
-        <li>Comprar leche</li>
-        <li>Comprar pan</li>
-      </ul>
-    </li>
-    <li>Tomar lecciones en Code Basics</li>
-  </ul>
-</div>
+![](../assets/nested-list.png)
 
 Así es como se ve en HTML:
 
 ```html
 <ul>
-  <li>Ir al supermercado
+  <li>Go to the store
     <ul>
-      <li>Comprar leche</li>
-      <li>Comprar pan</li>
+      <li>Buy milk</li>
+      <li>Buy bread</li>
     </ul>
   </li>
-  <li>Tomar lecciones en Code Basics</li>
+  <li>Take a class on Code Basics </li>
 </ul>
 ```
 
