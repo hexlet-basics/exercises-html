@@ -4,16 +4,11 @@ Al familiarizarse con muchos elementos de HTML, se puede notar que su comportami
 Además de los elementos de bloque, existen los elementos de **en línea**. Estos incluyen enlaces (`<a>`), etiquetas de formato de texto (`<b>`, `<strong>`, `<i>`, `<em>`), imágenes y `<span>`. No afectan la ubicación de los elementos adyacentes y están destinados a agregar carga semántica. A diferencia de los elementos de bloque, los elementos en línea no ocupan toda la pantalla, sino solo el espacio que necesitan.
 
 ```html
-<p>El párrafo es un elemento de bloque.</p>
-<p>Ocupa todo el espacio de ancho, por lo que cada párrafo comienza en una nueva línea.</p>
+<p>A paragraph is a block-level element.</p>
+<p>It takes up all the space in the width, so each paragraph starts on a new line.</p>
 
-<span>Span es un elemento en línea.</span>
-<span>Ocupa un ancho igual al ancho de su contenido, por lo que no hay salto de línea.</span>
+<span>Span is an inline element.</span>
+<span>It occupies a width equal to the width of its content, so there is no line break.</span>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p>El párrafo es un elemento de bloque.</p>
-  <p>Ocupa todo el espacio de ancho, por lo que cada párrafo comienza en una nueva línea.</p>
-  <span>Span es un elemento en línea.</span>
-  <span>Ocupa un ancho igual al ancho de su contenido, por lo que no hay salto de línea.</span>
-</div>
+![](../assets/example.png)
