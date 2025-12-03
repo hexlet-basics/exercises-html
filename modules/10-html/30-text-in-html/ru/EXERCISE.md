@@ -1,9 +1,9 @@
 Сверстайте текст
 
-<div class="hexlet-basics-example my-3 bg-light font-monospace">
-  <p>Карьерный портал «Мой круг» изучил рынок IT-образования и выяснил, в каких онлайн-школах эффективно учат программированию. В итоговом рейтинге Хекслет занял второе место.</p>
+```html
+My Circle, a career portal, studied the IT education market and determined which online schools teach programming well. In the final ranking, Hexlet came in second place.</p>
 
-  <p class="m-0">«Мой круг» опросил 3500 IT-специалистов и составил рейтинг онлайн-школ для программистов. В опросе приняли участие пользователи «Моего круга» и «Хабра», которые учились в онлайн-университетах. В финальной таблице «Хекслет» занял второе место.</p>
-</div>
+"My Circle" surveyed 3,500 IT professionals and compiled a ranking table of online schools for programmers. "My Circle" and "Habr" users who attended online universities took part in the survey. In the final table, Hexlet came in second place.
+```
 
 Каждый абзац должен находиться внутри отдельного тега

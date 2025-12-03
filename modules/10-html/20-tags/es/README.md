@@ -25,9 +25,11 @@ Puede haber varios párrafos en una página, no es un elemento único.
 
 Anticipándonos un poco, es importante destacar que los navegadores, de forma predeterminada, muestran muchas etiquetas con estilos predefinidos. Por ejemplo, los párrafos tienen márgenes superiores e inferiores estándar para separarlos visualmente entre sí. El ejemplo anterior se vería así en un navegador:
 
-<div class="hexlet-basics-example my-3">
+```html
+<div>
   <p>Hexlet es un curso práctico de programación.</p>
   <p class="m-0">Ayudamos a los principiantes a convertirse en programadores profesionales, y a los desarrolladores experimentados a adquirir nuevos conocimientos y crecer profesionalmente.</p>
 </div>
+```
 
 Usando CSS, se pueden cambiar estos estilos y agregar nuevos. Hay un curso separado en el sitio web dedicado al estudio de este lenguaje.
