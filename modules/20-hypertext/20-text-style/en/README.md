@@ -9,17 +9,14 @@ To bold the text, one of the two paired tags is used: `<b>` or `<strong>`:
 <p>Code Basics — programming <b>courses</b>.</p>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="m-0">Code Basics — programming <b>courses</b>.</p>
-</div>
+![](../assets/bold.png)
 
 ```html
 <p>HTML — <strong>Hypertext Markup Language</strong></p>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="m-0">HTML — <strong>Hypertext Markup Language</strong></p>
-</div>
+![](../assets/strong.png)
+
 
 Both examples illustrate adding boldface to a section of text. But why were two different tags used for visually identical results? It's all about _semantics_, that is, meaning. In this case, the meaning of the tag:
 
@@ -33,12 +30,10 @@ Once upon a time, the developers wanted these tags to look different and differ 
 The italic emphasis is very similar to the bold emphasis, but it emphasizes the key part, not the key part. For example:
 
 ```html
-<p><i>Code Basics</i> — <em>programming</em> free courses</p>
+<p><i>Code Basics</i> — programming <em>free</em> courses</p>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="m-0"><i>Code Basics</i> — <em>programming</em> free courses</p>
-</div>
+![](../assets/em.png)
 
 In this example, two parts of the text were marked:
 

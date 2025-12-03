@@ -27,21 +27,7 @@ Now, using the form elements from the previous lessons, create a form with diffe
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="lead">Search form</p>
-  <form>
-    <label>
-      Enter your query
-      <input type="search">
-    </label>
-    <select>
-      <option disabled>Choose section to search in</option>
-      <option>JS</option>
-      <option>HTML</option>
-      <option>CSS</option>
-    </select>
-    <button>Search</button>
-  </form>
-</div>
+![](../assets/search-form.png)
+
 
 If you click the "Search" button, the page will reload, and the data should go to the handler on the same page. Since there is no handler, there will be no visible results other than a page reload.

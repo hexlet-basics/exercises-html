@@ -3,19 +3,14 @@ Un concepto importante en HTML es la anidación de etiquetas. Dentro de una etiq
 
 Algunos elementos en HTML requieren la anidación de unas etiquetas dentro de otras. Por ejemplo, las listas:
 
-```html
-<ul>
-  <li>Primer elemento de la lista</li>
-  <li>Segundo elemento de la lista</li>
-</ul>
-```
+![](../assets/list.png)
 
-<div class="hexlet-basics-example my-3">
+```html
   <ul class="m-0">
-    <li>Primer elemento de la lista</li>
-    <li>Segundo elemento de la lista</li>
+    <li>The first item in the list</li>
+    <li>The second item in the list</li>
   </ul>
-</div>
+```
 
 Para definir una lista se utiliza la etiqueta `<ul>`, que indica que es una lista _marcada_. Dentro de ella se encuentran las etiquetas `<li>`, que definen los elementos de nuestra lista.
 

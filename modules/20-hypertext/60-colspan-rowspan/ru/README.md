@@ -1,27 +1,7 @@
 
 В таблицах часто нужно объединять строки или столбцы. Это помогает объединить различную информацию. Например, если в складской таблице нет товара, то нет смысла постоянно дублировать информацию — её можно объединить и написать, что товара нет на складе:
 
-```html
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0">
-    <thead>
-      <tr>
-        <th>Товар</th>
-        <th>Цена</th>
-        <th>Количество</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Чай</td>
-        <td colspan="2">Нет на складе</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-```
-
-![Table](../assets/image.png)
+![](../assets/table1.png)
 
 В HTML-разметке объединить ячейки в столбцах или строках можно с помощью специальных атрибутов `colspan` и `rowspan`. Их значениями является количество ячеек справа (для `colspan`) или снизу (для `rowspan`), которые нужно объединить с текущей. Отсчёт начинается с текущей ячейки, к которой применено свойство. Например, если стоит значение `colspan="2"`, то будет объединена текущая ячейка с соседней.
 
@@ -31,16 +11,16 @@
 <table>
   <thead>
     <tr>
-      <th>Товар</th>
-      <th>Цена</th>
-      <th>Количество</th>
+      <th>Item</th>
+      <th>Price</th>
+      <th>Amount</th>
     </tr>
   </thead>
 
   <tbody>
     <tr>
-      <td>Чай</td>
-      <td>Нет на складе</td> <!-- ячейка, которую хотим объединить -->
+      <td>Tea</td>
+      <td>Out of stock</td> <!-- the cell we want to combine -->
       <td></td>
     </tr>
   </tbody>
@@ -55,16 +35,16 @@
 <table>
   <thead>
     <tr>
-      <th>Товар</th>
-      <th>Цена</th>
-      <th>Количество</th>
+      <th>Item</th>
+      <th>Price</th>
+      <th>Amount</th>
     </tr>
   </thead>
 
   <tbody>
     <tr>
-      <td>Чай</td>
-      <td colspan="2">Нет на складе</td>
+      <td>Tea</td>
+      <td colspan="2">Out of stock</td>
     </tr>
   </tbody>
 </table>
@@ -76,22 +56,22 @@
 <table>
   <thead>
     <tr>
-      <th>Сотрудник</th>
-      <th>Зарплата</th>
-      <th>Бонусы</th>
-      <th>Менеджер</th>
+      <th>Employee</th>
+      <th>Salary</th>
+      <th>Bonus</th>
+      <th>Manager</th>
     </tr>
   </thead>
 
   <tbody>
     <tr>
-      <td>Алексей Примадонин</td>
+      <td>Alex Primadonin</td>
       <td>750$</td>
       <td>63$</td>
-      <td rowspan="2">Кодовёнок Хекслетович</td>
+      <td rowspan="2">Cody Hexly</td>
     </tr>
     <tr>
-      <td>Вениамин Редакторович</td>
+      <td>Eddie Vainy</td>
       <td>1200$</td>
       <td>0</td>
     </tr>
@@ -101,32 +81,4 @@
 
 В примере двое сотрудников взаимодействуют с одним менеджером. Можно указать его дважды, но нагляднее объединить ячейки по вертикали. Для этого был добавлен атрибут `rowspan="2"`, а во второй строке удалена четвёртая ячейка, так как её место займёт ячейка выше
 
-```html
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0">
-    <thead>
-      <tr>
-        <th>Сотрудник</th>
-        <th>Зарплата</th>
-        <th>Бонусы</th>
-        <th>Менеджер</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Алексей Примадонин</td>
-        <td>750$</td>
-        <td>63$</td>
-        <td rowspan="2">Кодовёнок Хекслетович</td>
-      </tr>
-      <tr>
-        <td>Вениамин Редакторович</td>
-        <td>1200$</td>
-        <td>0</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-```
-
-[Codepen](https://codepen.io/hexlet/pen/RNaYmeq)
+![](../assets/table2.png)

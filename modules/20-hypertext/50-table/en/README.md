@@ -38,21 +38,7 @@ It is within this tag creates rows and columns of the table. Now you can create 
 </table>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0 w-100">
-    <tr> <!-- Line -->
-      <td>"Tota" Chocolate</td> <!-- Cell -->
-      <td>100 gram</td>
-      <td>20 dollars</td>
-    </tr>
-
-    <tr> <!-- Line -->
-      <td>"Tota TeamLead" Chocolate</td> <!-- Cell -->
-      <td>100 gram</td>
-      <td>50 dollars</td>
-    </tr>
-  </table>
-</div>
+![](../assets/table1.png)
 
 ---
 
@@ -88,29 +74,7 @@ The data is displayed, but there are not enough headings to describe each column
 </table>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0">
-    <thead> <!-- Table header -->
-      <tr>
-        <th>Yummy</th> <!-- Рeader cell -->
-        <th>Weight</th>
-        <th>Price</th>
-      </tr>
-    </thead>
-
-    <tr>
-      <td>"Tota" Chocolate</td>
-      <td>100 gram</td>
-      <td>20 dollars</td>
-    </tr>
-
-    <tr>
-      <td>"Tota TeamLead" Chocolate</td>
-      <td>150 gram</td>
-      <td>50 dollars</td>
-    </tr>
-  </table>
-</div>
+![](../assets/table-th.png)
 
 The last step is to add the `<tbody>` tag, which marks the main part of the table. Often developers miss it because browsers automatically wrap a group of lines that are not wrapped in other tags. Note that the `<tbody>` tag is often the only one in the table. In large tables, you can use several `<tbody>` to separate different sections in a table, but in most cases this is not necessary.
 
@@ -172,29 +136,4 @@ Tables can be configured with a header. It is needed when several tables are out
 </table>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0">
-    <caption>"Hexlet" chocolate assortment</caption>
-    <thead>
-      <tr>
-        <th>Yummy</th>
-        <th>Weight</th>
-        <th>Price</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>"Tota" chocolate</td>
-        <td>100 gram</td>
-        <td>20 dollars</td>
-      </tr>
-
-      <tr>
-        <td>"Tota TeamLead" chocolate</td>
-        <td>150 gram</td>
-        <td>50 dollars</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+![](../assets/table-with-caption.png)

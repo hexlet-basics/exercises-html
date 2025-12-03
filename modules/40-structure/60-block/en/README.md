@@ -11,9 +11,4 @@ In addition to block elements, there are **inline** elements**. These include li
 <span>It occupies a width equal to the width of its content, so there is no line break.</span>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p>A paragraph is a block-level element.</p>
-  <p>It takes up all the space in the width, so each paragraph starts on a new line.</p>
-  <span>Span is an inline element.</span>
-  <span>It occupies a width equal to the width of its content, so there is no line break.</span>
-</div>
+![](../assets/example.png)

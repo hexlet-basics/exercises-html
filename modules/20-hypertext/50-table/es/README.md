@@ -23,35 +23,21 @@ Es dentro de esta etiqueta que se crean las filas y las columnas de la tabla. Ah
 
 ```html
 <table>
-  <tr> <!-- Fila -->
-    <td>Chocolate "Totá"</td> <!-- Celda -->
-    <td>100 gramos</td>
-    <td>2 dólares</td>
+  <tr> <!-- Line -->
+    <td>"Tota" Chocolate</td> <!-- Cell -->
+    <td>100 gram</td>
+    <td>20 dollars</td>
   </tr>
 
-  <tr> <!-- Fila -->
-    <td>Chocolate "Totá TeamLead"</td> <!-- Celda -->
-    <td>100 gramos</td>
-    <td>5 dólares</td>
+  <tr> <!-- Line -->
+    <td>"Tota TeamLead" Chocolate</td> <!-- Cell -->
+    <td>100 gram</td>
+    <td>50 dollars</td>
   </tr>
 </table>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0 w-100">
-    <tr> <!-- Fila -->
-      <td>Chocolate "Totá"</td> <!-- Celda -->
-      <td>100 gramos</td>
-      <td>2 dólares</td>
-    </tr>
-
-    <tr> <!-- Fila -->
-      <td>Chocolate "Totá TeamLead"</td> <!-- Celda -->
-      <td>100 gramos</td>
-      <td>5 dólares</td>
-    </tr>
-  </table>
-</div>
+![](../assets/table1.png)
 
 ---
 
@@ -87,29 +73,7 @@ Los datos ya están presentados, pero faltan encabezados para describir cada col
 </table>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0">
-    <thead> <!-- Encabezado de la tabla -->
-      <tr>
-        <th>Delicia</th> <!-- Celda de encabezado -->
-        <th>Peso</th>
-        <th>Precio</th>
-      </tr>
-    </thead>
-
-    <tr>
-      <td>Chocolate "Totá"</td>
-      <td>100 gramos</td>
-      <td>2 dólares</td>
-    </tr>
-
-    <tr>
-      <td>Chocolate "Totá TeamLead"</td>
-      <td>150 gramos</td>
-      <td>5 dólares</td>
-    </tr>
-  </table>
-</div>
+![](../assets/table-th.png)
 
 El último paso es agregar la etiqueta `<tbody>`, que marca la parte principal de la tabla. A menudo los desarrolladores omiten esta etiqueta, ya que los navegadores envuelven automáticamente un grupo de filas que no están dentro de otras etiquetas. Ten en cuenta que la etiqueta `<tbody>` suele usarse solo una vez en una tabla. En tablas más grandes, se pueden usar múltiples `<tbody>` para separar diferentes secciones de la tabla, pero en la mayoría de los casos esto no es necesario.
 
@@ -171,29 +135,4 @@ Puedes personalizar el título de la tabla. Esto es útil cuando se muestran var
 </table>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0">
-    <caption>Asortimento de Chocolate "Hexlet"</caption>
-    <thead>
-      <tr>
-        <th>Delicia</th>
-        <th>Peso</th>
-        <th>Precio</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>Chocolate "Totá"</td>
-        <td>100 gramos</td>
-        <td>2 dólares</td>
-      </tr>
-
-      <tr>
-        <td>Chocolate "Totá TeamLead"</td>
-        <td>150 gramos</td>
-        <td>5 dólares</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+![](../assets/table-with-caption.png)

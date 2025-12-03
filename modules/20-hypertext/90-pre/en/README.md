@@ -1,19 +1,7 @@
 
 Sometimes you need to insert text while retaining its original formatting. Let's take a look at Mayakovsky's famous "ladder" from the poem "To Sergei Yesenin.
 
-<div class="hexlet-basics-example">
-    <pre>
-    As the saying says,
-                    you are
-                          now far.
-    Void and stars,
-            a stodgy kind
-                          passover.
-    Not a payday,
-                not a whiskey bar.
-    Sober.
-    </pre>
-</div>
+![](../assets/ladder.png)
 
 Vladimir Mayakovsky believed that it was in this form that the rhythm of verse could best be framed.
 

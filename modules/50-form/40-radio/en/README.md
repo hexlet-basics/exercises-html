@@ -2,30 +2,7 @@ Imagine you're offering the user a choice of having the product delivered by cou
 
 If you want to create a switch that can handle only one of several options, you can use radio buttons. They get their name from old car radios where you could press one of the many buttons to select the frequency.
 
-<div class="hexlet-basics-example my-3">
-  <p class="lead">Choose a radio station</p>
-  <form>
-    <label>
-      <input type="radio" name="fm">
-      87.1 FM
-    </label>
-    <br>
-    <label>
-      <input type="radio" name="fm">
-      95.5 FM
-    </label>
-    <br>
-    <label>
-      <input type="radio" name="fm">
-      101.4 FM
-    </label>
-    <br>
-    <label>
-      <input type="radio" name="fm">
-      103.2 FM
-    </label>
-  </form>
-</div>
+![](../assets/radio.png)
 
 To create a radio button, as well as a checkbox, we use two tags:
 

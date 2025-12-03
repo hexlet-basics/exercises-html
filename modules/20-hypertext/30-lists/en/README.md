@@ -9,11 +9,7 @@ Lists are one way of presenting content on a page. With their help it is easy to
 
 You can make such a list with three paragraphs, but then, at first glance, it will seem that these are three different phrases not united by a common meaning.
 
-<div class="hexlet-basics-example my-3">
-  <p>Milk</p>
-  <p>Bread</p>
-  <p class="m-0">Water</p>
-</div>
+![](../assets/paragraphs.png)
 
 Lists are used to properly relate this information. To create them in HTML, several tags are used, nested within each other:
 
@@ -42,13 +38,8 @@ Bulleted lists are used when the information does not require a specific sequenc
 </ul>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <ul class="m-0">
-    <li>Milk</li>
-    <li>Bread</li>
-    <li>Water</li>
-  </ul>
-</div>
+![](../assets/ul.png)
+
 
 ## Numbered list
 
@@ -58,13 +49,7 @@ Such lists are useful if they indicate the sequence of actions to be taken. A nu
 
 To-do list for the day
 
-<div class="hexlet-basics-example my-3">
-  <ol class="m-0">
-    <li>Buy food</li>
-    <li>Go to Alex</li>
-    <li>Cook dinner</li>
-  </ol>
-</div>
+![](../assets/ol.png)
 
 in HTML markup looks like this:
 

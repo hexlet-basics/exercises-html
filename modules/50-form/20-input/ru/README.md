@@ -15,11 +15,7 @@
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <input type="text">
-  </form>
-</div>
+![](../assets/text-input.png)
 
 ## Тег label
 
@@ -27,7 +23,7 @@
 
 ```html
 <form>
-  <label>Введите имя</label>
+  <label>Enter a name</label>
   <input type="text">
 </form>
 ```
@@ -40,7 +36,7 @@
 
 ```html
 <form>
-  <label for="name">Введите имя</label>
+  <label for="name">Enter a name</label>
   <input type="text" id="name">
 </form>
 ```
@@ -49,7 +45,7 @@
 
 ```html
 <form>
-  <label>Введите имя
+  <label>Enter a name
     <input type="text">
   </label>
 </form>
@@ -61,17 +57,12 @@
 
 ```html
 <form>
-  <label for="name">Введите имя и фамилию</label>
-  <input type="text" id="name" placeholder="Иван Иванов">
+  <label for="name">Enter name and surname</label>
+  <input type="text" id="name" placeholder="John Smith">
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <label for="name">Введите имя и фамилию</label>
-    <input type="text" id="name" placeholder="Иван Иванов">
-  </form>
-</div>
+![](../assets/name-input.png)
 
 ## Другие текстовые поля
 
@@ -79,17 +70,12 @@
 
 ```html
 <form>
-  <label for="pin">Введите пинкод</label>
+  <label for="pin">Enter a pin code</label>
   <input type="password" id="pin" placeholder="1234">
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <label for="pin">Введите пинкод</label>
-    <input type="password" id="pin" placeholder="1234">
-  </form>
-</div>
+![](../assets/pincode.png)
 
 В стандарте HTML5 появилось ещё несколько интересных типов для тега `<input>`, которые реализуют обычное текстовое поле, но имеют свою реализацию. Например:
 

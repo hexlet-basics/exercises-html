@@ -3,29 +3,19 @@
 
 Для создания такой структуры используются _вложенные списки_. Это позволяет вкладывать в качестве элемента списка не просто текст, а новый список, создавая сложную структуру:
 
-<div class="hexlet-basics-example my-3">
-  <ul class="m-0">
-    <li>Сходить в магазин
-      <ul>
-        <li>Купить молоко</li>
-        <li>Купить хлеб</li>
-      </ul>
-    </li>
-    <li>Пройти уроки на Code Basics </li>
-  </ul>
-</div>
+![](../assets/nested-list.png)
 
 Вот как это выглядит в HTML:
 
 ```html
 <ul>
-  <li>Сходить в магазин
+  <li>Go to the store
     <ul>
-      <li>Купить молоко</li>
-      <li>Купить хлеб</li>
+      <li>Buy milk</li>
+      <li>Buy bread</li>
     </ul>
   </li>
-  <li>Пройти уроки на Code Basics </li>
+  <li>Take a class on Code Basics </li>
 </ul>
 ```
 

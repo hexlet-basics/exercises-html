@@ -15,11 +15,7 @@ The easiest way to use `<input>` is to create a text input box. `<input>` is pre
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <input type="text">
-  </form>
-</div>
+![](../assets/text-input.png)
 
 ## label tag
 
@@ -66,12 +62,7 @@ There are situations where there is a description for the field, but it's unclea
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <label for="name">Enter name and surname</label>
-    <input type="text" id="name" placeholder="John Smith">
-  </form>
-</div>
+![](../assets/name-input.png)
 
 ## Other text inputs
 
@@ -84,12 +75,7 @@ Have you noticed that when you enter passwords, the browser automatically puts a
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <label for="pin">Enter a pin code</label>
-    <input type="password" id="pin" placeholder="1234">
-  </form>
-</div>
+![](../assets/pincode.png)
 
 The HTML5 standard has some more interesting types for the `<input>` tag that implement the usual text box but do it in their own way. For example:
 

@@ -10,22 +10,15 @@ Estas divisiones lógicas en títulos permiten orientarse más rápidamente en e
 Para crear títulos se utilizan 6 pares de etiquetas: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`, donde `<h1>` es el título de primer nivel, el más importante y que describe el tema principal del texto, y `<h6>` es el título de nivel más bajo.
 
 ```html
-<h1>Título de primer nivel</h1>
-<h2>Título de segundo nivel</h2>
-<h3>Título de tercer nivel</h3>
-<h4>Título de cuarto nivel</h4>
-<h5>Título de quinto nivel</h5>
-<h6>Título de sexto nivel</h6>
+<h1>Title of the first level</h1>
+<h2>Title of the second level</h2>
+<h3>Title of the third level</h3>
+<h4>Title of the fourth level</h4>
+<h5>Title of the fifth level</h5>
+<h6>Title of the sixth level</h6>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <h1>Título de primer nivel</h1>
-  <h2>Título de segundo nivel</h2>
-  <h3>Título de tercer nivel</h3>
-  <h4>Título de cuarto nivel</h4>
-  <h5>Título de quinto nivel</h5>
-  <h6>Título de sexto nivel</h6>
-</div>
+![](../assets/headings.png)
 
 Cada título de nivel inferior es una subsección del título de nivel superior. Esto es muy similar a la tabla de contenido de cualquier libro, cuya estructura puede ser así:
 

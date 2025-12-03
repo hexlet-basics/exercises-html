@@ -1,6 +1,6 @@
 En el texto es posible utilizar caracteres especiales, también conocidos como entidades mnemotécnicas. Estos permiten utilizar símbolos que están presentes en la tabla de caracteres pero que no se encuentran en el teclado, como los símbolos matemáticos o griegos:
 
-<div class="hexlet-basics-example">&xi; &pi; &upsih;</div>
+![](../assets/characters.png)
 
 Para escribir estos caracteres se utiliza la construcción `&nombre-del-símbolo;`. Es importante respetar las mayúsculas y minúsculas en el nombre del símbolo.
 

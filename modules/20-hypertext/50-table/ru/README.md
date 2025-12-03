@@ -24,34 +24,21 @@
 
 ```html
 <table>
-  <tr> <!-- Строка -->
-    <td>Шоколад «Тота»</td> <!-- Ячейка -->
-    <td>100 грамм</td>
-    <td>200 рублей</td>
+  <tr> <!-- Line -->
+    <td>"Tota" Chocolate</td> <!-- Cell -->
+    <td>100 gram</td>
+    <td>20 dollars</td>
   </tr>
 
-  <tr> <!-- Строка -->
-    <td>Шоколад «Тота TeamLead»</td> <!-- Ячейка -->
-    <td>100 грамм</td>
-    <td>500 рублей</td>
+  <tr> <!-- Line -->
+    <td>"Tota TeamLead" Chocolate</td> <!-- Cell -->
+    <td>100 gram</td>
+    <td>50 dollars</td>
   </tr>
 </table>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0 w-100">
-    <tr> <!-- Строка -->
-      <td>Шоколад «Тота»</td> <!-- Ячейка -->
-      <td>100 грамм</td>
-      <td>200 рублей</td>
-    </tr>
-    <tr> <!-- Строка -->
-      <td>Шоколад «Тота TeamLead»</td> <!-- Ячейка -->
-      <td>100 грамм</td>
-      <td>500 рублей</td>
-    </tr>
-  </table>
-</div>
+![](../assets/table1.png)
 
 ---
 
@@ -87,27 +74,7 @@
 </table>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0">
-    <thead> <!-- Шапка таблицы -->
-      <tr>
-        <th>Вкусняшка</th> <!-- Ячейка-заголовок -->
-        <th>Вес</th>
-        <th>Цена</th>
-      </tr>
-    </thead>
-    <tr>
-      <td>Шоколад «Тота»</td>
-      <td>100 грамм</td>
-      <td>200 рублей</td>
-    </tr>
-    <tr>
-      <td>Шоколад «Тота TeamLead»</td>
-      <td>150 грамм</td>
-      <td>500 рублей</td>
-    </tr>
-  </table>
-</div>
+![](../assets/table-th.png)
 
 Последним шагом станет добавление тега `<tbody>`, который размечает основную часть таблицы. Часто разработчики его упускают, потому что браузеры автоматически оборачивают им группу строк, которые не обёрнуты в другие теги. Обратите внимание — тег `<tbody>` чаще всего только один в таблице. В больших таблицах можно использовать несколько `<tbody>`, чтобы отделить разные секции в таблице, но в большинстве случаев в этом нет необходимости.
 
@@ -169,27 +136,4 @@
 </table>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <table class="table-bordered m-0">
-    <caption>Ассортимент шоколада «Hexlet»</caption> <!-- Название таблицы -->
-    <thead>
-      <tr>
-        <th>Вкусняшка</th>
-        <th>Вес</th>
-        <th>Цена</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Шоколад «Тота»</td>
-        <td>100 грамм</td>
-        <td>200 рублей</td>
-      </tr>
-      <tr>
-        <td>Шоколад «Тота TeamLead»</td>
-        <td>150 грамм</td>
-        <td>500 рублей</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+![](../assets/table-with-caption.png)

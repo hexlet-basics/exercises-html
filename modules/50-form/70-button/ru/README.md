@@ -11,38 +11,22 @@
 Теперь, используя элементы форм из прошлых уроков, создадим форму с разными полями.
 
 ```html
-<h2>Форма поиска</h2>
+<h2>Search form</h2>
 <form>
   <label>
-    Введите ваш запрос
+    Enter your query
     <input type="search">
   </label>
-  <br>
   <select>
-    <option disabled>В каком разделе искать?</option>
+    <option disabled>Choose section to search in</option>
     <option>JS</option>
     <option>HTML</option>
     <option>CSS</option>
   </select>
-  <button>Искать</button>
+  <button>Search</button>
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="lead">Форма поиска</p>
-  <form>
-    <label>
-      Введите ваш запрос
-      <input type="search">
-    </label>
-    <select>
-      <option disabled>В каком разделе искать?</option>
-      <option>JS</option>
-      <option>HTML</option>
-      <option>CSS</option>
-    </select>
-    <button>Искать</button>
-  </form>
-</div>
+![](../assets/search-form.png)
 
-Если вы нажмёте на кнопку «Искать», то страница перезагрузится и данные должны будут уйти в обработчик на эту же страницу. Так как обработчика нет, то никаких видимых результатов, кроме перезагрузки страницы, не произойдёт.
+Если вы нажмёте на кнопку Search, то страница перезагрузится и данные должны будут уйти в обработчик на эту же страницу. Так как обработчика нет, то никаких видимых результатов, кроме перезагрузки страницы, не произойдёт.
