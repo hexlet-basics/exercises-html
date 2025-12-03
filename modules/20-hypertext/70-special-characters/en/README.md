@@ -1,6 +1,6 @@
 There are special characters you can use in your text called mnemonic aliases. They allow you to use characters that are present in the symbol table but are not on the keyboard, such as math symbols or Greek:
 
-<div class="hexlet-basics-example">&xi; &pi; &upsih;</div>
+![](../assets/characters.png)
 
 To record these characters, we use the `&character-name;` construction. It's important to pay attention to the letter case in the name of the character.
 
