@@ -15,11 +15,7 @@ La forma más sencilla de utilizar `<input>` es crear un campo de texto para la 
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <input type="text">
-  </form>
-</div>
+![](../assets/text-input.png)
 
 ## Etiqueta label
 
@@ -27,7 +23,7 @@ El campo está creado, pero no está claro qué se debe ingresar allí: ¿nombre
 
 ```html
 <form>
-  <label>Ingrese su nombre</label>
+  <label>Enter a name</label>
   <input type="text">
 </form>
 ```
@@ -40,7 +36,7 @@ Para vincular `label`, se utiliza una de las dos opciones:
 
 ```html
 <form>
-  <label for="name">Ingrese su nombre</label>
+  <label for="name">Enter a name</label>
   <input type="text" id="name">
 </form>
 ```
@@ -49,7 +45,7 @@ Para vincular `label`, se utiliza una de las dos opciones:
 
 ```html
 <form>
-  <label>Ingrese su nombre
+  <label>Enter a name
     <input type="text">
   </label>
 </form>
@@ -61,17 +57,12 @@ A veces hay situaciones en las que hay una descripción para el campo, pero no e
 
 ```html
 <form>
-  <label for="name">Ingrese su nombre y apellido</label>
-  <input type="text" id="name" placeholder="Iván Ivánov">
+  <label for="name">Enter name and surname</label>
+  <input type="text" id="name" placeholder="John Smith">
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <label for="name">Ingrese su nombre y apellido</label>
-    <input type="text" id="name" placeholder="Iván Ivánov">
-  </form>
-</div>
+![](../assets/name-input.png)
 
 ## Otros campos de texto
 
@@ -79,17 +70,12 @@ A veces hay situaciones en las que hay una descripción para el campo, pero no e
 
 ```html
 <form>
-  <label for="pin">Ingrese su código PIN</label>
+  <label for="pin">Enter a pin code</label>
   <input type="password" id="pin" placeholder="1234">
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <label for="pin">Ingrese su código PIN</label>
-    <input type="password" id="pin" placeholder="1234">
-  </form>
-</div>
+![](../assets/pincode.png)
 
 En HTML5 se han agregado varios tipos interesantes más para la etiqueta `<input>`, que implementan un campo de texto normal pero con su propia implementación. Por ejemplo:
 
