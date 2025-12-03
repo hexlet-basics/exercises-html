@@ -13,7 +13,4 @@ Paragraphs are created using the paired `<p>` tag with a small amount of text in
 
 This is what they look like in the browser:
 
-<div class="hexlet-basics-example my-3">
-  <p>First paragraph</p>
-  <p class="m-0">Second paragraph</p>
-</div>
+![](../assets/paragraphs.png)

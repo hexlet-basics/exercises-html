@@ -7,13 +7,10 @@ La división se realiza en bloques de significado pequeños. Esto no solo hace q
 Los párrafos se crean utilizando la etiqueta de apertura y cierre `<p>`, dentro de la cual se coloca una pequeña parte del texto. Por ejemplo:
 
 ```html
-<p>Primer párrafo</p>
-<p>Segundo párrafo</p>
+<p>First paragraph</p>
+<p>Second paragraph</p>
 ```
 
 Así es como se ven en el navegador:
 
-<div class="hexlet-basics-example my-3">
-  <p>Primer párrafo</p>
-  <p class="m-0">Segundo párrafo</p>
-</div>
+![](../assets/paragraphs.png)
