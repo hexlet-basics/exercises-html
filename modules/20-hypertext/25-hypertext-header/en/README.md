@@ -18,14 +18,7 @@ To create titles used 6 paired tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h
 <h6>Title of the sixth level</h6>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <h1>Title of the first level</h1>
-  <h2>Title of the second level</h2>
-  <h3>Title of the third level</h3>
-  <h4>Title of the fourth level</h4>
-  <h5>Title of the fifth level</h5>
-  <h6>Title of the sixth level</h6>
-</div>
+![](../assets/headings.png)
 
 Each lower level heading is a subsection of a higher level heading. This is very similar to the table of contents of any book, the structure of which might look like this:
 
