@@ -2,29 +2,7 @@ In online stores, purchases are often made by specifying the category that we wa
 
 Checkboxes allow you to select multiple items from the ones presented:
 
-<div class="hexlet-basics-example">
-  <form>
-    <label>
-      <input type="checkbox">
-      I want to learn HTML
-    </label>
-    <br>
-    <label>
-      <input type="checkbox">
-      I want to learn CSS
-    </label>
-    <br>
-    <label>
-      <input type="checkbox">
-      I want to learn JS
-    </label>
-    <br>
-    <label>
-      <input type="checkbox">
-      I want to learn another language
-    </label>
-  </form>
-</div>
+![](../assets/checkboxes.png)
 
 Two tags are used to create a checkbox:
 

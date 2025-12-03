@@ -1,12 +1,7 @@
 
 A menudo queremos darle al usuario la posibilidad de escribir no solo una línea de texto, sino varias. Por ejemplo, si el usuario quiere dejar un comentario. Para esto se utiliza el elemento `<textarea>`, que permite ingresar varias líneas de texto.
 
-<div class="hexlet-basics-example">
-  <p class="lead">Deja tu comentario</p>
-  <form>
-      <textarea></textarea>
-  </form>
-</div>
+![](../assets/feedback.png)
 
 ```html
 <form>
@@ -20,12 +15,8 @@ Por defecto, la altura y el ancho de `<textarea>` dependen de la configuración 
 
 ```html
 <form>
-  <textarea rows="5" cols="30">textarea con 5 filas y 30 columnas</textarea>
+  <textarea rows="5" cols="30">textarea with 5 rows and 30 columns</textarea>
 </form>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <form>
-    <textarea rows="5" cols="30">textarea con 5 filas y 30 columnas</textarea>
-  </form>
-</div>
+![](../assets/textarea.png)

@@ -2,29 +2,7 @@
 
 Чекбоксы позволяют выбирать множество элементов из представленных:
 
-<div class="hexlet-basics-example">
-  <form>
-    <label>
-      <input type="checkbox">
-      Хочу изучать HTML
-    </label>
-    <br>
-    <label>
-      <input type="checkbox">
-      Хочу изучать CSS
-    </label>
-    <br>
-    <label>
-      <input type="checkbox">
-      Хочу изучать JS
-    </label>
-    <br>
-    <label>
-      <input type="checkbox">
-      Хочу изучать другой язык
-    </label>
-  </form>
-</div>
+![](../assets/checkboxes.png)
 
 Для создания чекбокса используются два тега:
 

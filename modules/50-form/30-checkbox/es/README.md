@@ -2,19 +2,7 @@ En las tiendas en línea, a menudo se utiliza la selección por categorías para
 
 Las casillas de verificación permiten seleccionar varios elementos de los presentados:
 
-<div class="hexlet-basics-example">
-  <form action="/people" method="post">
-    <label>
-      <input type="checkbox" name="languages" value="HTML">
-      Quiero aprender HTML
-    </label>
-    <br>
-    <label>
-      <input type="checkbox" name="languages" value="CSS">
-      Quiero aprender CSS
-    </label>
-  </form>
-</div>
+![](../assets/checkboxes.png)
 
 Para crear una casilla de verificación se utilizan dos etiquetas:
 
