@@ -3,19 +3,14 @@ Tag nesting is an important concept in HTML. You can place more than just text b
 
 Some elements in HTML require some tags to be nested into other. For example, lists:
 
-```html
-<ul>
-  <li>The first item in the list</li>
-  <li>The second item in the list</li>
-</ul>
-```
+![](../assets/list.png)
 
-<div class="hexlet-basics-example my-3">
+```html
   <ul class="m-0">
     <li>The first item in the list</li>
     <li>The second item in the list</li>
   </ul>
-</div>
+```
 
 The `<ul>` tag is used to define the list, and this one indicates that it's _a bulleted_ list. Inside are the `<li>` tags that define the elements of our list.
 
