@@ -25,9 +25,6 @@ There can be several such paragraphs on a page - this is not a unique element.
 
 Jumping forward a little, we'd like to point out that browsers, by default, display many tags with predefined styles. For example, paragraphs are indented at the bottom to visually separate them from each other. The last example in the browser looks like this:
 
-<div class="hexlet-basics-example my-3">
-  <p>Hexlet is a hands-on programming course.</p>
-  <p class="m-0">We help newcomers become professional programmers, and experienced developers gain new knowledge and grow professionally.</p>
-</div>
+![](../assets/result.png)
 
 Using CSS, you can change these styles and add new ones. There is a separate course on this site for learning this language.
