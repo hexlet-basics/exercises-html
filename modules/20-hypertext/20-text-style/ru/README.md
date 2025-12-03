@@ -6,20 +6,16 @@
 Для выделения текста жирным используется один из двух парных тегов: `<b>` или `<strong>`:
 
 ```html
-<p>Code Basics — <b>курсы</b> по программированию.</p>
+<p>Code Basics — programming <b>courses</b>.</p>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="m-0">Code Basics — <b>курсы</b> по программированию.</p>
-</div>
+![](../assets/bold.png)
 
 ```html
-<p>HTML — <strong>язык разметки гипертекста</strong></p>
+<p>HTML — <strong>Hypertext Markup Language</strong></p>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="m-0">HTML — <strong>язык разметки гипертекста</strong></p>
-</div>
+![](../assets/strong.png)
 
 Оба примера иллюстрируют добавление жирного начертания к участку текста. Но почему для визуально одинаковых результатов использовалось два разных тега? Дело в _семантике_, то есть смысловом значении. В данном случае смысловом значении тега:
 
@@ -33,12 +29,10 @@
 По своему смыслу курсивное выделение очень похоже на жирное, но им выделяется не ключевая часть, а ставится акцент. Например:
 
 ```html
-<p><i>Code Basics</i> — <em>бесплатные курсы</em> по программированию</p>
+<p><i>Code Basics</i> — programming <em>free</em> courses</p>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="m-0"><i>Code Basics</i> — <em>бесплатные курсы</em> по программированию</p>
-</div>
+![](../assets/em.png)
 
 В этом примере были размечены две части текста:
 

@@ -5,20 +5,17 @@ Cualquier texto contiene partes clave que deseamos transmitir al lector. Estas p
 Para resaltar el texto en negritas, se utiliza uno de los dos pares de etiquetas: `<b>` o `<strong>`:
 
 ```html
-<p>Code Basics — <b>cursos</b> de programación.</p>
+<p>Code Basics — programming <b>courses</b>.</p>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="m-0">Code Basics — <b>cursos</b> de programación.</p>
-</div>
+![](../assets/bold.png)
 
 ```html
-<p>HTML — <strong>lenguaje de marcado de hipertexto</strong></p>
+<p>HTML — <strong>Hypertext Markup Language</strong></p>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="m-0">HTML — <strong>lenguaje de marcado de hipertexto</strong></p>
-</div>
+![](../assets/strong.png)
+
 
 Ambos ejemplos ilustran cómo agregar formato en negritas a un fragmento de texto. Pero, ¿por qué se utilizaron dos etiquetas diferentes para lograr resultados visualmente iguales? Esto se debe a la _semántica_, es decir, el significado. En este caso, el significado de la etiqueta es:
 
@@ -32,12 +29,10 @@ En el pasado, los desarrolladores querían que estas etiquetas tuvieran una apar
 En su significado, el resaltado en cursiva es muy similar al resaltado en negritas, pero en lugar de enfatizar partes clave, se pone énfasis. Por ejemplo:
 
 ```html
-<p><i>Code Basics</i> — <em>cursos gratuitos</em> de programación</p>
+<p><i>Code Basics</i> — programming <em>free</em> courses</p>
 ```
 
-<div class="hexlet-basics-example my-3">
-  <p class="m-0"><i>Code Basics</i> — <em>cursos gratuitos</em> de programación</p>
-</div>
+![](../assets/em.png)
 
 En este ejemplo, se marcaron dos partes del texto:
 
