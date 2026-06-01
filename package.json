@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "@github/query-selector": "^1.0.4",
-    "@testing-library/dom": "^10.4.0",
-    "chai": "^5.2.0",
+    "@testing-library/dom": "^10.4.1",
+    "chai": "^6.2.2",
     "chai-dom": "^1.12.1",
-    "htmlhint": "^1.1.4",
-    "jsdom": "^26.0.0",
+    "htmlhint": "^1.9.2",
+    "jsdom": "^29.1.1",
     "jsdom-global": "^3.0.2"
   }
 }
