@@ -1,7 +1,7 @@
 
 As with audio, until recently it was impossible to "comfortably" insert a video file into HTML markup. Since HTML5 there is a `<video>` element that, like `<audio>`, allows you to quickly add videos to a page.
 
-The `<video>`  tag is paired, which, in the absence of nested `<source>` tags, specifies the path to the video file in the `src` attribute. You can use the `controls` attribute to display controls for the video player. The visual appearance of the controls depends on the specific browser.
+The `<video>` tag is paired, which, in the absence of nested `<source>` tags, specifies the path to the video file in the `src` attribute. You can use the `controls` attribute to display controls for the video player. The visual appearance of the controls depends on the specific browser.
 
 ```html
 <video src="https://example.com/our-video.mp4" controls></video>
@@ -21,10 +21,10 @@ Three file formats ensure that videos work on all devices. You also need `type` 
 
 The `<video>` tag has several important attributes:
 
-* `controls` — Adds controls for the video player
-* `autoplay` — Automatic playback after loading the video
-* `width` — Width of the video player
-* `height` — Height of the video player
+- `controls` — Adds controls for the video player
+- `autoplay` — Automatic playback after loading the video
+- `width` — Width of the video player
+- `height` — Height of the video player
 
 The `width` and `height` attributes are pixel values, and you don't need to specify the unit of measure.
 

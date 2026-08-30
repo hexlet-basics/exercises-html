@@ -21,10 +21,10 @@ La presencia de tres formatos de archivo garantiza la funcionalidad del video en
 
 La etiqueta `<video>` tiene varios atributos importantes:
 
-* `controls` — Agrega elementos de control al reproductor de video
-* `autoplay` — Reproduce automáticamente el video después de cargarlo
-* `width` — Ancho del reproductor de video
-* `height` — Altura del reproductor de video
+- `controls` — Agrega elementos de control al reproductor de video
+- `autoplay` — Reproduce automáticamente el video después de cargarlo
+- `width` — Ancho del reproductor de video
+- `height` — Altura del reproductor de video
 
 Los atributos `width` y `height` aceptan valores en píxeles y no es necesario especificar la unidad de medida.
 

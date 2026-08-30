@@ -5,8 +5,8 @@ Almost all tabs in the browser have small icons called _favicons_. They, like th
 
 In order to set a favicon for your page, use the tag `<link>`, which specifies two attributes:
 
-* `rel` to specify content
-* `href` to link to the icon
+- `rel` to specify content
+- `href` to link to the icon
 
 ```html
 <link rel="icon" href="/favicon.png">

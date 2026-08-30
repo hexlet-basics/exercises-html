@@ -1,5 +1,5 @@
 
-In order for the browser to determine the type of element that needs to be displayed on the page, there are special constructions in HTML, called tags. You can use tags to create a paragraph, a title, or a text section, and also to  quickly change them.
+In order for the browser to determine the type of element that needs to be displayed on the page, there are special constructions in HTML, called tags. You can use tags to create a paragraph, a title, or a text section, and also to quickly change them.
 
 One of the main tags is the paragraph tag. It separates sections of text from each other, allowing users to read the information on the page more comfortably.
 

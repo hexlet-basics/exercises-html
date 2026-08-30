@@ -22,10 +22,10 @@ Let's take the header we created and add an area with unique content to it:
 
 The `main` element is unique to one page. This reflects its semantic purpose, marking up unique content. When wrapping content in `main`, it's important not to include non-unique areas:
 
-* Sidebar
-* Site-wide navigation
-* Site-wide header and footer
-* Logo
+- Sidebar
+- Site-wide navigation
+- Site-wide header and footer
+- Logo
 
 Place text/graphic content in `main`. It's easy to find such content in online templates - it's not duplicated on other pages.
 

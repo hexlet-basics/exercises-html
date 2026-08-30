@@ -3,10 +3,10 @@ Large pages contain a lot of content that is intermixed with each other. There m
 
 This may sound a little confusing, but imagine a music portal page that has the following areas:
 
-* Information about the performer
-* Popular tracks by the artist
-* Discography
-* List of upcoming concerts
+- Information about the performer
+- Popular tracks by the artist
+- Discography
+- List of upcoming concerts
 
 If it's a page about the artist, then all of this content will be located inside the `main` section, and it's worth highlighting these 4 sections as well. They're related to the overall content but are independent units within it. The layout might look like this:
 

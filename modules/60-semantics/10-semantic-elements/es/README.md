@@ -25,13 +25,13 @@ Con la llegada del estándar HTML5, se introdujeron nuevas etiquetas que permite
 
 Las principales etiquetas semánticas son:
 
-* `<article>`
-* `<aside>`
-* `<footer>`
-* `<header>`
-* `<main>`
-* `<nav>`
-* `<section>`
+- `<article>`
+- `<aside>`
+- `<footer>`
+- `<header>`
+- `<main>`
+- `<nav>`
+- `<section>`
 
 La mayoría de los elementos son intuitivos y se pueden utilizar de inmediato en los documentos. Ahora, el ejemplo anterior se puede rehacer utilizando los nuevos elementos HTML:
 

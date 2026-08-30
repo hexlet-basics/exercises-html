@@ -1,9 +1,9 @@
 Hablando de semántica, se mencionó un formato de marcado llamado microformato, utilizado por los robots de búsqueda para analizar la información en una página. Un marcado adecuado de la página con microformato ayuda a mostrar en los resultados de búsqueda no solo el enlace al sitio web y la descripción, sino también información adicional:
 
-* Nombre de la organización
-* Horario de atención
-* Dirección
-* Número de teléfono
+- Nombre de la organización
+- Horario de atención
+- Dirección
+- Número de teléfono
 
 El microformato es una herramienta que se implementa mediante atributos adicionales en las etiquetas HTML.
 
@@ -15,10 +15,10 @@ Un vocabulario es un conjunto de reglas que describen los bloques en una página
 
 Pasos para crear un microformato:
 
-* Selecciona un vocabulario. Puedes consultar la documentación para conocer los vocabularios compatibles con un motor de búsqueda en particular. Para el motor de búsqueda Yandex, los vocabularios disponibles se indican [aquí](https://es.wikipedia.org/wiki/Schema.org).
-* Define el bloque que se va a marcar. Puede ser un bloque o incluso toda la página del sitio web.
-* Identifica la información relevante. En el caso de marcar información de contacto, esto incluye el nombre de la organización, el teléfono, el correo electrónico y la dirección.
-* Especifica los atributos según el tipo de información y el vocabulario seleccionado.
+- Selecciona un vocabulario. Puedes consultar la documentación para conocer los vocabularios compatibles con un motor de búsqueda en particular. Para el motor de búsqueda Yandex, los vocabularios disponibles se indican [aquí](https://es.wikipedia.org/wiki/Schema.org).
+- Define el bloque que se va a marcar. Puede ser un bloque o incluso toda la página del sitio web.
+- Identifica la información relevante. En el caso de marcar información de contacto, esto incluye el nombre de la organización, el teléfono, el correo electrónico y la dirección.
+- Especifica los atributos según el tipo de información y el vocabulario seleccionado.
 
 No es posible proporcionar instrucciones completas sobre el microformato en una sola lección. Es un tema amplio con muchos matices diferentes. A medida que adquieras experiencia, aprenderás a identificar rápidamente la información necesaria y marcarla correctamente. Con un enfoque sencillo, el microformato ofrece grandes oportunidades tanto en términos de presentación visual de la información en los resultados de búsqueda como para la promoción en motores de búsqueda.
 
@@ -45,8 +45,8 @@ El objetivo de la lección no es enseñar cómo marcar completamente los datos. 
 
 Para indicar al motor de búsqueda que los datos están marcados con un vocabulario, se deben especificar dos atributos:
 
-* `itemscope` - indica que el bloque es una entidad única y que los datos dentro de él están relacionados. Solo se especifica en el bloque principal y no tiene un valor propio.
-* `itemtype` - indica qué vocabulario se utilizará. Por ejemplo, para describir los contactos, se selecciona el vocabulario **Organization**. El atributo completo se ve así: `itemtype="http://schema.org/Organization"`
+- `itemscope` - indica que el bloque es una entidad única y que los datos dentro de él están relacionados. Solo se especifica en el bloque principal y no tiene un valor propio.
+- `itemtype` - indica qué vocabulario se utilizará. Por ejemplo, para describir los contactos, se selecciona el vocabulario **Organization**. El atributo completo se ve así: `itemtype="http://schema.org/Organization"`
 
 ```html
 <section itemscope itemtype="http://schema.org/Organization">
@@ -81,7 +81,7 @@ Siguiendo el mismo patrón, marquemos el resto de los datos: nombre, teléfono, 
 
 Puede utilizar las herramientas de las principales plataformas de búsqueda para verificar la corrección del microformato:
 
-* [Google](https://search.google.com/test/rich-results)
-* [Yandex](https://webmaster.yandex.ru/tools/microtest/)
+- [Google](https://search.google.com/test/rich-results)
+- [Yandex](https://webmaster.yandex.ru/tools/microtest/)
 
 Intente insertar el ejemplo de prueba en estas herramientas y observe los resultados. También puede intentar "romper" el microformato y ver los errores que se muestran.

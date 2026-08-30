@@ -2,13 +2,13 @@
 
 Такое взаимодействие осуществляется с помощью форм — набора полей и кнопок действий. Важно помнить, что HTML не умеет обрабатывать данные, которые были отправлены через форму. Для взаимодействия с этими данными нужно использовать языки программирования, которые работают на сервере, например JavaScript или PHP. Основы программирования на этих языках есть в соответствующих разделах на Code Basics:
 
-* [JavaScript](https://ru.code-basics.com/languages/javascript)
-* [PHP](https://ru.code-basics.com/languages/php)
+- [JavaScript](https://ru.code-basics.com/languages/javascript)
+- [PHP](https://ru.code-basics.com/languages/php)
 
 Детальнее эти вопросы рассмотрены в профессиях на Hexlet:
 
-* [Профессия Бэкенд JavaScript (node.js)](https://ru.hexlet.io/programs/backend?utm_source=code-basics&utm_medium=referral&utm_campaign=programs&utm_content=lesson)
-* [Профессия PHP-программист](https://ru.hexlet.io/programs/php?utm_source=code-basics&utm_medium=referral&utm_campaign=programs&utm_content=lesson)
+- [Профессия Бэкенд JavaScript (node.js)](https://ru.hexlet.io/programs/backend?utm_source=code-basics&utm_medium=referral&utm_campaign=programs&utm_content=lesson)
+- [Профессия PHP-программист](https://ru.hexlet.io/programs/php?utm_source=code-basics&utm_medium=referral&utm_campaign=programs&utm_content=lesson)
 
 Любая форма начинается с главного тега `<form>`, внутри которого и будут располагаться поля для заполнения и кнопка действия.
 

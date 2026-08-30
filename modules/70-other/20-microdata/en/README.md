@@ -1,9 +1,9 @@
 Speaking of semantics, we mentioned the micromarking markup format earlier, which is used by search engine crawlers to analyze information on the page. Proper page markup with micromarking helps to display not only the link to the site and its description in the search query results, but also additional information:
 
-*	Name of organization
-*	Opening hours
-* Address
-*	Phone number
+- Name of organization
+- Opening hours
+- Address
+- Phone number
 
 Micromarking is a tool that is implemented using the additional attributes of HTML tags.
 
@@ -15,10 +15,10 @@ A vocabulary is a set of rules that describe the blocks on the page. Movie theat
 
 To create a micromarking you should:
 
-* Choose the vocabulary. You can check the documentation to find out if your search engine supports a given vocabulary
-* Determine the block to be marked up. It can be more than a block; it can even be an entire page of a site
-* Highlight information. For example, the markup for contact information is the name of the organization, phone number, email address, physical address
-* Specify attributes depending on the type of information and vocabulary
+- Choose the vocabulary. You can check the documentation to find out if your search engine supports a given vocabulary
+- Determine the block to be marked up. It can be more than a block; it can even be an entire page of a site
+- Highlight information. For example, the markup for contact information is the name of the organization, phone number, email address, physical address
+- Specify attributes depending on the type of information and vocabulary
 
 It is impossible to give a complete explanation on micromarking in one lesson. This is a big topic, with many different nuances. As you gain experience, you'll learn to quickly identify the information you need and mark it up. Micromarking has a huge range of abilities, both in terms of visual presentation of information in a search engine, and for search engine promotion, and it's simple to use.
 
@@ -35,7 +35,7 @@ For example, let's take the contact information from the fictional company Proud
 </section>
 ```
 
-First, you have to choose a vocabulary. The Google search engine offers several options for this. We'll take the Organization vocabulary. A full description of this vocabulary can be found at https://schema.org/.
+First, you have to choose a vocabulary. The Google search engine offers several options for this. We'll take the Organization vocabulary. A full description of this vocabulary can be found at <https://schema.org/>.
 
 ---
 
@@ -45,9 +45,8 @@ The goal of this lesson is not to teach you how to mark up data completely. The 
 
 Two attributes are specified to tell the search engine that the data is marked up with a vocabulary:
 
-* `itemscope` - a pointer to the fact that the block is a single entity in which the data is linked. It's specified only in the main block and has no value of its own
-* `itemtype` - specifies which vocabulary will be used. For example, for example, the Organization vocabulary is selected for describing contacts. Full attribute type: `itemtype="http://schema.org/Organization"`
-
+- `itemscope` - a pointer to the fact that the block is a single entity in which the data is linked. It's specified only in the main block and has no value of its own
+- `itemtype` - specifies which vocabulary will be used. For example, for example, the Organization vocabulary is selected for describing contacts. Full attribute type: `itemtype="http://schema.org/Organization"`
 
 ```html
 <section itemscope itemtype="http://schema.org/Organization">
@@ -82,7 +81,7 @@ Mark out the rest of the data: name, phone number, and email, just like with the
 
 You can use tools from popular search engines to check that the micromarking is correct:
 
-* [Google](https://search.google.com/test/rich-results)
-* [Yandex](https://webmaster.yandex.ru/tools/microtest/?ncrnd=2406)
+- [Google](https://search.google.com/test/rich-results)
+- [Yandex](https://webmaster.yandex.ru/tools/microtest/?ncrnd=2406)
 
 Try inserting a test case into these tools and take a look at the result. You can try to break the micromarking and look at the error output.

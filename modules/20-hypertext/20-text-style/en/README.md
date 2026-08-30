@@ -17,11 +17,10 @@ To bold the text, one of the two paired tags is used: `<b>` or `<strong>`:
 
 ![](../assets/strong.png)
 
-
 Both examples illustrate adding boldface to a section of text. But why were two different tags used for visually identical results? It's all about _semantics_, that is, meaning. In this case, the meaning of the tag:
 
-* `<b>` — a simple text selection. It can be used anywhere to visually highlight text. This tag has no meaning whatsoever
-* `<strong>` — the logical highlighting of an important section of text. This tag is semantic and marks the important part. It should not be applied to all areas in a row
+- `<b>` — a simple text selection. It can be used anywhere to visually highlight text. This tag has no meaning whatsoever
+- `<strong>` — the logical highlighting of an important section of text. This tag is semantic and marks the important part. It should not be applied to all areas in a row
 
 Once upon a time, the developers wanted these tags to look different and differ in terms of behavior for the browser, but history has taken a slightly different path. Nowadays it is considered that `<b>` is redundant and you should use CSS for visual highlighting and `<strong>` for important sections.
 
@@ -37,5 +36,5 @@ The italic emphasis is very similar to the bold emphasis, but it emphasizes the 
 
 In this example, two parts of the text were marked:
 
-* The `<i>` tag was used to mark the name of the Code Basics portal. The tag is intended to visually italicize text and has no semantic meaning
-* The `<em>` tag highlighted the phrase "free courses". This is the logical emphasis on the free nature of the courses that has been given to the offer. There are many courses and no free ones, so it's worth adding emphasis to this part of the sentence
+- The `<i>` tag was used to mark the name of the Code Basics portal. The tag is intended to visually italicize text and has no semantic meaning
+- The `<em>` tag highlighted the phrase "free courses". This is the logical emphasis on the free nature of the courses that has been given to the offer. There are many courses and no free ones, so it's worth adding emphasis to this part of the sentence

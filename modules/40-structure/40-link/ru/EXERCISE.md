@@ -1,1 +1,1 @@
-Добавьте `link` на фавиконку https://www.w3schools.com/favicon.ico с размером 64x64.
+Добавьте `link` на фавиконку <https://www.w3schools.com/favicon.ico> с размером 64x64.

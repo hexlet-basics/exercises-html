@@ -11,9 +11,9 @@ La semántica correcta también permite que los dispositivos interpreten correct
 
 Hay dos implementaciones del web semántico:
 
-* Basado en microdatos. Estos son atributos especiales que se agregan a la estructura HTML y ayudan a los robots a encontrar la información relevante. Los microdatos se utilizan con mayor frecuencia debido a sus numerosas posibilidades y campos para la marcación.
+- Basado en microdatos. Estos son atributos especiales que se agregan a la estructura HTML y ayudan a los robots a encontrar la información relevante. Los microdatos se utilizan con mayor frecuencia debido a sus numerosas posibilidades y campos para la marcación.
 
-* Utilizando el estándar HTML5. El estándar ha introducido una serie de etiquetas que ayudan a los robots a analizar la información, encontrar relaciones lógicas entre los bloques (o comprender que no existen) y buscar las partes necesarias para una visualización correcta en dispositivos de lectura.
+- Utilizando el estándar HTML5. El estándar ha introducido una serie de etiquetas que ayudan a los robots a analizar la información, encontrar relaciones lógicas entre los bloques (o comprender que no existen) y buscar las partes necesarias para una visualización correcta en dispositivos de lectura.
 
 Aunque el estándar HTML5 no ha reemplazado por completo los microdatos debido a sus capacidades más limitadas, su uso junto con los microdatos permite que los robots procesen el sitio de manera más precisa y encuentren bloques lógicos en él.
 

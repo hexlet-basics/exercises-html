@@ -6,13 +6,12 @@ Checkboxes allow you to select multiple items from the ones presented:
 
 Two tags are used to create a checkbox:
 
-* An `<input>` with `type="checkbox"`
-* A `<label>` tag which will contain the text associated with the checkbox we want
+- An `<input>` with `type="checkbox"`
+- A `<label>` tag which will contain the text associated with the checkbox we want
 
-There are two ways to link  `<label>` to `<input>`:
+There are two ways to link `<label>` to `<input>`:
 
-* Link by `id`. To do this you must set a unique id for `<input>` and link the `<label>` tag with a checkbox using the for attribute.
-
+- Link by `id`. To do this you must set a unique id for `<input>` and link the `<label>` tag with a checkbox using the for attribute.
 
 ```html
 <form>
@@ -21,7 +20,7 @@ There are two ways to link  `<label>` to `<input>`:
 </form>
 ```
 
-* Put `<input>` inside the `<label>` tag. This does not require a unique `id`
+- Put `<input>` inside the `<label>` tag. This does not require a unique `id`
 
 ```html
 <form>

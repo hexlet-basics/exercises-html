@@ -23,16 +23,16 @@ Ten en cuenta que los parámetros se establecen dentro del atributo `content`, y
 
 ### Parámetros principales del metadato viewport
 
-* `width` - ancho del sitio. Se especifica en píxeles. Es posible utilizar el valor `device-width` para establecer el ancho de la página igual al ancho del dispositivo.
-* `height` - altura del sitio. Se especifica en píxeles. Es posible utilizar el valor `device-height` para establecer la altura de la página igual a la altura del dispositivo.
-* `initial-scale` - escala inicial. Puede tener un valor entre 0.1 y 10.0. El valor de 1 escala la página de forma predeterminada.
-* `user-scalable` - indica si el usuario puede escalar la página, es decir, acercarla o alejarla. Acepta los valores `yes` y `no`.
+- `width` - ancho del sitio. Se especifica en píxeles. Es posible utilizar el valor `device-width` para establecer el ancho de la página igual al ancho del dispositivo.
+- `height` - altura del sitio. Se especifica en píxeles. Es posible utilizar el valor `device-height` para establecer la altura de la página igual a la altura del dispositivo.
+- `initial-scale` - escala inicial. Puede tener un valor entre 0.1 y 10.0. El valor de 1 escala la página de forma predeterminada.
+- `user-scalable` - indica si el usuario puede escalar la página, es decir, acercarla o alejarla. Acepta los valores `yes` y `no`.
 
 Especifiquemos un _viewport_ con las siguientes características:
 
-* Ancho: 980px
-* Escala: 1
-* Deshabilitar el control de escalado por parte del usuario, es decir, impedir que el contenido se acerque o aleje mediante gestos o "teclas de acceso rápido"
+- Ancho: 980px
+- Escala: 1
+- Deshabilitar el control de escalado por parte del usuario, es decir, impedir que el contenido se acerque o aleje mediante gestos o "teclas de acceso rápido"
 
 Para ello, creamos el metadato y, al principio, especificamos el ancho. Esto se hace utilizando el valor `width`:
 

@@ -23,16 +23,16 @@ Note that parameters are specified inside the `content` attribute, where propert
 
 ### The main parameters of the viewport meta tag
 
-* `width` — the width of the site. Given in pixels. It's possible to use the `device-width` value to set the page width as equal to the device width.
-* `height` — the height of the site. Given in pixels. It's possible to use the `device-height` value to set the page height as equal to the device height.
-* `initial-scale` — the initial scaling factor. It can take a value from 0.1 to 10. A value of 1 scales the page by default.
-* `user-scalable` — specifies whether the user can scale the page, that is, zoom in or out. It accepts `yes` and `no`
+- `width` — the width of the site. Given in pixels. It's possible to use the `device-width` value to set the page width as equal to the device width.
+- `height` — the height of the site. Given in pixels. It's possible to use the `device-height` value to set the page height as equal to the device height.
+- `initial-scale` — the initial scaling factor. It can take a value from 0.1 to 10. A value of 1 scales the page by default.
+- `user-scalable` — specifies whether the user can scale the page, that is, zoom in or out. It accepts `yes` and `no`
 
 Specify _a viewport_ with the following characteristics:
 
-* Width: 980px
-* Scale: 1
-* Prohibit zoom. That is, make it impossible to zoom in or zoom out content using gestures or "hotkeys".
+- Width: 980px
+- Scale: 1
+- Prohibit zoom. That is, make it impossible to zoom in or zoom out content using gestures or "hotkeys".
 
 To do this, create a meta tag and specify the width. This is done with the `width` value:
 

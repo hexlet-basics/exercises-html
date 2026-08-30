@@ -6,12 +6,12 @@ Las casillas de verificación permiten seleccionar varios elementos de los prese
 
 Para crear una casilla de verificación se utilizan dos etiquetas:
 
-* `<input>` con el atributo `type="checkbox"`
-* `<label>`, que contendrá el texto relacionado con la casilla de verificación que queremos
+- `<input>` con el atributo `type="checkbox"`
+- `<label>`, que contendrá el texto relacionado con la casilla de verificación que queremos
 
 Hay dos formas de asociar `<label>` con `<input>`:
 
-* Asociación por `id`. Para ello, es necesario asignar un `id` único a `<input>` y vincular el `<label>` con la casilla de verificación utilizando el atributo `for`
+- Asociación por `id`. Para ello, es necesario asignar un `id` único a `<input>` y vincular el `<label>` con la casilla de verificación utilizando el atributo `for`
 
 ```html
 <form>
@@ -20,7 +20,7 @@ Hay dos formas de asociar `<label>` con `<input>`:
 </form>
 ```
 
-* Anidar `<input>` dentro de la etiqueta `<label>`. En este caso, no es necesario asignar un `id` único
+- Anidar `<input>` dentro de la etiqueta `<label>`. En este caso, no es necesario asignar un `id` único
 
 ```html
 <form>

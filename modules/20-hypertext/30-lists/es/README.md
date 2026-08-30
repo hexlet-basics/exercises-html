@@ -13,8 +13,8 @@ Se puede hacer esta lista con tres párrafos, pero a primera vista parecerá que
 
 Para vincular esta información correctamente, se utilizan las listas. Para crearlas en HTML, se utilizan varios tags anidados:
 
-* `<ul>` o `<ol>` para definir el tipo de lista
-* `<li>` para crear un elemento de lista
+- `<ul>` o `<ol>` para definir el tipo de lista
+- `<li>` para crear un elemento de lista
 
 El esquema general de marcado se ve así:
 

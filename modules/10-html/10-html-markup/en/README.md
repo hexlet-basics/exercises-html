@@ -3,7 +3,6 @@ Every day we look at dozens of web pages and read texts on them that are rendere
 
 HTML stands for HyperText Markup Language. By its function, HTML is a set of rules by which the browser distinguishes headings from lists, tables from pictures, and so on. HTML appeared in 1993 and was intended to standardize the rules for displaying text within web pages.
 
-
 Even this page is text marked up using HTML and processed by the browser. Technology has come a long way, but the concept of using HTML to mark up text has remained unchanged for many years.
 
 Here is an example of HTML markup:

@@ -4,8 +4,8 @@ La estructura de la información en una página web incluye muchos detalles y ma
 
 Al pasar el cursor sobre el elemento, aparece una pequeña ventana con el texto "Tooltip. Aquí se puede proporcionar información adicional". Este comportamiento se establece mediante _atributos_, que son construcciones especiales que pueden afectar la visualización de la información en la página. Cada etiqueta en HTML tiene varios atributos estándar que se escriben según el patrón `atributo="valor"`, donde:
 
-* **Atributo** - el nombre del atributo. Para mostrar un tooltip, se utilizó el atributo `title`.
-* **Valor** - el valor del atributo. Puede ser diferente dependiendo del atributo en sí. En el ejemplo, se utilizó un texto como valor, que se mostrará al pasar el cursor sobre el elemento.
+- **Atributo** - el nombre del atributo. Para mostrar un tooltip, se utilizó el atributo `title`.
+- **Valor** - el valor del atributo. Puede ser diferente dependiendo del atributo en sí. En el ejemplo, se utilizó un texto como valor, que se mostrará al pasar el cursor sobre el elemento.
 
 Ejemplo de estructura con tooltip:
 

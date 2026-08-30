@@ -6,20 +6,20 @@ To record these characters, we use the `&character-name;` construction. It's imp
 
 Let's take the symbols of suits in cards as an example:
 
-|Character|Code|
-|--------|---------|
-|&clubs; |`&clubs;`|
-|&spades; |`&spades;`|
-|&hearts; |`&hearts;`|
-|&diams; |`&diams;`|
+| Character | Code       |
+| --------- | ---------- |
+| &clubs;   | `&clubs;`  |
+| &spades;  | `&spades;` |
+| &hearts;  | `&hearts;` |
+| &diams;   | `&diams;`  |
 
 Many of these symbols can be found on [Wikipedia](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).
 
 The main typographic mnemonic aliases in HTML are:
 
-* `&nbsp;` - a non-breaking space. This is a very important thing that allows you to stay on the same line of text so as not to spoil the logical structure of the text in certain cases
-* `&laquo;` and `&raquo;` - the left and right angle quotes («»). They're used everywhere in typography
-* `&mdash;` - a long dash
+- `&nbsp;` - a non-breaking space. This is a very important thing that allows you to stay on the same line of text so as not to spoil the logical structure of the text in certain cases
+- `&laquo;` and `&raquo;` - the left and right angle quotes («»). They're used everywhere in typography
+- `&mdash;` - a long dash
 
 Aliases are common when you want to insert tags without them being processed by the browser. In this case, you can use the aliases `&lt;` and `&gt;`, which are needed to denote **<** and **>**, respectively
 

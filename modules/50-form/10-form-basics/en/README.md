@@ -2,7 +2,7 @@ When interacting with HTML documents, one of the most common actions is entering
 
 This interaction is done using forms - a set of fields and action buttons. It is important to remember that HTML cannot handle data that has been submitted through a form. To interact with this data, you need to use programming languages that run on a server, such as JavaScript or PHP. To learn fundamentals of these languages enroll to relevant courses on Code Basics:
 
-* [JavaScript](https://code-basics.com/languages/javascript)
+- [JavaScript](https://code-basics.com/languages/javascript)
 
 Every form begins with the main `<form>` tag which will contain the fields to be filled and an action button.
 

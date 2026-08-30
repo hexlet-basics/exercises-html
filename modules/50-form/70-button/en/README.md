@@ -29,5 +29,4 @@ Now, using the form elements from the previous lessons, create a form with diffe
 
 ![](../assets/search-form.png)
 
-
 If you click the "Search" button, the page will reload, and the data should go to the handler on the same page. Since there is no handler, there will be no visible results other than a page reload.

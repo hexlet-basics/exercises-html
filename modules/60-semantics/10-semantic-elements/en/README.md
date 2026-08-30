@@ -25,13 +25,13 @@ With the release of the HTML5 standard, new tags appeared that denote the semant
 
 The main semantic tags are:
 
-* `<article>`
-* `<aside>`
-* `<footer>`
-* `<header>`
-* `<main>`
-* `<nav>`
-* `<section>`
+- `<article>`
+- `<aside>`
+- `<footer>`
+- `<header>`
+- `<main>`
+- `<nav>`
+- `<section>`
 
 Most of the elements are intuitive and you can use them straight away in your own documents. You can now remake the example above using the new HTML elements:
 

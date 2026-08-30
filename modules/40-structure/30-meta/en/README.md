@@ -29,8 +29,8 @@ The description is often used when adding a link to a social media page. This in
 
 The `<meta>` tag has two attributes and is used to set the description:
 
-* `name="description"`. The `name` attribute indicates what type of metadata is described in the tag
-* `content`. The `content` attribute specifies the information itself
+- `name="description"`. The `name` attribute indicates what type of metadata is described in the tag
+- `content`. The `content` attribute specifies the information itself
 
 ```html
 <meta name="description" content="Free hands-on programming lessons for those starting from scratch.">

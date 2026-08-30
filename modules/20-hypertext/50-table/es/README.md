@@ -4,12 +4,12 @@ Una tabla es un elemento compuesto que se crea a partir de varios tags anidados 
 
 La estructura de una tabla consta de varios elementos principales:
 
-* `<table>` — área de la tabla
-  * `<tr>` — fila
-  * `<thead>` — encabezado de la tabla
-    * `<th>` — celda de encabezado
-  * `<tbody>` — cuerpo de la tabla
-    * `<td>` — celda
+- `<table>` — área de la tabla
+    - `<tr>` — fila
+    - `<thead>` — encabezado de la tabla
+        - `<th>` — celda de encabezado
+    - `<tbody>` — cuerpo de la tabla
+        - `<td>` — celda
 
 Cualquier tabla comienza con la etiqueta de apertura `<table>`
 
@@ -106,7 +106,6 @@ El último paso es agregar la etiqueta `<tbody>`, que marca la parte principal d
 Además, se puede agregar un "footer" a la tabla. Aquí se puede incluir información resumida, como el costo total de los productos.
 
 Puedes personalizar el título de la tabla. Esto es útil cuando se muestran varias tablas al mismo tiempo. Ayuda a distinguirlas entre sí y a no confundirse acerca de qué tabla está mostrando qué información. Para crear un título en la tabla, utiliza la etiqueta `<caption>`. Si hay un título, debe ubicarse _inmediatamente después_ de la etiqueta `<table>`. Agreguemos un título a la tabla:
-
 
 ```html
 <table>

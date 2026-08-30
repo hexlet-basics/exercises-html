@@ -13,8 +13,8 @@ You can make such a list with three paragraphs, but then, at first glance, it wi
 
 Lists are used to properly relate this information. To create them in HTML, several tags are used, nested within each other:
 
-* `<ul>` or `<ol>` to define the type of list
-* `<li>` to create a list item
+- `<ul>` or `<ol>` to define the type of list
+- `<li>` to create a list item
 
 The general layout is as follows:
 
@@ -39,7 +39,6 @@ Bulleted lists are used when the information does not require a specific sequenc
 ```
 
 ![](../assets/ul.png)
-
 
 ## Numbered list
 

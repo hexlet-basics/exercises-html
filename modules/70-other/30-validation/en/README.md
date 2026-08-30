@@ -21,7 +21,7 @@ To solve these problems, there are special validators for HTML markup that autom
 
 ![Validator showing markup errors](../assets/errorhtml.png)
 
-1.	No opening `<span>` tag, but there is a closing `</span>` tag. This usually means that we either accidentally closed the wrong tag, as in this case, or opened the wrong one. Modern code editors help avoid this error because they automatically close tags when they are created
+1. No opening `<span>` tag, but there is a closing `</span>` tag. This usually means that we either accidentally closed the wrong tag, as in this case, or opened the wrong one. Modern code editors help avoid this error because they automatically close tags when they are created
 2. The necessary `alt` attribute in the `<img>` tag is missing
 
-A common validator is W3C's online validation service, you can find it at https://validator.w3.org/. It supports all HTML standards, so it's important to remember to check the markup with it.
+A common validator is W3C's online validation service, you can find it at <https://validator.w3.org/>. It supports all HTML standards, so it's important to remember to check the markup with it.

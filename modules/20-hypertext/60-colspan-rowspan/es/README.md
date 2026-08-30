@@ -28,6 +28,7 @@ La marcación para el ejemplo anterior sin tener en cuenta la unión de celdas s
 ```
 
 Para unir celdas, debes realizar dos acciones:
+
 1. Agregar el atributo `colspan` con el valor igual a la cantidad de celdas a la derecha que se van a unir a la etiqueta de la celda que se va a unir.
 2. Eliminar las celdas adicionales de la fila.
 

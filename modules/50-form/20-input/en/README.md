@@ -2,10 +2,10 @@ The main element in HTML forms is the input box. It's implemented using the `<in
 
 Since the HTML5 standard, the list of fields has been expanded with many new options. The basic types of inputs are:
 
-* Text
-* Password
-* Checkbox
-* Radio button
+- Text
+- Password
+- Checkbox
+- Radio button
 
 The easiest way to use `<input>` is to create a text input box. `<input>` is present in all search fields. To create a simple text field to enter data, you must add a tag `<input>` inside the form and specify its `type` attribute with a value of `text`:
 
@@ -32,7 +32,7 @@ Actually, it's not enough just to specify a label, you need to link it with a fo
 
 You can use one of two options to show the label:
 
-* Linking via attribute `id`. To do this, the `<input>` tag is specified with the `id` attribute with an arbitrary value, and the `for` attribute is added to the `<label>` tag with the same name as the value of the `input`'s `id`
+- Linking via attribute `id`. To do this, the `<input>` tag is specified with the `id` attribute with an arbitrary value, and the `for` attribute is added to the `<label>` tag with the same name as the value of the `input`'s `id`
 
 ```html
 <form>
@@ -41,7 +41,7 @@ You can use one of two options to show the label:
 </form>
 ```
 
-* Linking through nesting. Did you notice that `<label>` is a paired tag? You can insert an `input` inside the `label`, and then they will automatically link to each other
+- Linking through nesting. Did you notice that `<label>` is a paired tag? You can insert an `input` inside the `label`, and then they will automatically link to each other
 
 ```html
 <form>
@@ -79,11 +79,11 @@ Have you noticed that when you enter passwords, the browser automatically puts a
 
 The HTML5 standard has some more interesting types for the `<input>` tag that implement the usual text box but do it in their own way. For example:
 
-* `email`
-* `number`
-* `search`
-* `tel`
-* `url`
+- `email`
+- `number`
+- `search`
+- `tel`
+- `url`
 
 Their purpose is to ensure that the values are automatically checked for correctness by the browser. For example, if you assign an `email` value, the browser will expect the correct format for an email address. Otherwise, it will indicate that the value is invalid when you try to submit the form.
 

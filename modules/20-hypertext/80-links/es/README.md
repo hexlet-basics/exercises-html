@@ -11,9 +11,9 @@ Para crear un enlace se utiliza la etiqueta de apertura `<a>` con el atributo ob
 
 Los enlaces se pueden dividir en 3 tipos:
 
-* **Relativos**. Estos enlaces se refieren al mismo sitio web desde el cual se realiza la navegación.
-* **Absolutos**. Permiten navegar a recursos externos en Internet.
-* **Enlaces de anclaje**. Se utilizan para moverse dentro del documento actual.
+- **Relativos**. Estos enlaces se refieren al mismo sitio web desde el cual se realiza la navegación.
+- **Absolutos**. Permiten navegar a recursos externos en Internet.
+- **Enlaces de anclaje**. Se utilizan para moverse dentro del documento actual.
 
 La única diferencia entre los enlaces relativos y absolutos es el formato en el que se especifica el enlace. En el caso de los enlaces relativos, no se especifica la dirección del propio sitio web al que se realizará la navegación, ya que coincidirá con el sitio web desde el cual se realizó la navegación:
 

@@ -28,6 +28,7 @@ The layout for the example above, without combining cells, is as follows:
 ```
 
 In order to merge cells, you need to do two things:
+
 1. Once you've chosen a cell to be merged and added the tags, add the `colspan` attribute with a value equal to the number of cells to be merged to the right
 2. Remove unnecessary cells from the row
 

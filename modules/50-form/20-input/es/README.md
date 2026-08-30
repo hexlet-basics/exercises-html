@@ -2,10 +2,10 @@ El elemento principal de los formularios en HTML es el campo de texto. Se implem
 
 A partir de HTML5, la lista de campos se ha ampliado con muchas opciones nuevas. Los tipos básicos de campos de entrada son:
 
-* Texto
-* Contraseñas
-* Casillas de verificación
-* Botones de radio
+- Texto
+- Contraseñas
+- Casillas de verificación
+- Botones de radio
 
 La forma más sencilla de utilizar `<input>` es crear un campo de texto para la entrada. Es precisamente `<input>` el que se encuentra en todos los campos de búsqueda. Para crear un campo de texto simple, simplemente agrega la etiqueta `<input>` sin pareja dentro del formulario y especifica el atributo `type` con el valor `text`:
 
@@ -32,7 +32,7 @@ En realidad, no es suficiente simplemente especificar `label`, es necesario vinc
 
 Para vincular `label`, se utiliza una de las dos opciones:
 
-* Vinculación mediante el atributo `id`. Para ello, la etiqueta `<input>` debe tener el atributo `id` con un nombre arbitrario, y la etiqueta `<label>` debe tener el atributo `for` con el mismo nombre que el valor `id` del elemento `input`.
+- Vinculación mediante el atributo `id`. Para ello, la etiqueta `<input>` debe tener el atributo `id` con un nombre arbitrario, y la etiqueta `<label>` debe tener el atributo `for` con el mismo nombre que el valor `id` del elemento `input`.
 
 ```html
 <form>
@@ -41,7 +41,7 @@ Para vincular `label`, se utiliza una de las dos opciones:
 </form>
 ```
 
-* Vinculación mediante anidamiento. ¿Has notado que `<label>` es una etiqueta de pareja? Para vincularlos, puedes anidar `input` dentro de `label`, de esta manera se vincularán automáticamente.
+- Vinculación mediante anidamiento. ¿Has notado que `<label>` es una etiqueta de pareja? Para vincularlos, puedes anidar `input` dentro de `label`, de esta manera se vincularán automáticamente.
 
 ```html
 <form>
@@ -79,11 +79,11 @@ A veces hay situaciones en las que hay una descripción para el campo, pero no e
 
 En HTML5 se han agregado varios tipos interesantes más para la etiqueta `<input>`, que implementan un campo de texto normal pero con su propia implementación. Por ejemplo:
 
-* `email`
-* `number`
-* `search`
-* `tel`
-* `url`
+- `email`
+- `number`
+- `search`
+- `tel`
+- `url`
 
 Su propósito es que los valores se verifiquen automáticamente por el navegador. Por ejemplo, si se ingresa el valor `email`, el navegador esperará una plantilla correcta para una dirección de correo electrónico. De lo contrario, indicará que el valor es incorrecto al intentar enviar el formulario.
 

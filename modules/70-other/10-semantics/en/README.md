@@ -11,9 +11,9 @@ The right semantics also allow devices to perceive parts of the website correctl
 
 There are two implementations of the semantic web:
 
-*	Micromarking-based. These are special attributes that are added to the HTML markup to help bots find the right information. Micromarking is the method used most often, as it has lots of possibilities and fields for markup
+- Micromarking-based. These are special attributes that are added to the HTML markup to help bots find the right information. Micromarking is the method used most often, as it has lots of possibilities and fields for markup
 
-*	HTML5-based. There are many tags in the standard that help bots analyze information, find logical connections between blocks (or realize that they don't exist), and find the parts needed to show the website correctly on reading devices
+- HTML5-based. There are many tags in the standard that help bots analyze information, find logical connections between blocks (or realize that they don't exist), and find the parts needed to show the website correctly on reading devices
 
 Although HTML5 has not superseded micromarking because since it's less capable, using it in conjunction with micromarking allows bots to process the site more correctly and find logical blocks in it.
 

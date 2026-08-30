@@ -6,12 +6,12 @@ If you want to create a switch that can handle only one of several options, you 
 
 To create a radio button, as well as a checkbox, we use two tags:
 
-* `<input>` with `type="radio"`. `name` is a required attribute, and its value is, naturally, a name. This name must be the same for the whole group of radio buttons. Without this attribute, it'll be possible to select all the values at once, because the browser will not see the connection between them
-* `<label>` which will contain the text associated with the radio button we want
+- `<input>` with `type="radio"`. `name` is a required attribute, and its value is, naturally, a name. This name must be the same for the whole group of radio buttons. Without this attribute, it'll be possible to select all the values at once, because the browser will not see the connection between them
+- `<label>` which will contain the text associated with the radio button we want
 
 `<input>` is linked with `<label>` in one of two familiar scenarios:
 
-* Link by `id`. To do this you must set a unique `id` for `<input>`, and link the `<label>` with the radio button using the attribute `for`
+- Link by `id`. To do this you must set a unique `id` for `<input>`, and link the `<label>` with the radio button using the attribute `for`
 
   ```html
   <form>
@@ -23,7 +23,7 @@ To create a radio button, as well as a checkbox, we use two tags:
   </form>
   ```
 
-* Put `<input>` inside the `<label>` tag. This does not require a unique `id`
+- Put `<input>` inside the `<label>` tag. This does not require a unique `id`
 
   ```html
   <form>

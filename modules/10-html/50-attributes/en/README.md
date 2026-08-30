@@ -5,8 +5,8 @@ Page markup information can have many subtleties and nuances. For example, you c
 
 When you mouse over an element, a small window will appear saying "Tooltip. Here you can specify additional information". This behavior is set using _attributes_ - special structures that can affect the output of information on the page. Each tag in HTML has several standard attributes, which are written based on this template: `attribute="value"`:
 
-* **Attribute** is the name of the attribute. The `title` attribute was used to make the tooltip appear
-* **Value** is the value of the attribute. It can be different, depending on the attribute itself. In this example, the text to be displayed when hovering over the item was used as the value.
+- **Attribute** is the name of the attribute. The `title` attribute was used to make the tooltip appear
+- **Value** is the value of the attribute. It can be different, depending on the attribute itself. In this example, the text to be displayed when hovering over the item was used as the value.
 
 Here's the example text from above, but with the markup:
 
@@ -14,7 +14,7 @@ Here's the example text from above, but with the markup:
 <p title="Tooltip. Here you can specify additional information">Mouse over this line of text. It's better to do it from a computer.</p>
 ```
 
-The `title`  attribute can be used on any page element, not just paragraphs. These attributes are called _global_ attributes, because they do not depend on the element. In contrast, there are attributes that are unique to one or more tags. For example, the attribute `colspan` which specifies the number of cells joined together in a table. Using it on anything other than a table makes no sense.
+The `title` attribute can be used on any page element, not just paragraphs. These attributes are called _global_ attributes, because they do not depend on the element. In contrast, there are attributes that are unique to one or more tags. For example, the attribute `colspan` which specifies the number of cells joined together in a table. Using it on anything other than a table makes no sense.
 
 Attributes can implicitly affect the information output. For example, when using the _CSS_ style language, there is an attribute called `class`, whose task is to separate similar elements from each other using the value of the attribute. You will learn how classes work in our _CSS_ course, but for now it is important to know that this attribute does not show up in any way when information is displayed on the page.
 

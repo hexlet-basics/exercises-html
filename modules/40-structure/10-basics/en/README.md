@@ -1,8 +1,8 @@
 
 Any HTML document can be broken down into several basic components:
 
-* A `head` block containing metadata about our site. The data from this block are not directly displayed on the page, rather they're used to describe it and connect the styles and scripts.
-* A `body` block is the main place where the HTML markup is formed. The data in this block will be processed and output to the browser.
+- A `head` block containing metadata about our site. The data from this block are not directly displayed on the page, rather they're used to describe it and connect the styles and scripts.
+- A `body` block is the main place where the HTML markup is formed. The data in this block will be processed and output to the browser.
 
 The simplest markup in HTML5 looks like this:
 

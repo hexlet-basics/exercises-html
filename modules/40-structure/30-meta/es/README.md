@@ -29,8 +29,8 @@ La descripción se utiliza con frecuencia al agregar un enlace a una página en 
 
 Para establecer la descripción, se utiliza la etiqueta `<meta>` con dos atributos:
 
-* `name="description"`. El atributo `name` indica qué tipo de meta información se describe en la etiqueta.
-* `content`. El atributo `content` indica la información en sí.
+- `name="description"`. El atributo `name` indica qué tipo de meta información se describe en la etiqueta.
+- `content`. El atributo `content` indica la información en sí.
 
 ```html
 <meta name="description" content="Lecciones prácticas gratuitas de programación para principiantes.">

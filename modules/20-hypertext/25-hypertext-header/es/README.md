@@ -22,12 +22,12 @@ Para crear títulos se utilizan 6 pares de etiquetas: `<h1>`, `<h2>`, `<h3>`, `<
 
 Cada título de nivel inferior es una subsección del título de nivel superior. Esto es muy similar a la tabla de contenido de cualquier libro, cuya estructura puede ser así:
 
-* Capítulo 1
-  * Parte 1
-  * Parte 2
-    * Notas
-  * Parte 3
-* Capítulo 2
+- Capítulo 1
+    - Parte 1
+    - Parte 2
+        - Notas
+    - Parte 3
+- Capítulo 2
 
 ```html
 <h1>El mejor libro en la Tierra</h1>

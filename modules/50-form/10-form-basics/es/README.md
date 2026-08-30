@@ -2,13 +2,13 @@ Al interactuar con documentos HTML, una de las acciones más comunes es ingresar
 
 Esta interacción se realiza mediante formularios, que son conjuntos de campos y botones de acción. Es importante tener en cuenta que HTML no puede procesar los datos enviados a través de un formulario. Para interactuar con estos datos, es necesario utilizar lenguajes de programación que funcionen en el servidor, como JavaScript o PHP. Los fundamentos de la programación en estos lenguajes se encuentran en las secciones correspondientes de Code Basics:
 
-* [JavaScript](https://ru.code-basics.com/languages/javascript)
-* [PHP](https://ru.code-basics.com/languages/php)
+- [JavaScript](https://ru.code-basics.com/languages/javascript)
+- [PHP](https://ru.code-basics.com/languages/php)
 
 Estos temas se tratan en detalle en las profesiones de Hexlet:
 
-* [Profesión de JavaScript en el backend (node.js)](https://codica.la/profesiones/backend)
-* [Profesión de programador PHP](https://codica.la/profesiones/php)
+- [Profesión de JavaScript en el backend (node.js)](https://codica.la/profesiones/backend)
+- [Profesión de programador PHP](https://codica.la/profesiones/php)
 
 Cada formulario comienza con la etiqueta principal `<form>`, dentro de la cual se encuentran los campos de entrada y el botón de acción.
 

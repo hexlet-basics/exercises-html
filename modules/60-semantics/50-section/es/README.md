@@ -3,10 +3,10 @@ En las páginas grandes hay mucho contenido que se coloca uno dentro del otro. D
 
 Puede sonar un poco confuso, pero imagina una página de un portal de música que tiene las siguientes áreas:
 
-* Información del artista
-* Canciones populares del artista
-* Discografía
-* Lista de próximos conciertos
+- Información del artista
+- Canciones populares del artista
+- Discografía
+- Lista de próximos conciertos
 
 Si esta es una página de un artista, todo este contenido estará dentro de la sección principal (`main`), pero también es importante destacar estas 4 secciones. Están relacionadas con el contenido general, pero son unidades independientes dentro de él. La estructura de la página puede verse así:
 

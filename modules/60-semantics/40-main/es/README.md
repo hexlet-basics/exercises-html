@@ -21,10 +21,10 @@ Tomemos el encabezado del sitio que creamos y agreguemos un área con contenido 
 
 El elemento `main` es único para cada página. Esto refleja su propósito semántico: marcar el contenido único. Al envolver el contenido en `main`, es importante no incluir áreas no únicas:
 
-* Menú lateral
-* Navegación general del sitio
-* Encabezado y pie de página general del sitio
-* Logo
+- Menú lateral
+- Navegación general del sitio
+- Encabezado y pie de página general del sitio
+- Logo
 
 Coloca en `main` solo contenido de texto o gráfico. Es fácil encontrar este contenido en las plantillas, ya que no se duplica en otras páginas.
 

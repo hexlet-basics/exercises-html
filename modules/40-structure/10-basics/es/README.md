@@ -1,8 +1,8 @@
 
 Cualquier documento HTML se puede dividir en varios componentes principales:
 
-* El bloque `head`, que contiene metainformación sobre nuestro sitio web. Los datos de este bloque no se muestran directamente en la página, sino que se utilizan para describirla, para conectar estilos y scripts.
-* El bloque `body` es el lugar principal donde se construye el marcado HTML. Los datos en este bloque se procesarán y se mostrarán en el navegador.
+- El bloque `head`, que contiene metainformación sobre nuestro sitio web. Los datos de este bloque no se muestran directamente en la página, sino que se utilizan para describirla, para conectar estilos y scripts.
+- El bloque `body` es el lugar principal donde se construye el marcado HTML. Los datos en este bloque se procesarán y se mostrarán en el navegador.
 
 El marcado más básico en HTML5 se ve así:
 

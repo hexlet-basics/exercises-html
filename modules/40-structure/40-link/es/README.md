@@ -5,8 +5,8 @@ Casi todas las pestañas en el navegador tienen pequeños iconos llamados _favic
 
 Para establecer este tipo de icono en una página, se utiliza la etiqueta `<link>`, que tiene dos atributos:
 
-* `rel` para especificar el contenido
-* `href` para especificar la URL del icono
+- `rel` para especificar el contenido
+- `href` para especificar la URL del icono
 
 ```html
 <link rel="icon" href="/favicon.png">

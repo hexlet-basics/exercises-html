@@ -6,12 +6,12 @@ Para crear botones de opción que solo puedan procesar una de varias opciones, s
 
 Para crear un botón de radio, al igual que con una casilla de verificación, se utilizan dos etiquetas:
 
-* `<input>` con el atributo `type="radio"`. El atributo obligatorio es `name`, cuyo valor es el nombre. Este nombre debe ser el mismo para todo el grupo de botones de radio. Sin este atributo, será posible seleccionar todos los valores a la vez, ya que el navegador no reconocerá la relación entre ellos.
-* `<label>`, que contendrá el texto asociado al botón de radio que necesitamos
+- `<input>` con el atributo `type="radio"`. El atributo obligatorio es `name`, cuyo valor es el nombre. Este nombre debe ser el mismo para todo el grupo de botones de radio. Sin este atributo, será posible seleccionar todos los valores a la vez, ya que el navegador no reconocerá la relación entre ellos.
+- `<label>`, que contendrá el texto asociado al botón de radio que necesitamos
 
 La asociación entre `<input>` y `<label>` se realiza de una de las dos formas que ya conocemos:
 
-* Asociación por `id`. Para ello, debes asignar un `id` único al `<input>` y vincular el `<label>` al botón de radio mediante el atributo `for`
+- Asociación por `id`. Para ello, debes asignar un `id` único al `<input>` y vincular el `<label>` al botón de radio mediante el atributo `for`
 
   ```html
   <form>
@@ -23,7 +23,7 @@ La asociación entre `<input>` y `<label>` se realiza de una de las dos formas q
   </form>
   ```
 
-* Insertar `<input>` dentro de la etiqueta `<label>`. En este caso, no es necesario especificar un `id` único
+- Insertar `<input>` dentro de la etiqueta `<label>`. En este caso, no es necesario especificar un `id` único
 
   ```html
   <form>

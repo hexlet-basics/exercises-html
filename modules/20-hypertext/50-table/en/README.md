@@ -5,12 +5,12 @@ A table is a composite element made up of several nested tags. This is similar t
 
 The marking contains several basic elements:
 
-* `<table>` — table area
-  * `<tr>` — line
-  * `<thead>` — table header
-    * `<th>` — header cell
-  * `<tbody>` — table body
-    * `<td>` — cell
+- `<table>` — table area
+    - `<tr>` — line
+    - `<thead>` — table header
+        - `<th>` — header cell
+    - `<tbody>` — table body
+        - `<td>` — cell
 
 Any table starts with a paired `<table>` tag
 
@@ -107,7 +107,6 @@ The last step is to add the `<tbody>` tag, which marks the main part of the tabl
 Additionally, you can specify the "footer" of the table. It can contain summary information, such as the cost of all goods.
 
 Tables can be configured with a header. It is needed when several tables are output at the same time. It helps to separate them from each other and not get confused about which table is delivering what. A paired `<caption>` tag is used to create the table title. If you have a header, it _must_ be placed immediately after the `<table>` tag. Let's add a header to the table:
-
 
 ```html
 <table>
