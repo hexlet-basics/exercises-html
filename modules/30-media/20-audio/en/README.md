@@ -9,7 +9,7 @@ This tag is paired and in the simplest case looks like this:
 
 The `controls` attribute adds interface elements for the player. Each browser implements them in its own way, and there is no single standard on this
 
-## Tag `<source>`
+## Tag \<source\>
 
 When adding audio to an HTML page, it's important to remember that not all browsers support the same audio formats. There is an embedded `source` tag specifically for this, with paths to other audio file formats. In this case, the browser will choose the one that is currently supported. With this layout, specifying `src` in the `<audio>` tag is optional.
 
