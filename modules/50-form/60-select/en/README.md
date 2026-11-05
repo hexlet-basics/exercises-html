@@ -36,7 +36,7 @@ Often the first item in a list is used to head the entire drop-down list. In tha
 
 ![](../assets/with-disabled.png)
 
-The list inside the form can also be represented as a list, in which you can select multiple items. This is done by holding down the `Сtrl` button and clicking on the fields we want to select.
+The list inside the form can also be represented as a list, in which you can select multiple items. This is done by holding down the `Ctrl` button and clicking on the fields we want to select.
 
 ![](../assets/multiple.png)
 
