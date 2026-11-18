@@ -1,10 +1,7 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-
-  const p = query(document, 'p');
-  expect(p).to.be.visible;
-
-  const img = query(document, 'img');
-  expect(img).to.have.attr('alt');
+test("validation", () => {
+  expect(query(document, "p")).toBeVisible();
+  expect(query(document, "img")).toHaveAttribute("alt");
 });

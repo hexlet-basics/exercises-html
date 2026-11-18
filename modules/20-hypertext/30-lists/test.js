@@ -1,7 +1,8 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query, queryAll } from "hexlet-basics/dom";
 
-test(({ query, querySelectorAll, expect }) => {
-  query(document, 'ol', HTMLOListElement);
-  const elements = querySelectorAll(document, 'ol > li', HTMLLIElement);
-  expect(elements).to.have.length(5);
+test("lists", () => {
+  query(document, "ol");
+  const elements = queryAll(document, "ol > li");
+  expect(elements).toHaveLength(5);
 });

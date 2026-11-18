@@ -1,8 +1,8 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
+test("link", () => {
   const linkIcon = query(document, 'link[rel="icon"]');
-
-  expect(linkIcon).to.have.attr('href', 'https://www.w3schools.com/favicon.ico');
-  expect(linkIcon).to.have.attr('sizes', '64x64');
+  expect(linkIcon).toHaveAttribute("href", "https://www.w3schools.com/favicon.ico");
+  expect(linkIcon).toHaveAttribute("sizes", "64x64");
 });

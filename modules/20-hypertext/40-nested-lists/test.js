@@ -1,11 +1,12 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query, queryAll } from "hexlet-basics/dom";
 
-test(({ query, querySelectorAll, expect }) => {
-  const ol = query(document, 'ol', HTMLOListElement);
-  const olLis = querySelectorAll(document, 'ol > li', HTMLLIElement);
-  expect(olLis).to.have.length(2);
+test("nested lists", () => {
+  query(document, "ol");
+  const olItems = queryAll(document, "ol > li");
+  expect(olItems).toHaveLength(2);
 
-  const ul = query(document, 'ol > li > ul', HTMLUListElement);
-  const ulLis = querySelectorAll(ul, 'li', HTMLLIElement);
-  expect(ulLis).to.have.length(2);
+  const ul = query(document, "ol > li > ul");
+  const ulItems = queryAll(ul, "li");
+  expect(ulItems).toHaveLength(2);
 });

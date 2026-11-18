@@ -1,6 +1,7 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const element = query(document, 'h1', HTMLHeadingElement);
-  expect(element).to.have.text('Hello, World!');
+test("html markup", () => {
+  const element = query(document, "h1");
+  expect(element.textContent.trim()).toBe("Hello, World!");
 });

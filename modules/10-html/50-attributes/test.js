@@ -1,7 +1,8 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const elements = query(document, 'p', HTMLElement);
-  expect(elements).to.have.attr('title').match(/,*/);
-  expect(elements).to.have.attr('class', 'hexlet');
+test("attributes", () => {
+  const element = query(document, "p");
+  expect(element).toHaveAttribute("title");
+  expect(element).toHaveAttribute("class", "hexlet");
 });

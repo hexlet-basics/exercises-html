@@ -1,7 +1,7 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
+test("viewport", () => {
   const metaViewport = query(document, 'meta[name="viewport"]');
-
-  expect(metaViewport).to.have.attr('content', 'width=1024, user-scalable=no');
+  expect(metaViewport).toHaveAttribute("content", "width=1024, user-scalable=no");
 });

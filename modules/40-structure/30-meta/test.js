@@ -1,12 +1,8 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const title = query(document, 'title');
-  expect(title).to.be.visible;
-
-  const description = query(document, '[name="description"]');
-  expect(description).to.be.visible;
-
-  const charset = query(document, '[charset="UTF-8"]');
-  expect(charset).to.be.visible;
+test("meta", () => {
+  expect(query(document, "title")).toBeInTheDocument();
+  expect(query(document, '[name="description"]')).toBeInTheDocument();
+  expect(query(document, '[charset="UTF-8"]')).toBeInTheDocument();
 });

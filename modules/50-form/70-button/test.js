@@ -1,20 +1,19 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query, queryAll } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const form = query(document, 'form');
-  const select = form.querySelector('select');
-  const inputs = form.querySelectorAll('input');
-  const button = query(form, 'button');
+test("button", () => {
+  const form = query(document, "form");
+  expect(form).toHaveAttribute("action", "/people");
 
-  expect(form).to.have.attr('action', '/people');
+  const select = query(form, "select");
+  expect(select).toBeVisible();
+  expect(select).toHaveAttribute("multiple");
 
-  expect(select).to.be.visible;
-  expect(select).to.have.attr('multiple');
-
-  expect(inputs).to.have.length(2);
+  const inputs = queryAll(form, "input");
+  expect(inputs).toHaveLength(2);
   inputs.forEach((input) => {
-    expect(input).to.have.attr('type', 'text');
+    expect(input).toHaveAttribute("type", "text");
   });
 
-  expect(button).to.be.visible;
+  expect(query(form, "button")).toBeVisible();
 });

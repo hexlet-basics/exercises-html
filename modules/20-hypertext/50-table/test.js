@@ -1,13 +1,9 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query, queryAll } from "hexlet-basics/dom";
 
-test(({ querySelectorAll, query, expect }) => {
-  query(document, 'table > thead', HTMLTableHeaderCellElement);
-  const ths = querySelectorAll(document, 'table > thead > tr > th', HTMLElement);
-  expect(ths).to.have.length(2);
-
-  const trs = querySelectorAll(document, 'table > tbody > tr', HTMLElement);
-  expect(trs).to.have.length(2);
-
-  const tds = querySelectorAll(document, 'table > tbody > tr > td', HTMLElement);
-  expect(tds).to.have.length(4);
+test("table", () => {
+  query(document, "table > thead");
+  expect(queryAll(document, "table > thead > tr > th")).toHaveLength(2);
+  expect(queryAll(document, "table > tbody > tr")).toHaveLength(2);
+  expect(queryAll(document, "table > tbody > tr > td")).toHaveLength(4);
 });

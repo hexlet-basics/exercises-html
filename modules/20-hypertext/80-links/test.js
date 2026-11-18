@@ -1,6 +1,7 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const element = query(document, 'a');
-  expect(element).to.have.attr('href', 'https://code-basics.com/');
+test("links", () => {
+  const element = query(document, "a");
+  expect(element).toHaveAttribute("href", "https://code-basics.com/");
 });

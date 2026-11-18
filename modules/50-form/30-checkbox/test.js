@@ -1,16 +1,16 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query, queryAll } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const form = query(document, 'form');
-  const labels = form.querySelectorAll('label');
+test("checkbox", () => {
+  const form = query(document, "form");
+  expect(form).toHaveAttribute("action", "/people");
 
-  expect(form).to.have.attr('action', '/people');
-  expect(labels).to.have.length(2);
-
+  const labels = queryAll(form, "label");
+  expect(labels).toHaveLength(2);
   labels.forEach((label) => {
-    const input = label.querySelector('input');
-    expect(input).to.have.attr('type', 'checkbox');
-    expect(input).to.have.attr('name');
-    expect(input).to.have.attr('value');
+    const input = query(label, "input");
+    expect(input).toHaveAttribute("type", "checkbox");
+    expect(input).toHaveAttribute("name");
+    expect(input).toHaveAttribute("value");
   });
 });
