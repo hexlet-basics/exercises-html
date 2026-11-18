@@ -1,11 +1,11 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const form = query(document, 'form');
-  const textarea = form.querySelector('textarea');
+test("textarea", () => {
+  const form = query(document, "form");
+  expect(form).toHaveAttribute("action", "/people");
 
-  expect(form).to.have.attr('action', '/people');
-  expect(textarea).to.have.attr('rows', '4');
-  expect(textarea).to.have.attr('cols', '30');
-
+  const textarea = query(form, "textarea");
+  expect(textarea).toHaveAttribute("rows", "4");
+  expect(textarea).toHaveAttribute("cols", "30");
 });

@@ -1,7 +1,8 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const element = query(document, 'img');
-  expect(element).to.have.attr('src', 'https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png');
-  expect(element).to.have.attr('alt', 'W3C');
+test("img", () => {
+  const element = query(document, "img");
+  expect(element).toHaveAttribute("src", "https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png");
+  expect(element).toHaveAttribute("alt", "W3C");
 });

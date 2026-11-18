@@ -1,12 +1,11 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query, queryAll } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const form = query(document, 'form');
-  const select = form.querySelector('select');
-  const options = select.querySelectorAll('option');
+test("select", () => {
+  const form = query(document, "form");
+  expect(form).toHaveAttribute("action", "/people");
 
-  expect(form).to.have.attr('action', '/people');
-  expect(select).to.be.visible;
-  expect(options).to.have.length(3);
-
+  const select = query(form, "select");
+  expect(select).toBeVisible();
+  expect(queryAll(select, "option")).toHaveLength(3);
 });

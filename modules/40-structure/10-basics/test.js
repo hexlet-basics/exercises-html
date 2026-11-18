@@ -1,8 +1,9 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { html } from "hexlet-basics/dom";
 
-test(({ expect, html }) => {
-  expect(html).to.contain('<!DOCTYPE html>');
-  expect(html).to.contain('lang');
-  expect(html).to.contain('<head>');
-  expect(html).to.contain('<body>');
+test("document structure", () => {
+  expect(html).toContain("<!DOCTYPE html>");
+  expect(html).toContain("lang");
+  expect(html).toContain("<head>");
+  expect(html).toContain("<body>");
 });

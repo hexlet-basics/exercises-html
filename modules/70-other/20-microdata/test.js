@@ -1,13 +1,9 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { html, query } from "hexlet-basics/dom";
 
-test(({ query, expect, html }) => {
-
-  const name = query(document, '[itemprop="name"]');
-  expect(name).to.be.visible;
-
-  const email = query(document, '[itemprop="email"]');
-  expect(email).to.be.visible;
-
-  expect(html).to.contain('itemscope');
-  expect(html).to.contain('itemtype="http://schema.org/Organization"');
+test("microdata", () => {
+  expect(query(document, '[itemprop="name"]')).toBeVisible();
+  expect(query(document, '[itemprop="email"]')).toBeVisible();
+  expect(html).toContain("itemscope");
+  expect(html).toContain('itemtype="http://schema.org/Organization"');
 });

@@ -1,7 +1,7 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const form = query(document, 'form');
-
-  expect(form).to.have.attr('action', '/people');
+test("form basics", () => {
+  const form = query(document, "form");
+  expect(form).toHaveAttribute("action", "/people");
 });

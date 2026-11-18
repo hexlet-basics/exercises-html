@@ -1,6 +1,5 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
 
-test(({ expect }) => {
-  const text = document.body.innerHTML.trim();
-  expect(text).to.equal('¼');
+test("special characters", () => {
+  expect(document.body.innerHTML.trim()).toBe("¼");
 });

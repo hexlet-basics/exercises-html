@@ -1,7 +1,8 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query, queryAll } from "hexlet-basics/dom";
 
-test(({ query, querySelectorAll, expect }) => {
-  query(document, 'ul', HTMLUListElement);
-  const elements = querySelectorAll(document, 'ul > li', HTMLLIElement);
-  expect(elements).to.have.length(3);
+test("nested tag", () => {
+  query(document, "ul");
+  const elements = queryAll(document, "ul > li");
+  expect(elements).toHaveLength(3);
 });

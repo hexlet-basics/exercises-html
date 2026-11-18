@@ -1,19 +1,14 @@
 {
-  "scripts": {},
-  "jest": {
-    "testEnvironment": "node",
-    "setupFilesAfterEnv": [
-      "<rootDir>/setup.js"
-    ],
-    "transform": {}
+  "name": "hexlet-basics",
+  "type": "module",
+  "private": true,
+  "exports": {
+    "./dom": "./src/dom.js"
   },
-  "dependencies": {
-    "@github/query-selector": "^1.0.4",
-    "@testing-library/dom": "^10.4.1",
-    "chai": "^6.2.2",
-    "chai-dom": "^1.12.1",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
     "htmlhint": "^1.9.2",
-    "jsdom": "^29.1.1",
-    "jsdom-global": "^3.0.2"
+    "jsdom": "^31.0.1",
+    "vitest": "^5.1.1"
   }
 }

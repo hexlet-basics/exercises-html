@@ -1,13 +1,9 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-
-  const article = query(document, 'article');
-  expect(article).to.be.visible;
-
-  const header = query(article, 'header');
-  expect(header).to.be.visible;
-
-  const footer = query(article, 'footer');
-  expect(footer).to.be.visible;
+test("article semantics", () => {
+  const article = query(document, "article");
+  expect(article).toBeVisible();
+  expect(query(article, "header")).toBeVisible();
+  expect(query(article, "footer")).toBeVisible();
 });

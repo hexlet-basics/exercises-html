@@ -1,8 +1,6 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-
-  const pre = query(document, 'pre');
-  expect(pre).to.be.visible;
-
+test("pre", () => {
+  expect(query(document, "pre")).toBeVisible();
 });

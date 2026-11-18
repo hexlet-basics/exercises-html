@@ -1,7 +1,8 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const element = query(document, 'audio');
-  expect(query(element, 'source:nth-child(1)')).to.exist;
-  expect(query(element, 'source:nth-child(2)')).to.exist;
+test("audio", () => {
+  const element = query(document, "audio");
+  query(element, "source:nth-child(1)");
+  query(element, "source:nth-child(2)");
 });

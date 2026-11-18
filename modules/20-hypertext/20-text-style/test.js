@@ -1,9 +1,10 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const b = query(document, 'p > b', HTMLElement);
-  expect(b).to.have.text('courses');
+test("text style", () => {
+  const b = query(document, "p > b");
+  expect(b.textContent.trim()).toBe("courses");
 
-  const em = query(document, 'p > em', HTMLElement);
-  expect(em).to.have.text('programming');
+  const em = query(document, "p > em");
+  expect(em.textContent.trim()).toBe("programming");
 });

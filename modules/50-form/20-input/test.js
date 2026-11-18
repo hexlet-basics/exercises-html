@@ -1,9 +1,8 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { query, queryAll } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const form = query(document, 'form');
-  const inputs = form.querySelectorAll('input');
-
-  expect(form).to.have.attr('action', '/people');
-  expect(inputs).to.have.length(2);
+test("input", () => {
+  const form = query(document, "form");
+  expect(form).toHaveAttribute("action", "/people");
+  expect(queryAll(form, "input")).toHaveLength(2);
 });

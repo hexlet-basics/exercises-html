@@ -1,7 +1,6 @@
-const { test } = require('tests');
+import { expect, test } from "vitest";
+import { queryAll } from "hexlet-basics/dom";
 
-test(({ query, expect }) => {
-  const links = document.querySelectorAll('span');
-
-  expect(links).to.be.length(2);
+test("block and inline elements", () => {
+  expect(queryAll(document, "span")).toHaveLength(2);
 });
