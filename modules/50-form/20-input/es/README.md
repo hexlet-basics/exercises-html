@@ -15,7 +15,7 @@ La forma más sencilla de utilizar `<input>` es crear un campo de texto para la 
 </form>
 ```
 
-![](../assets/text-input.png)
+![Campo de texto](../assets/text-input.png)
 
 ## Etiqueta label
 
@@ -62,7 +62,7 @@ A veces hay situaciones en las que hay una descripción para el campo, pero no e
 </form>
 ```
 
-![](../assets/name-input.png)
+![Campo de nombre con etiqueta](../assets/name-input.png)
 
 ## Otros campos de texto
 
@@ -75,7 +75,7 @@ A veces hay situaciones en las que hay una descripción para el campo, pero no e
 </form>
 ```
 
-![](../assets/pincode.png)
+![Campo de PIN: normal y con caracteres ocultos](../assets/pincode.png)
 
 En HTML5 se han agregado varios tipos interesantes más para la etiqueta `<input>`, que implementan un campo de texto normal pero con su propia implementación. Por ejemplo:
 

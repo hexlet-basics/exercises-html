@@ -27,6 +27,6 @@ Ahora, utilizando los elementos de formulario de las lecciones anteriores, crear
 </form>
 ```
 
-![](../assets/search-form.png)
+![Formulario de búsqueda con un botón](../assets/search-form.png)
 
 Si haces clic en el botón "Search", la página se recargará y los datos se enviarán al controlador en la misma página. Como no hay un controlador, no habrá resultados visibles aparte de la recarga de la página.

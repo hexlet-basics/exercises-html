@@ -8,13 +8,13 @@ Para resaltar el texto en negritas, se utiliza uno de los dos pares de etiquetas
 <p>Code Basics — programming <b>courses</b>.</p>
 ```
 
-![](../assets/bold.png)
+![La palabra courses en negrita](../assets/bold.png)
 
 ```html
 <p>HTML — <strong>Hypertext Markup Language</strong></p>
 ```
 
-![](../assets/strong.png)
+![Texto importante marcado con strong](../assets/strong.png)
 
 Ambos ejemplos ilustran cómo agregar formato en negritas a un fragmento de texto. Pero, ¿por qué se utilizaron dos etiquetas diferentes para lograr resultados visualmente iguales? Esto se debe a la _semántica_, es decir, el significado. En este caso, el significado de la etiqueta es:
 
@@ -31,7 +31,7 @@ En su significado, el resaltado en cursiva es muy similar al resaltado en negrit
 <p><i>Code Basics</i> — programming <em>free</em> courses</p>
 ```
 
-![](../assets/em.png)
+![Texto en cursiva con las etiquetas i y em](../assets/em.png)
 
 En este ejemplo, se marcaron dos partes del texto:
 

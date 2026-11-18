@@ -1,7 +1,7 @@
 
 We often want to give the user the ability to type not just one line of text, but several lines in one place. For example, if a user wants to leave a review. The `<textarea>` element is used for this, allowing you to enter multiple lines of text.
 
-![](../assets/feedback.png)
+![Multi-line feedback field](../assets/feedback.png)
 
 ```html
 <form>
@@ -19,4 +19,4 @@ The default `<textarea>` height and width depend on the browser settings. This m
 </form>
 ```
 
-![](../assets/textarea.png)
+![Multi-line text field](../assets/textarea.png)

@@ -18,15 +18,15 @@ To create titles used 6 paired tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h
 <h6>Title of the sixth level</h6>
 ```
 
-![](../assets/headings.png)
+![Headings of six levels](../assets/headings.png)
 
 Each lower level heading is a subsection of a higher level heading. This is very similar to the table of contents of any book, the structure of which might look like this:
 
 - Chapter 1
-    - Part 1
-    - Part 2
-        - Notes
-    - Part 3
+  - Part 1
+  - Part 2
+    - Notes
+  - Part 3
 - Chapter 2
 
 ```html

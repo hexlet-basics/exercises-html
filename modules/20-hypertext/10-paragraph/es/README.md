@@ -13,4 +13,4 @@ Los párrafos se crean utilizando la etiqueta de apertura y cierre `<p>`, dentro
 
 Así es como se ven en el navegador:
 
-![](../assets/paragraphs.png)
+![Párrafos de texto en el navegador](../assets/paragraphs.png)

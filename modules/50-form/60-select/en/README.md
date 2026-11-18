@@ -14,7 +14,7 @@ In many forms, the user often has to choose from a variety of options. This can 
 </form>
 ```
 
-![](../assets/select.png)
+![Drop-down list](../assets/select.png)
 
 To create a drop-down list like this, use the tag `<select>` with `<option>` sub tags inside it. This is similar to creating normal lists, but`<select>` is used instead of `ul/ol` and `<option>` is used instead of `<li>`.
 
@@ -34,11 +34,11 @@ Often the first item in a list is used to head the entire drop-down list. In tha
 </form>
 ```
 
-![](../assets/with-disabled.png)
+![Drop-down list with a disabled option](../assets/with-disabled.png)
 
 The list inside the form can also be represented as a list, in which you can select multiple items. This is done by holding down the `Ctrl` button and clicking on the fields we want to select.
 
-![](../assets/multiple.png)
+![List with multiple selection](../assets/multiple.png)
 
 In order to create a list with multiple choices, we add the attribute `multiple` to the `<select>` tag.
 

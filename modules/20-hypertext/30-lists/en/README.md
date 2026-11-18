@@ -9,7 +9,7 @@ Lists are one way of presenting content on a page. With their help it is easy to
 
 You can make such a list with three paragraphs, but then, at first glance, it will seem that these are three different phrases not united by a common meaning.
 
-![](../assets/paragraphs.png)
+![To-do items written as separate paragraphs](../assets/paragraphs.png)
 
 Lists are used to properly relate this information. To create them in HTML, several tags are used, nested within each other:
 
@@ -38,7 +38,7 @@ Bulleted lists are used when the information does not require a specific sequenc
 </ul>
 ```
 
-![](../assets/ul.png)
+![Bulleted list](../assets/ul.png)
 
 ## Numbered list
 
@@ -48,7 +48,7 @@ Such lists are useful if they indicate the sequence of actions to be taken. A nu
 
 To-do list for the day
 
-![](../assets/ol.png)
+![Numbered list](../assets/ol.png)
 
 in HTML markup looks like this:
 

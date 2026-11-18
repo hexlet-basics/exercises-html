@@ -3,7 +3,7 @@ Un concepto importante en HTML es la anidación de etiquetas. Dentro de una etiq
 
 Algunos elementos en HTML requieren la anidación de unas etiquetas dentro de otras. Por ejemplo, las listas:
 
-![](../assets/list.png)
+![Lista de etiquetas li anidadas](../assets/list.png)
 
 ```html
   <ul class="m-0">

@@ -11,4 +11,4 @@ Además de los elementos de bloque, existen los elementos de **en línea**. Esto
 <span>It occupies a width equal to the width of its content, so there is no line break.</span>
 ```
 
-![](../assets/example.png)
+![Elementos de bloque y en línea en la página](../assets/example.png)

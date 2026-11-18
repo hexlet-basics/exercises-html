@@ -1,7 +1,7 @@
 
 Tables often need to merge rows or columns. It helps to combine different information. For example, if there is no product in the stock table, there is no point in constantly duplicating information - it can be merged, and you can write that the product is out of stock:
 
-![](../assets/table1.png)
+![Table with a cell spanning two columns](../assets/table1.png)
 
 With HTML, you can combine cells in columns or rows by using the special attributes `colspan` and `rowspan`. Their values are the number of cells to be merged with the current one, either to the right (for `colspan`) or down (for `rowspan`) Counting for the number of cells starts from the current cell that the property has been applied to. For example, if the value is `colspan="2"`, the current cell will be merged with the neighboring one.
 
@@ -82,4 +82,4 @@ The `rowspan` attribute is used to combine cells vertically. The algorithm is th
 
 In this example, there are two employees interacting with one manager. You can specify it twice, but it's clearer if you merge the cells vertically. To do this, the attribute `rowspan="2"` was added, and in the second row the fourth cell was removed, because its place will be taken by the cell above.
 
-![](../assets/table2.png)
+![Table with the manager cell spanning two rows](../assets/table2.png)

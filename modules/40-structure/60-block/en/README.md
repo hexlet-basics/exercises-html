@@ -11,4 +11,4 @@ In addition to block elements, there are **inline** elements**. These include li
 <span>It occupies a width equal to the width of its content, so there is no line break.</span>
 ```
 
-![](../assets/example.png)
+![Block and inline elements on the page](../assets/example.png)

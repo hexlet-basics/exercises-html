@@ -3,7 +3,7 @@ Al crear una lista de tareas, puede ser necesario dividir los elementos en vario
 
 Para crear esta estructura se utilizan _listas anidadas_. Esto permite incluir como elemento de la lista no solo texto, sino también una nueva lista, creando una estructura compleja:
 
-![](../assets/nested-list.png)
+![Lista de tareas anidada](../assets/nested-list.png)
 
 Así es como se ve en HTML:
 

@@ -11,4 +11,4 @@
 <span>It occupies a width equal to the width of its content, so there is no line break.</span>
 ```
 
-![](../assets/example.png)
+![Блочные и строчные элементы на странице](../assets/example.png)

@@ -1,7 +1,7 @@
 
 A menudo queremos darle al usuario la posibilidad de escribir no solo una línea de texto, sino varias. Por ejemplo, si el usuario quiere dejar un comentario. Para esto se utiliza el elemento `<textarea>`, que permite ingresar varias líneas de texto.
 
-![](../assets/feedback.png)
+![Campo de comentarios de varias líneas](../assets/feedback.png)
 
 ```html
 <form>
@@ -19,4 +19,4 @@ Por defecto, la altura y el ancho de `<textarea>` dependen de la configuración 
 </form>
 ```
 
-![](../assets/textarea.png)
+![Campo de texto de varias líneas](../assets/textarea.png)

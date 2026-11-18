@@ -14,7 +14,7 @@ En diferentes formas, a menudo es necesario que el usuario elija una opción de 
 </form>
 ```
 
-![](../assets/select.png)
+![Lista desplegable](../assets/select.png)
 
 Para crear una lista desplegable se utiliza la etiqueta `<select>` con las etiquetas `<option>` anidadas dentro de ella. Todo esto es similar a la creación de listas normales, donde en lugar de `ul/ol` se utiliza `<select>` y en lugar de `<li>` se utiliza `<option>`.
 
@@ -34,11 +34,11 @@ A menudo, el primer elemento de la lista se utiliza como encabezado de toda la l
 </form>
 ```
 
-![](../assets/with-disabled.png)
+![Lista desplegable con una opción deshabilitada](../assets/with-disabled.png)
 
 La lista dentro de un formulario también se puede presentar como una lista en la que se pueden seleccionar varios elementos. Esto se logra manteniendo presionado el botón `ctrl` y haciendo clic en los campos que se desean seleccionar.
 
-![](../assets/multiple.png)
+![Lista con selección múltiple](../assets/multiple.png)
 
 Para crear una lista con selección múltiple, se agrega el atributo `multiple` a la etiqueta `<select>`
 

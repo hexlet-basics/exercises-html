@@ -2,7 +2,7 @@ Imagina que le estás ofreciendo al usuario la opción de elegir entre entregar 
 
 Para crear botones de opción que solo puedan procesar una de varias opciones, se utilizan los botones de radio. Reciben su nombre de las antiguas radios de los automóviles, en las que se seleccionaba una frecuencia presionando uno de los muchos botones disponibles.
 
-![](../assets/radio.png)
+![Botones de opción para el método de entrega](../assets/radio.png)
 
 Para crear un botón de radio, al igual que con una casilla de verificación, se utilizan dos etiquetas:
 

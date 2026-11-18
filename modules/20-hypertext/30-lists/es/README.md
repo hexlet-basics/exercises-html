@@ -9,7 +9,7 @@ Las listas son una forma de representar contenido en una página. Con ellas, es 
 
 Se puede hacer esta lista con tres párrafos, pero a primera vista parecerá que son tres frases diferentes sin un sentido común.
 
-![](../assets/paragraphs.png)
+![Tareas escritas como párrafos separados](../assets/paragraphs.png)
 
 Para vincular esta información correctamente, se utilizan las listas. Para crearlas en HTML, se utilizan varios tags anidados:
 
@@ -38,7 +38,7 @@ Las listas con viñetas se utilizan cuando la información no requiere un orden 
 </ul>
 ```
 
-![](../assets/ul.png)
+![Lista con viñetas](../assets/ul.png)
 
 ## Lista numerada
 
@@ -48,7 +48,7 @@ Estas listas son útiles cuando se indica una secuencia de acciones que se deben
 
 Lista de tareas para el día
 
-![](../assets/ol.png)
+![Lista numerada](../assets/ol.png)
 
 en el marcado HTML se ve así:
 

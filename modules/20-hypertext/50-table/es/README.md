@@ -5,11 +5,11 @@ Una tabla es un elemento compuesto que se crea a partir de varios tags anidados 
 La estructura de una tabla consta de varios elementos principales:
 
 - `<table>` — área de la tabla
-    - `<tr>` — fila
-    - `<thead>` — encabezado de la tabla
-        - `<th>` — celda de encabezado
-    - `<tbody>` — cuerpo de la tabla
-        - `<td>` — celda
+  - `<tr>` — fila
+  - `<thead>` — encabezado de la tabla
+    - `<th>` — celda de encabezado
+  - `<tbody>` — cuerpo de la tabla
+    - `<td>` — celda
 
 Cualquier tabla comienza con la etiqueta de apertura `<table>`
 
@@ -37,7 +37,7 @@ Es dentro de esta etiqueta que se crean las filas y las columnas de la tabla. Ah
 </table>
 ```
 
-![](../assets/table1.png)
+![Tabla simple](../assets/table1.png)
 
 ---
 
@@ -73,7 +73,7 @@ Los datos ya están presentados, pero faltan encabezados para describir cada col
 </table>
 ```
 
-![](../assets/table-th.png)
+![Tabla con encabezados de columna](../assets/table-th.png)
 
 El último paso es agregar la etiqueta `<tbody>`, que marca la parte principal de la tabla. A menudo los desarrolladores omiten esta etiqueta, ya que los navegadores envuelven automáticamente un grupo de filas que no están dentro de otras etiquetas. Ten en cuenta que la etiqueta `<tbody>` suele usarse solo una vez en una tabla. En tablas más grandes, se pueden usar múltiples `<tbody>` para separar diferentes secciones de la tabla, pero en la mayoría de los casos esto no es necesario.
 
@@ -134,4 +134,4 @@ Puedes personalizar el título de la tabla. Esto es útil cuando se muestran var
 </table>
 ```
 
-![](../assets/table-with-caption.png)
+![Tabla con título](../assets/table-with-caption.png)

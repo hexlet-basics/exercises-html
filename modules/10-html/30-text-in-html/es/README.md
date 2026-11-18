@@ -29,6 +29,6 @@ Este no es el resultado esperado: las líneas se han fusionado y se han converti
 <p>Hexlet es un camino completo desde principiante absoluto hasta el primer empleo.</p>
 ```
 
-![](../assets/final.png)
+![Párrafos de texto sobre Hexlet en el navegador](../assets/final.png)
 
 Este ejemplo ilustra que el texto formateado en un procesador de textos se convertirá en una sola línea cuando se abra en un navegador, por lo que la información se marca con etiquetas especiales. A lo largo del curso, veremos etiquetas para crear tablas, listas, enlaces y secciones lógicas de una página. En esta lección, hemos examinado con más detalle los párrafos y la importancia del marcado para mostrar correctamente la información en una página.

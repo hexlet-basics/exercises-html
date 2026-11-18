@@ -18,15 +18,15 @@ Para crear títulos se utilizan 6 pares de etiquetas: `<h1>`, `<h2>`, `<h3>`, `<
 <h6>Title of the sixth level</h6>
 ```
 
-![](../assets/headings.png)
+![Encabezados de seis niveles](../assets/headings.png)
 
 Cada título de nivel inferior es una subsección del título de nivel superior. Esto es muy similar a la tabla de contenido de cualquier libro, cuya estructura puede ser así:
 
 - Capítulo 1
-    - Parte 1
-    - Parte 2
-        - Notas
-    - Parte 3
+  - Parte 1
+  - Parte 2
+    - Notas
+  - Parte 3
 - Capítulo 2
 
 ```html

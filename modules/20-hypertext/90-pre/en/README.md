@@ -1,7 +1,7 @@
 
 Sometimes you need to insert text while retaining its original formatting. Let's take a look at Mayakovsky's famous "ladder" from the poem "To Sergei Yesenin.
 
-![](../assets/ladder.png)
+![Ladder poem with preserved indentation](../assets/ladder.png)
 
 Vladimir Mayakovsky believed that it was in this form that the rhythm of verse could best be framed.
 

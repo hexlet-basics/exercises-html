@@ -3,7 +3,7 @@ Tag nesting is an important concept in HTML. You can place more than just text b
 
 Some elements in HTML require some tags to be nested into other. For example, lists:
 
-![](../assets/list.png)
+![List made of nested li tags](../assets/list.png)
 
 ```html
   <ul class="m-0">

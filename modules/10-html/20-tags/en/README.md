@@ -25,6 +25,6 @@ There can be several such paragraphs on a page - this is not a unique element.
 
 Jumping forward a little, we'd like to point out that browsers, by default, display many tags with predefined styles. For example, paragraphs are indented at the bottom to visually separate them from each other. The last example in the browser looks like this:
 
-![](../assets/result.png)
+![Two paragraphs of text in the browser](../assets/result.png)
 
 Using CSS, you can change these styles and add new ones. There is a separate course on this site for learning this language.

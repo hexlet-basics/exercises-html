@@ -13,4 +13,4 @@ Paragraphs are created using the paired `<p>` tag with a small amount of text in
 
 This is what they look like in the browser:
 
-![](../assets/paragraphs.png)
+![Paragraphs of text in the browser](../assets/paragraphs.png)

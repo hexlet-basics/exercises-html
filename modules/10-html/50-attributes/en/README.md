@@ -1,7 +1,7 @@
 
 Page markup information can have many subtleties and nuances. For example, you can specify the type of element, but you can also pass additional information to be processed by the browser. Mouse over the text below:
 
-![](../assets/tooltip.png)
+![Tooltip over a line of text](../assets/tooltip.png)
 
 When you mouse over an element, a small window will appear saying "Tooltip. Here you can specify additional information". This behavior is set using _attributes_ - special structures that can affect the output of information on the page. Each tag in HTML has several standard attributes, which are written based on this template: `attribute="value"`:
 

@@ -15,7 +15,7 @@ The easiest way to use `<input>` is to create a text input box. `<input>` is pre
 </form>
 ```
 
-![](../assets/text-input.png)
+![Text input field](../assets/text-input.png)
 
 ## label tag
 
@@ -62,7 +62,7 @@ There are situations where there is a description for the field, but it's unclea
 </form>
 ```
 
-![](../assets/name-input.png)
+![Name input field with a label](../assets/name-input.png)
 
 ## Other text inputs
 
@@ -75,7 +75,7 @@ Have you noticed that when you enter passwords, the browser automatically puts a
 </form>
 ```
 
-![](../assets/pincode.png)
+![Pin code field: plain and with hidden characters](../assets/pincode.png)
 
 The HTML5 standard has some more interesting types for the `<input>` tag that implement the usual text box but do it in their own way. For example:
 

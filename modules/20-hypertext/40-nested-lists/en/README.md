@@ -3,7 +3,7 @@ When making a to-do list, it may be necessary to break items down into several a
 
 _Nested lists_ are used to create this structure. This allows you to insert a new list as a list item, rather than just text, creating a complex structure:
 
-![](../assets/nested-list.png)
+![Nested to-do list](../assets/nested-list.png)
 
 In HTML it looks like this:
 

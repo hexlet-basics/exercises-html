@@ -2,7 +2,7 @@ In online stores, purchases are often made by specifying the category that we wa
 
 Checkboxes allow you to select multiple items from the ones presented:
 
-![](../assets/checkboxes.png)
+![Checkboxes with search categories](../assets/checkboxes.png)
 
 Two tags are used to create a checkbox:
 

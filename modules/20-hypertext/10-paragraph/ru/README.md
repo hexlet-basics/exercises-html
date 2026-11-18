@@ -13,4 +13,4 @@
 
 Вот как они выглядят в браузере:
 
-![](../assets/paragraphs.png)
+![Абзацы текста в браузере](../assets/paragraphs.png)

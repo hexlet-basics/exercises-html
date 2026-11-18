@@ -9,13 +9,13 @@
 <p>Code Basics — programming <b>courses</b>.</p>
 ```
 
-![](../assets/bold.png)
+![Слово courses выделено жирным](../assets/bold.png)
 
 ```html
 <p>HTML — <strong>Hypertext Markup Language</strong></p>
 ```
 
-![](../assets/strong.png)
+![Важный фрагмент, выделенный тегом strong](../assets/strong.png)
 
 Оба примера иллюстрируют добавление жирного начертания к участку текста. Но почему для визуально одинаковых результатов использовалось два разных тега? Дело в _семантике_, то есть смысловом значении. В данном случае смысловом значении тега:
 
@@ -32,7 +32,7 @@
 <p><i>Code Basics</i> — programming <em>free</em> courses</p>
 ```
 
-![](../assets/em.png)
+![Текст курсивом из тегов i и em](../assets/em.png)
 
 В этом примере были размечены две части текста:
 

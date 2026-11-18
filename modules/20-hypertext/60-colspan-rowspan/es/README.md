@@ -1,7 +1,7 @@
 
 A menudo es necesario unir filas o columnas en tablas. Esto ayuda a combinar información diversa. Por ejemplo, si un producto no está disponible en una tabla de inventario, no tiene sentido duplicar constantemente la información, se puede unir y escribir que el producto no está en el inventario:
 
-![](../assets/table1.png)
+![Tabla con una celda que ocupa dos columnas](../assets/table1.png)
 
 En HTML, se pueden unir celdas en columnas o filas utilizando los atributos especiales `colspan` y `rowspan`. Sus valores son la cantidad de celdas a la derecha (para `colspan`) o debajo (para `rowspan`) que se deben unir con la celda actual. La cuenta comienza desde la celda actual a la que se aplica la propiedad. Por ejemplo, si se establece el valor `colspan="2"`, la celda actual se unirá con la celda adyacente.
 
@@ -82,4 +82,4 @@ Para unir celdas verticalmente, se utiliza el atributo `rowspan`. El algoritmo d
 
 En el ejemplo, dos empleados interactúan con un mismo gerente. Se podría indicar su nombre dos veces, pero es más claro unir las celdas verticalmente. Para ello, se agregó el atributo `rowspan="2"`, y en la segunda fila se eliminó la cuarta celda, ya que será ocupada por la celda de arriba.
 
-![](../assets/table2.png)
+![Tabla con la celda del gerente que ocupa dos filas](../assets/table2.png)

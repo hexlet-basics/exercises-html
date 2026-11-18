@@ -2,7 +2,7 @@ En las tiendas en línea, a menudo se utiliza la selección por categorías para
 
 Las casillas de verificación permiten seleccionar varios elementos de los presentados:
 
-![](../assets/checkboxes.png)
+![Casillas de verificación con categorías de búsqueda](../assets/checkboxes.png)
 
 Para crear una casilla de verificación se utilizan dos etiquetas:
 

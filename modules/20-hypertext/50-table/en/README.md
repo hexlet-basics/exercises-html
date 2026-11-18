@@ -6,11 +6,11 @@ A table is a composite element made up of several nested tags. This is similar t
 The marking contains several basic elements:
 
 - `<table>` — table area
-    - `<tr>` — line
-    - `<thead>` — table header
-        - `<th>` — header cell
-    - `<tbody>` — table body
-        - `<td>` — cell
+  - `<tr>` — line
+  - `<thead>` — table header
+    - `<th>` — header cell
+  - `<tbody>` — table body
+    - `<td>` — cell
 
 Any table starts with a paired `<table>` tag
 
@@ -38,7 +38,7 @@ It is within this tag creates rows and columns of the table. Now you can create 
 </table>
 ```
 
-![](../assets/table1.png)
+![Simple table](../assets/table1.png)
 
 ---
 
@@ -74,7 +74,7 @@ The data is displayed, but there are not enough headings to describe each column
 </table>
 ```
 
-![](../assets/table-th.png)
+![Table with column headers](../assets/table-th.png)
 
 The last step is to add the `<tbody>` tag, which marks the main part of the table. Often developers miss it because browsers automatically wrap a group of lines that are not wrapped in other tags. Note that the `<tbody>` tag is often the only one in the table. In large tables, you can use several `<tbody>` to separate different sections in a table, but in most cases this is not necessary.
 
@@ -135,4 +135,4 @@ Tables can be configured with a header. It is needed when several tables are out
 </table>
 ```
 
-![](../assets/table-with-caption.png)
+![Table with a caption](../assets/table-with-caption.png)

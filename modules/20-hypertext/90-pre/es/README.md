@@ -1,6 +1,6 @@
 A veces surge la necesidad de insertar texto manteniendo su formato original. Observemos la famosa "escalera de Mayakovsky" del poema "A Sergey Yesenin".
 
-![](../assets/ladder.png)
+![Poema en escalera con la sangría conservada](../assets/ladder.png)
 
 Vladimir Mayakovsky creía que este formato era el mejor para resaltar el ritmo del poema.
 

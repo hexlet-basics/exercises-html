@@ -9,13 +9,13 @@ To bold the text, one of the two paired tags is used: `<b>` or `<strong>`:
 <p>Code Basics — programming <b>courses</b>.</p>
 ```
 
-![](../assets/bold.png)
+![The word courses in bold](../assets/bold.png)
 
 ```html
 <p>HTML — <strong>Hypertext Markup Language</strong></p>
 ```
 
-![](../assets/strong.png)
+![Important text marked with strong](../assets/strong.png)
 
 Both examples illustrate adding boldface to a section of text. But why were two different tags used for visually identical results? It's all about _semantics_, that is, meaning. In this case, the meaning of the tag:
 
@@ -32,7 +32,7 @@ The italic emphasis is very similar to the bold emphasis, but it emphasizes the 
 <p><i>Code Basics</i> — programming <em>free</em> courses</p>
 ```
 
-![](../assets/em.png)
+![Italic text from the i and em tags](../assets/em.png)
 
 In this example, two parts of the text were marked:
 
